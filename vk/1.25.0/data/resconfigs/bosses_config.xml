@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <library path="data/common/objects/bosses/hacker.swf" name="hacker.swf" estimatedBytes="106168" lazy="true">
+        <resource className="HackerShield_apper"/>
+        <resource className="HackerShield_idle"/>
+        <resource className="HackerShield_fading"/>
+        <resource className="HackerGenerationActivated"/>
+        <resource className="HackerGenerationDeactivated"/>
+        <resource className="HackerGenerationIdle"/>
+        <resource className="HackerGenerationDamaged"/>
+    </library>
+
+    <library path="data/common/objects/bosses/farmer.swf" name="farmer.swf" estimatedBytes="4096" lazy="true">
+        <resource className="AppleBoss" width="23.3" height="25.2"/>
+    </library>
+
+    <library path="data/common/objects/bosses/hunter.swf" name="hunter.swf" estimatedBytes="6770" lazy="true">
+        <resource className="LaserActivatorDestructible" width="30" height="30"/>
+    </library>
+
+    <library path="data/common/objects/bosses/miner.swf" name="miner.swf" estimatedBytes="1477" lazy="true">
+        <resource className="AmGravityGun"/>
+    </library>
+
+    <library path="data/common/objects/bosses/wanderingSoul.swf" name="wanderingSoul.swf" estimatedBytes="5233"
+             lazy="true">
+        <resource className="SoulAura"/>
+    </library>
+
+    <library path="data/common/objects/bosses/darkKnight.swf" name="darkKnight.swf" estimatedBytes="91883" lazy="true">
+        <resource className="ProtectiveShieldDarkKnight_idle"/>
+        <resource className="ProtectiveShieldDarkKnight_apper"/>
+        <resource className="ProtectiveShieldDarkKnight_fading"/>
+
+        <resource className="AbsorbShieldDarkKnight_apper"/>
+        <resource className="AbsorbShieldDarkKnight_idle"/>
+        <resource className="AbsorbShieldDarkKnight_fading"/>
+
+        <resource className="SacrificeMinionDarkKnight"/>
+        <resource className="ResurrectionDarkKnight"/>
+    </library>
+
+    <library path="data/common/objects/bosses/engineer.swf" name="engineer.swf" estimatedBytes="8051" lazy="true">
+        <resource className="LaserActivatorIndestructible" width="30" height="30"/>
+    </library>
+
+    <library path="data/common/objects/bosses/guardiansDepths.swf" name="guardiansDepths.swf" estimatedBytes="3245"
+             lazy="true">
+        <resource className="SafetyArea" width="90" height="14.5"/>
+    </library>
+
+    <library path="data/common/objects/bosses/paladin.swf" name="paladin.swf" estimatedBytes="34450" lazy="true">
+        <resource className="SwordJustice"/>
+        <resource className="PaladinHeal"/>
+        <resource className="Obelisk_apper"/>
+        <resource className="Obelisk_idle"/>
+        <resource className="Obelisk_fading"/>
+    </library>
+
+    <library path="data/common/objects/bosses/thieves.swf" name="thieves.swf" estimatedBytes="10822" lazy="true">
+        <resource className="KeyThievesBoxBlue"/>
+        <resource className="KeyThievesBoxRed"/>
+        <resource className="KeyThievesBoxBlack"/>
+        <resource className="KeyThievesBoxSilver"/>
+        <resource className="ThievesBoxBlue"/>
+        <resource className="ThievesBoxBlack"/>
+        <resource className="ThievesBoxRed"/>
+        <resource className="ThievesBoxSilver"/>
+    </library>
+
+    <library path="data/common/objects/bosses/archdemon.swf" name="archdemon.swf" estimatedBytes="2613" lazy="true">
+        <resource className="ArchidemonCage" width="102" height="107"/>
+        <resource className="ChainClip"/>
+        <resource className="ChainLink"/>
+        <resource className="ChainBall"/>
+        <resource className="BossAbsorptionHealth"/>
+        <resource className="VictimExhaustionHealth"/>
+        <resource className="CageDamage"/>
+    </library>
+
+    <library path="data/common/objects/bosses/ancientGhost.swf" name="ancientGhost.swf" estimatedBytes="14385"
+             lazy="true">
+        <resource className="StormCloud"/>
+    </library>
+
+    <library path="data/common/objects/bosses/psionic.swf" name="psionic.swf" lazy="true">
+        <resource className="LoopTimeBegin"/>
+        <resource className="LoopTimeEnd"/>
+        <resource className="FunnelIdle"/>
+        <resource className="FunnelBegin"/>
+        <resource className="FunnelEnd"/>
+        <resource className="TeleportationPointIdle"/>
+        <resource className="TeleportationPointBegin"/>
+        <resource className="TeleportationPointEnd"/>
+    </library>
+
+    <library path="data/common/objects/bosses/phantom.swf" name="phantom.swf" lazy="true">
+        <resource className="FlyingSoul"/>
+        <resource className="FearStart"/>
+        <resource className="FearIdle"/>
+        <resource className="FearEnd"/>
+    </library>
+
+    <library path="data/common/objects/bosses/alchemist.swf" name="alchemist.swf" lazy="true">
+        <resource className="CrystalYellow"/>
+        <resource className="CrystaWhite"/>
+        <resource className="CrystalRed"/>
+        <resource className="CrystalGreen"/>
+        <resource className="CrystalBlue"/>
+    </library>
+
+    <library path="data/common/objects/bosses/cyborg.swf" name="cyborg.swf" lazy="true">
+        <resource className="BeamInjectorPartMC"/>
+        <resource className="CyborgGenerator"/>
+        <resource className="PolaritySignMC"/>
+        <resource className="InjectorCore"/>
+        <resource className="BlueAura"/>
+        <resource className="RedAura"/>
+    </library>
+
+    <library path="data/common/objects/bosses/pharaon.swf" name="pharaon.swf" lazy="true">
+        <resource className="TotemBoxer"/>
+        <resource className="TotemCat"/>
+        <resource className="TotemDragon"/>
+        <resource className="TotemRabbit"/>
+        <resource className="TotemZombie"/>
+
+        <resource className="DomeBuffFading"/>
+        <resource className="DomeBuffAppear"/>
+        <resource className="DomeBuffIdle"/>
+
+        <resource className="PharaonTransform"/>
+    </library>
+
+    <library path="data/common/objects/bosses/druid.swf" name="druid.swf" lazy="true">
+        <resource className="FireDruidTotem"/>
+        <resource className="PoisonDruidTotem"/>
+        <resource className="PoisonSporeIdle"/>
+        <resource className="PoisonSporeExplode"/>
+    </library>
+
+    <library path="data/common/objects/bosses/jarl.swf" name="jarl.swf" lazy="true">
+        <resource className="FireLine"/>
+        <resource className="FireGenerator"/>
+
+        <resource className="BasicLine"/>
+        <resource className="BasicGenerator"/>
+
+        <resource className="PoisonLine"/>
+        <resource className="PoisonGenerator"/>
+
+        <resource className="ShockLine"/>
+        <resource className="ShockGenerator"/>
+
+        <resource className="FireRune"/>
+        <resource className="BasicRune"/>
+        <resource className="PoisonRune"/>
+        <resource className="ShockRune"/>
+
+        <resource className="FireAlarm"/>
+        <resource className="BaseAlarm"/>
+        <resource className="PoisonAlarm"/>
+        <resource className="ShockAlarm"/>
+    </library>
+
+    <library path="data/common/objects/bosses/archbot.swf" name="archbot.swf" lazy="true">
+        <resource className="ArchbotSpell"/>
+        <resource className="ArchbotStormCloud"/>
+    </library>
+
+    <library path="data/common/objects/bosses/archivist.swf" name="archivist.swf" lazy="true">
+        <resource className="ArchivistSeal"/>
+        <resource className="ArchivistPlatform"/>
+        <resource className="ArchivistAuraAppear"/>
+        <resource className="ArchivistAuraFading"/>
+        <resource className="ArchivistAuraIdle"/>
+    </library>
+
+    <library path="data/common/objects/bosses/enchanter.swf" name="enchanter.swf" lazy="true">
+        <resource className="FireAppear"/>
+        <resource className="FireDisappear"/>
+        <resource className="FireIdle"/>
+    </library>
+
+    <library path="data/common/objects/bosses/emperor.swf" name="emperor.swf" lazy="true">
+        <resource className="SpearmanFade"/>
+        <resource className="SpearmanAppear"/>
+        <resource className="SpearmanIdle"/>
+        <resource className="GeneralFade"/>
+        <resource className="GeneralAppear"/>
+        <resource className="GeneralIdle"/>
+        <resource className="DefenderFade"/>
+        <resource className="DefenderAppear"/>
+        <resource className="DefenderIdle"/>
+        <resource className="ArcherFade"/>
+        <resource className="ArcherAppear"/>
+        <resource className="ArcherIdle"/>
+        <resource className="ArrowClip"/>
+    </library>
+
+    <library path="data/common/objects/bosses/scientist.swf" name="scientist.swf" lazy="true">
+        <resource className="Generator"/>
+        <resource className="LightningRod"/>
+        <resource className="Magnet"/>
+        <resource className="LightningBolt"/>
+    </library>
+
+    <library path="data/common/objects/bosses/symbiote.swf" name="symbiote.swf" lazy="true">
+        <resource className="Infection"/>
+        <resource className="CocoonAppear"/>
+        <resource className="CocoonIdle"/>
+        <resource className="CocoonFade"/>
+        <resource className="BloodRage"/>
+        <resource className="Mosquito"/>
+        <resource className="MosquitoCloud"/>
+    </library>
+
+    <library path="data/common/objects/bosses/gravitymaster.swf" name="gravitymaster.swf" lazy="true">
+        <resource className="AnomalyIdle"/>
+        <resource className="AnomalyAppear"/>
+        <resource className="AnomalyDisappear"/>
+
+        <resource className="VoidZone"/>
+        <resource className="VoidZoneMaxState"/>
+    </library>
+
+    <library path="data/common/objects/bosses/solarpriest.swf" name="solarpriest.swf" lazy="true">
+        <resource className="SolarAura"/>
+        <resource className="SphereConversion"/>
+        <resource className="SolarSphere"/>
+        <resource className="SolarBlink"/>
+        <resource className="SolarTrail"/>
+    </library>
+
+</resources>

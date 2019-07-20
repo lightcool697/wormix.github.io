@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <!-- bank -->
+    <message name="ZERO_BALANCE">
+        <![CDATA[<font color="#A20000"><b>На Вашем счету нет голосов.</font> <font color="#524336">Чтобы пополнить счет, нажмите</font> <font color="#0069D5"><u><a href="event:changeBalance">здесь</a></u></b></font>.]]>
+    </message>
+    <message name="NOT_ZERO_BALANCE">
+        <![CDATA[<font color="#A20000"><b>На вашем счету: {votes} голосов.</font> <font color="#524336">Недостаточно? Нажмите</font> <font color="#0069D5"><u><a href="event:changeBalance"> здесь.</a></u></font></b>]]>
+    </message>
+
+    <message name="VOTES_PLURALS" value="голос,голоса,голосов"/>
+    <message name="COUNT_ITEMS_FOR" value="{count} {items} за {price}"/>
+
+	<!-- Окончание для правильного склонения стоимости покупки  -->	
+	<message name="VOTES" value="Голоса"/>
+	<message name="VOTES_ALT_END" value="Голосов"/>
+	<message name="VOTES_NO_END" value="Голос"/>
+
+    <message name="RUBY_PRICE" value="{count} рубинов за {price}"/>
+    <message name="RUBY_PRICE_ALT_END" value="{count} рубина за {price}"/>
+    <message name="RUBY_PRICE_NO_END" value="{count} рубин за {price}"/>
+
+	<message name="BANK_RUBY_EXCHANGE" value="Курс обмена: 1 голос={exchange} рубина"/>
+    <message name="BANK_COIN_EXCHANGE" value="Курс обмена: 1 голос={exchange} фузов"/>
+
+    <!-- house -->
+    <message name="PHOTOSTUDIO_QTIP" value="Фотостудия"/>
+
+    <!-- photostudio -->
+    <message name="PHOTO_STUDIO_QTIP1" value="Сменить фон"/>
+    <message name="PHOTO_STUDIO_QTIP2" value="Сменить шапку"/>
+    <message name="PHOTO_STUDIO_QTIP3" value="Сменить описание"/>
+    <message name="PHOTO_STUDIO_TITLE" value="Ваш аватар"/>
+    <message name="PHOTO_STUDIO_BUTTON" value="Установить аватар"/>
+
+    <message name="ALBUM_PHOTO_STATUS_TITLE" value="Вормикс - Фотостатус"/>
+    <message name="ALBUM_PHOTO_STATUS_DESCRIPTION"
+             value="Лучшие фотостатусы только в Вормикс! Заходи, сразимся: {app_link}"/>
+    <message name="PHOTO_STATUS_DESCRIPTION" value="Фотостатус создан в игре Вормикс! {app_link}"/>
+
+    <!-- ability -->
+    <message name="WORM_ABILITY_HP_NAME" value="Живучесть"/>
+    <message name="WORM_ABILITY_HP_DESCR">
+        <![CDATA[Постоянный бонус <b>+{hp} единиц к здоровью</b>]]>
+    </message>
+    <message name="WORM_ABILITY_ATTACK_NAME" value="Усиленная атака"/>
+    <message name="WORM_ABILITY_ATTACK_DESCR">
+        <![CDATA[Постоянный бонус  <b>+{attack} единицы к атаке</b>]]>
+    </message>
+
+    <!-- notes -->
+    <message name="NOTE_BODY_END">
+        <![CDATA[<br/><br/>Играй в Вормикс! Заходи, сразимся: {app_link}]]>
+    </message>
+
+    <message name="VIRAL_KICK_TEAM_MATE_TITLE" value="Kick team mate!"/>
+    <message name="VIRAL_KICK_TEAM_MATE" value="Kick team mate message"/>
+    <message name="VIRAL_NEW_TEAM_MATE_TITLE" value="New team mate!"/>
+    <message name="VIRAL_NEW_TEAM_MATE" value="New team mate message"/>
+
+    <!-- AWARD MESSAGE  tale weapon-->
+    <message name="AWARD_WEAPON_MESSAGE_1" value="Мое новое оружие. Такое даже за рубины не купишь!"/>
+    <message name="AWARD_WEAPON_MESSAGE_2" value="Как вам оружие? Красота! Получил за очки достижений."/>
+    <message name="AWARD_WEAPON_MESSAGE_3"
+             value="Смотрите и завидуйте - мое новое оружие. Даже за рубины не купить. Только очки достижений."/>
+
+    <message name="EASY_MISSION" value="Разведка"/>
+    <message name="MEDIUM_MISSION" value="Ликвидация"/>
+    <message name="HARD_MISSION" value="Сражение"/>
+
+    <message name="ENEMIES_COUNT_LABEL" value="Количество врагов"/>
+
+    <message name="ENEMIES_COUNT_EASY" value="1-2"/>
+    <message name="ENEMIES_COUNT_MEDIUM" value="2-3"/>
+    <message name="ENEMIES_COUNT_HARD" value="3-4"/>
+
+    <message name="TUTORIAL_START_BTN" value="Пройти!"/>
+
+    <!-- 1.20 -->
+    <message name="PHOTO_STUDIO_UPDATE_QTIP" value="Обновить аватар"/>
+
+    <!-- 1.22 -->
+    <message name="CURRENCY_PLURALS" value="голос,голоса,голосов"/>
+
+    <!-- race -->
+    <message name="RACE_NO_WORMS" value="Вернуться к расе {race} будет невозможно."/>
+    <message name="RACE_WORM_NAME" value="Червяк"/>
+    <message name="RACE_WORM_DESCR" value="Черви - они кольчатые и покрыты пороховой гарью и шрамами. Начали воевать еще до того, как придумали правила."/>
+</dictionary>

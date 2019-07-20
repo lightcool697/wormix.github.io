@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <!-- achievroom -->
+    <message name="ACHIEVEMENTS_TITLE" value="Достижения"/>
+
+    <message name="ACHIEV_QTIP" value="Очки достижений"/>
+    <message name="ACHIEV_PROGRESS_LABEL" value="Прогресс"/>
+    <message name="ACHIEV_AWARD_POINTS_LABEL" value="Можно выбрать наград"/>
+    <message name="ACHIEV_POINTS_LABEL" value="Следующая награда через:"/>
+    <message name="AVAILABLE_AWARD" value="Доступные награды"/>
+    <message name="ACHIEV_GOAL_TITLE" value="Достигнуть звания: {name}"/>
+    <message name="ACHIEV_LEVELUP_TITLE" value="Достижение получено: {name}"/>
+
+    <message name="ACHIEV_BATTLE_BUTTON" value="Боевые"/>
+    <message name="ACHIEV_GAME_BUTTON" value="Игровые"/>
+    <message name="BOSSES_GAME_BUTTON" value="Боссы"/>
+    <message name="ACHIEV_STATISTIC_BUTTON" value="Статистика"/>
+    <message name="ACHIEV_AWARD_BUTTON" value="Награды"/>
+    <message name="ACHIEV_SELECT_BUTTON" value="Выбрать"/>
+
+    <message name="ACHIEV_BURNED_ENEMIES_1LEVEL_TITLE" value="Поджигатель"/>
+    <message name="ACHIEV_BURNED_ENEMIES_2LEVEL_TITLE" value="Садист"/>
+    <message name="ACHIEV_BURNED_ENEMIES_3LEVEL_TITLE" value="Пироманьяк"/>
+    <message name="ACHIEV_DESTROYED_SQUARE_1LEVEL_TITLE" value="Подрывник"/>
+    <message name="ACHIEV_DESTROYED_SQUARE_2LEVEL_TITLE" value="Разрушитель"/>
+    <message name="ACHIEV_DESTROYED_SQUARE_3LEVEL_TITLE" value="Неудержимая сила"/>
+    <message name="ACHIEV_DROWNED_OPPONENTS_1LEVEL_TITLE" value="Дайвер"/>
+    <message name="ACHIEV_DROWNED_OPPONENTS_2LEVEL_TITLE" value="Водяной"/>
+    <message name="ACHIEV_DROWNED_OPPONENTS_3LEVEL_TITLE" value="Нептун"/>
+    <message name="ACHIEV_WAGER_WINNER_1LEVEL_TITLE" value="Победитель"/>
+    <message name="ACHIEV_WAGER_WINNER_2LEVEL_TITLE" value="Чемпион"/>
+    <message name="ACHIEV_WAGER_WINNER_3LEVEL_TITLE" value="Герой"/>
+    <message name="ACHIEV_DIPLOMAT_1LEVEL_TITLE" value="Переговорщик"/>
+    <message name="ACHIEV_DIPLOMAT_2LEVEL_TITLE" value="Дипломат"/>
+    <message name="ACHIEV_DIPLOMAT_3LEVEL_TITLE" value="Консильери"/>
+    <message name="ACHIEV_WIND_KILLS_1LEVEL_TITLE" value="Меткий"/>
+    <message name="ACHIEV_WIND_KILLS_2LEVEL_TITLE" value="Мастер ветра"/>
+    <message name="ACHIEV_WIND_KILLS_3LEVEL_TITLE" value="Шаман"/>
+    <message name="ACHIEV_MASSIVE_DAMAGE_1LEVEL_TITLE" value="Мясник"/>
+    <message name="ACHIEV_MASSIVE_DAMAGE_2LEVEL_TITLE" value="Уничтожитель"/>
+    <message name="ACHIEV_MASSIVE_DAMAGE_3LEVEL_TITLE" value="Джек-Потрошитель"/>
+    <message name="ACHIEV_GRAVES_SANK_1LEVEL_TITLE" value="Гробокопатель"/>
+    <message name="ACHIEV_GRAVES_SANK_2LEVEL_TITLE" value="Баффи"/>
+    <message name="ACHIEV_GRAVES_SANK_3LEVEL_TITLE" value="Ван Хелсинг"/>
+    <message name="ACHIEV_ONE_HP_WIN_1LEVEL_TITLE" value="Счастливчик"/>
+    <message name="ACHIEV_ONE_HP_WIN_2LEVEL_TITLE" value="Везунчик"/>
+    <message name="ACHIEV_ONE_HP_WIN_3LEVEL_TITLE" value="Обманувший смерть"/>
+    <message name="ACHIEV_IMMOBILE_KILLS_1LEVEL_TITLE" value="Стойкий"/>
+    <message name="ACHIEV_IMMOBILE_KILLS_2LEVEL_TITLE" value="Непоколебимый"/>
+    <message name="ACHIEV_IMMOBILE_KILLS_3LEVEL_TITLE" value="Скала"/>
+    <message name="ACHIEV_FLAWLESS_VICTORIES_1LEVEL_TITLE" value="Скрытный"/>
+    <message name="ACHIEV_FLAWLESS_VICTORIES_2LEVEL_TITLE" value="Аккуратный"/>
+    <message name="ACHIEV_FLAWLESS_VICTORIES_3LEVEL_TITLE" value="Параноик"/>
+    <message name="ACHIEV_FLEW_MILES_1LEVEL_TITLE" value="Воздухоплаватель"/>
+    <message name="ACHIEV_FLEW_MILES_2LEVEL_TITLE" value="Летчик"/>
+    <message name="ACHIEV_FLEW_MILES_3LEVEL_TITLE" value="Ас"/>
+    <message name="ACHIEV_DOUBLE_KILLLS_1LEVEL_TITLE" value="Скорострел"/>
+    <message name="ACHIEV_DOUBLE_KILLLS_2LEVEL_TITLE" value="Убийца"/>
+    <message name="ACHIEV_DOUBLE_KILLLS_3LEVEL_TITLE" value="Вормакс Пейн"/>
+    <message name="ACHIEV_MEDKIT_KILLS_1LEVEL_TITLE" value="Аптекарь"/>
+    <message name="ACHIEV_MEDKIT_KILLS_2LEVEL_TITLE" value="Ведун"/>
+    <message name="ACHIEV_MEDKIT_KILLS_3LEVEL_TITLE" value="Доктор Кролус"/>
+    <message name="ACHIEV_GATHERED_SUPPLIES_1LEVEL_TITLE" value="Кладоискатель"/>
+    <message name="ACHIEV_GATHERED_SUPPLIES_2LEVEL_TITLE" value="Расхититель"/>
+    <message name="ACHIEV_GATHERED_SUPPLIES_3LEVEL_TITLE" value="Морской волк"/>
+    <message name="ACHIEV_KAMIKAZE_1LEVEL_TITLE" value="Камикадзе"/>
+    <message name="ACHIEV_KAMIKAZE_2LEVEL_TITLE" value="Пойдем со мной"/>
+    <message name="ACHIEV_KAMIKAZE_3LEVEL_TITLE" value="Хватка Смерти"/>
+    <message name="ACHIEV_ROPED_MILES_1LEVEL_TITLE" value="Скалолаз"/>
+    <message name="ACHIEV_ROPED_MILES_2LEVEL_TITLE" value="Тарзан"/>
+    <message name="ACHIEV_ROPED_MILES_3LEVEL_TITLE" value="Кролиный шаман"/>
+    <message name="ACHIEV_FUZZES_SPENT_1LEVEL_TITLE" value="Транжира"/>
+    <message name="ACHIEV_FUZZES_SPENT_2LEVEL_TITLE" value="Растратчик"/>
+    <message name="ACHIEV_FUZZES_SPENT_3LEVEL_TITLE" value="Король"/>
+    <message name="ACHIEV_RUBIES_SPENT_1LEVEL_TITLE" value="Богач"/>
+    <message name="ACHIEV_RUBIES_SPENT_2LEVEL_TITLE" value="Крутыха"/>
+    <message name="ACHIEV_RUBIES_SPENT_3LEVEL_TITLE" value="Миллионер"/>
+    <message name="ACHIEV_PUMPED_REACTION_1LEVEL_TITLE" value="Друг"/>
+    <message name="ACHIEV_PUMPED_REACTION_2LEVEL_TITLE" value="Дружище"/>
+    <message name="ACHIEV_PUMPED_REACTION_3LEVEL_TITLE" value="Король вечеринок"/>
+    <message name="ACHIEV_RUBIES_FOUND_1LEVEL_TITLE" value="Добытчик"/>
+    <message name="ACHIEV_RUBIES_FOUND_2LEVEL_TITLE" value="Шахтер"/>
+    <message name="ACHIEV_RUBIES_FOUND_3LEVEL_TITLE" value="Ювелир"/>
+    <message name="ACHIEV_MADE_PHOTO_1LEVEL_TITLE" value="Фотограф"/>
+    <message name="ACHIEV_MADE_PHOTO_2LEVEL_TITLE" value="Репортёр"/>
+    <message name="ACHIEV_MADE_PHOTO_3LEVEL_TITLE" value="Папарацци"/>
+    <message name="ACHIEV_MADE_VIDEO_1LEVEL_TITLE" value="Оператор"/>
+    <message name="ACHIEV_MADE_VIDEO_2LEVEL_TITLE" value="Режиссер"/>
+    <message name="ACHIEV_MADE_VIDEO_3LEVEL_TITLE" value="Киноман"/>
+    <message name="ACHIEV_GAME_VISITS_1LEVEL_TITLE" value="Любитель"/>
+    <message name="ACHIEV_GAME_VISITS_2LEVEL_TITLE" value="Геймер"/>
+    <message name="ACHIEV_GAME_VISITS_3LEVEL_TITLE" value="Игроманьяк"/>
+    <message name="ACHIEV_DROP_WATER_1LEVEL_TITLE" value="Фанат"/>
+    <message name="ACHIEV_DROP_WATER_2LEVEL_TITLE" value="Кумир"/>
+    <message name="ACHIEV_DROP_WATER_3LEVEL_TITLE" value="Идол"/>
+    <message name="ACHIEV_KILL_WALKING_ZOMBIES_1LEVEL_TITLE" value="Истребитель"/>
+    <message name="ACHIEV_KILL_WALKING_ZOMBIES_2LEVEL_TITLE" value="Инквизитор"/>
+    <message name="ACHIEV_KILL_WALKING_ZOMBIES_3LEVEL_TITLE" value="Святой"/>
+    <message name="ACHIEV_KILL_WEAR_HATS_1LEVEL_TITLE" value="Модник"/>
+    <message name="ACHIEV_KILL_WEAR_HATS_2LEVEL_TITLE" value="Шапколюб"/>
+    <message name="ACHIEV_KILL_WEAR_HATS_3LEVEL_TITLE" value="Безумный шляпник"/>
+
+    <message name="ACHIEV_BURNED_ENEMIES_DESCR" value="Сжечь {progress} соперников"/>
+    <message name="ACHIEV_DESTROYED_SQUARE_DESCR" value="Уничтожить {progress} кв. метров земли"/>
+    <message name="ACHIEV_DROWNED_OPPONENTS_DESCR" value="Утопить {progress} врагов"/>
+    <message name="ACHIEV_WAGER_WINNER_DESCR" value="Победить {progress} раз на ставках"/>
+    <message name="ACHIEV_DIPLOMAT_DESCR"
+             value="Уговорить сдаться {progress} человек, имея менее 20 единиц жизней у своей команды"/>
+    <message name="ACHIEV_WIND_KILLS_DESCR"
+             value="Убить {progress} противников, находящихся за спиной, с помощью ветра"/>
+    <message name="ACHIEV_MASSIVE_DAMAGE_DESCR" value="Нанести более 400 урона за ход {progress} раз"/>
+    <message name="ACHIEV_GRAVES_SANK_DESCR" value="Утопить {progress} гробов"/>
+    <message name="ACHIEV_ONE_HP_WIN_DESCR" value="{progress} побед(ы) с 1 единицей жизни"/>
+    <message name="ACHIEV_IMMOBILE_KILLS_DESCR"
+             value="Убить {progress} противников, находясь в замороженном состоянии"/>
+    <message name="ACHIEV_FLAWLESS_VICTORIES" value="{progress} побед без потери бойцов, если есть нанятые друзья"/>
+    <message name="ACHIEV_FLEW_MILES_DESCR"
+             value="Пролететь {progress} метров на суперовце, вертолете, НЛО или джетпаке"/>
+    <message name="ACHIEV_DOUBLE_KILLLS_DESCR" value="Убить 2 и более врагов за ход {progress} раз"/>
+    <message name="ACHIEV_MEDKIT_KILLS_DESCR" value="Уничтожить {progress} врагов при помощи аптечек"/>
+    <message name="ACHIEV_GATHERED_SUPPLIES_DESCR" value="Собрать {progress} аптечек, ящиков или звезд"/>
+    <message name="ACHIEV_KAMIKAZE_DESCR" value="Убить {progress} противников вместе с собой"/>
+    <message name="ACHIEV_ROPED_MILES_DESCR" value="Преодолеть {progress} метров на веревке"/>
+    <message name="ACHIEV_FUZZES_SPENT_DESCR" value="Сделать покупок на {progress} фузов"/>
+    <message name="ACHIEV_RUBIES_SPENT_DESCR" value="Сделать покупок на {progress} рубинов"/>
+    <message name="ACHIEV_PUMPED_REACTION_DESCR" value="Прокачать реакцию {progress} друзьям"/>
+    <message name="ACHIEV_RUBIES_FOUND_DESCR" value="Найти {progress} рубинов в домиках у друзей"/>
+    <message name="ACHIEV_MADE_PHOTO_DESCR" value="Сделать {progress} фото"/>
+    <message name="ACHIEV_MADE_VIDEO_DESCR" value="Записать {progress} видео"/>
+    <message name="ACHIEV_GAME_VISITS_DESCR" value="Получить рубины в ежедневных бонусах {progress} раз"/>
+    <message name="ACHIEV_DROP_WATER_DESCR" value="Сбросить в воду битой или шокером {progress} врагов"/>
+    <message name="ACHIEV_KILL_WALKING_ZOMBIES_DESCR" value="Уничтожить {progress} оживших зомби"/>
+    <message name="ACHIEV_WEAR_HATS_DESCR" value="Надеть на себя {progress} шапок поверженных врагов"/>
+
+    <!--статистика-->
+    <message name="PVP_PLAYED" value="Сыграно ставок"/>
+    <message name="PVP_WON" value="Выиграно ставок"/>
+    <message name="PVP_DRAWS" value="Количество ничьих"/>
+    <message name="MISSIONS_PLAYED" value="Сыграно миссий"/>
+    <message name="MISSIONS_WON" value="Пройдено миссий"/>
+    <message name="MISSIONS_EARNED" value="Заработано в миссиях"/>
+    <message name="WAGERS_EARNED" value="Заработано на ставках"/>
+    <message name="RUBIES_FOUND" value="Найдено рубинов"/>
+    <message name="SOLO_DAMAGE" value="Личный нанесенный урон"/>
+    <message name="TEAM_DAMAGE" value="Урон, нанесенный командой"/>
+    <message name="SOLO_DAMAGE_TAKEN" value="Полученный урон"/>
+    <message name="TEAM_DAMAGE_TAKEN" value="Урон, полученный командой"/>
+    <message name="FRIENDLY_FIRE" value="Урон по своим"/>
+    <message name="SNIPER_SHOTS" value="Снайперских выстрелов"/>
+    <message name="WIND_SHOTS" value="Попаданий против ветра"/>
+    <message name="KILLED_WORMS" value="Убито червей"/>
+    <message name="KILLED_BOXERS" value="Убито боксеров"/>
+    <message name="KILLED_DEMONS" value="Убито демонов"/>
+    <message name="KILLED_RABBITS" value="Убито кролей"/>
+    <message name="KILLED_ZOMBIES" value="Убито зомби"/>
+    <message name="KILLED_CATS" value="Убито котов"/>
+    <message name="KILLED_DRAGONS" value="Убито драконов"/>
+    <message name="KILLED_REVIVED" value="Убито оживших зомби"/>
+    <message name="KILLED_TOTAL" value="Всего уничтожено врагов"/>
+    <message name="UNITS_LOST" value="Потеряно бойцов"/>
+    <message name="COLLECTED_MEDKITS" value="Собрано аптечек"/>
+    <message name="COLLECTED_CRATES" value="Собрано ящиков"/>
+    <message name="COLLECTED_STARS" value="Собрано звезд"/>
+    <message name="DESTROYED_SUPPLIES" value="Уничтожено припасов"/>
+    <message name="GRAVES_SANK" value="Утоплено гробов"/>
+    <message name="METERS_FLOWN" value="Налетал км"/>
+    <message name="METERS_WALKED" value="Пробежал км"/>
+
+    <message name="ACHIEV_PARTISAN_1LEVEL_TITLE" value="Минер"/>
+    <message name="ACHIEV_PARTISAN_2LEVEL_TITLE" value="Диверсант"/>
+    <message name="ACHIEV_PARTISAN_3LEVEL_TITLE" value="Партизан"/>
+    <message name="ACHIEV_COLLECTOR_1LEVEL_TITLE" value="Собиратель"/>
+    <message name="ACHIEV_COLLECTOR_2LEVEL_TITLE" value="Энтузиаст"/>
+    <message name="ACHIEV_COLLECTOR_3LEVEL_TITLE" value="Гаджетоман"/>
+    <message name="ACHIEV_PARTISAN_DESCR" value="Играя на ставках, сорвать ход противника {progress} раз"/>
+    <message name="ACHIEV_COLLECTOR_DESCR" value="Собрать {progress} ресурсов"/>
+    <message name="KILLED_ROBOTS" value="Убито роботов"/>
+
+    <!--1.18-->
+    <message name="ACHIEV_DROP_WATER_FIRST_TURN_DESCR" value="Вынести врага в воду или космос на первом ходу {progress} раз"/>
+    <message name="ACHIEV_DROP_WATER_FIRST_TURN_1LEVEL_TITLE" value="Все в воду!"/>
+    <message name="ACHIEV_DROP_WATER_FIRST_TURN_2LEVEL_TITLE" value="Спустил всех!"/>
+    <message name="ACHIEV_DROP_WATER_FIRST_TURN_3LEVEL_TITLE" value="Вынес подчистую!"/>
+
+    <message name="ACHIEV_GUNS_IN_BOX_DESCR" value="Собрать {progress} единиц оружия в ящиках с припасами в меню"/>
+    <message name="ACHIEV_GUNS_IN_BOX_1LEVEL_TITLE" value="Ага! Ключ!"/>
+    <message name="ACHIEV_GUNS_IN_BOX_2LEVEL_TITLE" value="Гроза ящиков"/>
+    <message name="ACHIEV_GUNS_IN_BOX_3LEVEL_TITLE" value="Ящикофил"/>
+
+    <message name="ACHIEV_WEAPONS_UPGRADE_DESCR" value="Собрать {progress} апгрейдов оружия"/>
+    <message name="ACHIEV_WEAPONS_UPGRADE_1LEVEL_TITLE" value="С ключом в зубах"/>
+    <message name="ACHIEV_WEAPONS_UPGRADE_2LEVEL_TITLE" value="Инженер-испытатель"/>
+    <message name="ACHIEV_WEAPONS_UPGRADE_3LEVEL_TITLE" value="Мастер улучшений"/>
+
+    <!-- 1.20 -->
+
+    <message name="ACHIEV_CRAFT_LEGENDARY_DESCR" value="Собрать {progress} легендарных предмета"/>
+    <message name="ACHIEV_CRAFT_LEGENDARY_1LEVEL_DESCR" value="Собрать легендарный предмет"/>
+    <message name="ACHIEV_CRAFT_LEGENDARY_1LEVEL_TITLE" value="Мастер-кузнец"/>
+    <message name="ACHIEV_CRAFT_LEGENDARY_2LEVEL_TITLE" value="Рунный кузнец"/>
+    <message name="ACHIEV_CRAFT_LEGENDARY_3LEVEL_TITLE" value="Легендарный кузнец"/>
+    
+    <message name="ACHIEV_SUPERBOSS_DEFEATED_DESCR" value="Победить {progress} супербоссов"/>
+    <message name="ACHIEV_SUPERBOSS_DEFEATED_1LEVEL_TITLE" value="Охотник за головами"/>
+    <message name="ACHIEV_SUPERBOSS_DEFEATED_2LEVEL_TITLE" value="Двойной гамбит"/>
+    <message name="ACHIEV_SUPERBOSS_DEFEATED_3LEVEL_TITLE" value="Гроза легенд"/>
+
+    <!--1.23-->
+    <message name="KILLED_RHINOS" value="Убито носорогов"/>
+    <message name="KILLED_BOARS" value="Убито кабанов"/>
+
+    <!--1.25-->
+    <message name="ACHIEV_SOCIAL_POST_DESCR" value="Оставить {progress} сообщений на своей странице"/>
+    <message name="ACHIEV_SOCIAL_POST_1LEVEL_TITLE" value="Общительный"/>
+    <message name="ACHIEV_SOCIAL_POST_2LEVEL_TITLE" value="Хвастун"/>
+    <message name="ACHIEV_SOCIAL_POST_3LEVEL_TITLE" value="В центре внимания"/>
+</dictionary>

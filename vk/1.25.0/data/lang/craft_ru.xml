@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+    <!-- CRAFTED HATS AND ARTIFACTS -->
+
+    <message name="PREFIX.NORMAL" value="Добротный"/>
+    <message name="PREFIX.SUPERIOR" value="Крепкий"/>
+    <message name="PREFIX.AGGRESSIVE" value="Яростный"/>
+    <message name="PREFIX.DEFENSIVE" value="Защитный"/>
+    <message name="PREFIX.VIOLENT" value="Жестокий"/>
+    <message name="PREFIX.EPIC" value="Эпичный"/>
+    <message name="PREFIX.LEGENDARY" value="Легендарный"/>
+
+    <!-- REAGENTS -->
+
+    <message name="BATTERY" value="Батарейка"/>
+    <message name="GEAR" value="Шестеренка"/>
+    <message name="WOOD" value="Доска"/>
+    <message name="STONE" value="Камень"/>
+    <message name="METAL_PLATE" value="Пластинка"/>
+    <message name="SAND" value="Песок"/>
+    <message name="COAL" value="Уголь"/>
+    <message name="SCREW_BOLT" value="Шуруп"/>
+    <message name="SCREW_NUT" value="Гайка"/>
+    <message name="PIPE" value="Трубка"/>
+    <message name="SPRING" value="Пружина"/>
+    <message name="UMBRELLA" value="Зонтик"/>
+    <message name="ACCUMULATOR" value="Аккумулятор"/>
+    <message name="HAMMER" value="Молоток"/>
+    <message name="GUNPOWDER" value="Порох"/>
+    <message name="STEEL_BAR" value="Сталь"/>
+    <message name="SCREWDRIVER" value="Отвертка"/>
+    <message name="WRENCH" value="Гаечный ключ"/>
+    <message name="CRYSTAL" value="Кристалл"/>
+    <message name="GENERATOR" value="Генератор"/>
+    <message name="MICROCHIP" value="Микрочип"/>
+    <message name="SNIPER_SCOPE" value="Оптический прицел"/>
+    <message name="TITAN_BAR" value="Титан"/>
+
+    <message name="RECIPE.NAME" value="рецепт"/>
+
+    <message name="CRAFT_CRATE" value="Ресурсы"/>
+    <message name="CRAFT_QTIP" value="Оружейная"/>
+    <message name="CRAFT_DISABLE_QTIP" value="Оружейная доступна с {level} уровня"/>
+    <message name="COLLECT_FOR_REAGENT_BTN" value="собрать"/>
+    <message name="COLLECT_FOR_RUBY_BTN" value="собрать за"/>
+    <message name="CRAFT_REWARD_TITLE" value="Полученные предметы"/>
+
+    <message name="CONFIRMATION_COLLECT_FOR_RUBIES_TEXT"
+             value="Вы уверены, что хотите купить это улучшение за рубины?"/>
+    <message name="CONFIRMATION_COLLECT_TEXT" value="Вы уверены, что хотите приобрести это улучшение?"/>
+    <message name="REQUIRED_LEVEL_HINT" value="Вам нужен {level} уровень, чтобы собрать это улучшение"/>
+    <message name="DOWNGRADE_BTN" value="разобрать"/>
+    <message name="DOWNGRADE_BTN2" value="разобрать за"/>
+    <message name="CONFIRMATION_DOWNGRADE_TEXT"
+             value="При разборе оружия вы получите 80% ресурсов. Вы уверены, что хотите разобрать?"/>
+
+    <message name="SEARCH_ZONE_GRADE_D"
+             value="Чаще всего можно найти, раскапывая землю в миссиях или собирая ящики на низких ставках."/>
+    <message name="SEARCH_ZONE_GRADE_C"
+             value="Попадается при раскопке земли в миссиях, падает с неба в ящиках на любых ставках. С большой вероятностью можно получить за победу над боссом."/>
+    <message name="SEARCH_ZONE_GRADE_B"
+             value="Выпадает на высоких ставках, а также выдается за победу над боссами. Практически не встречается на низких ставках и в миссиях."/>
+
+    <message name="REAGENT_DEMAND" value="Требуется для сбора:"/>
+    <message name="BOX_REAGENTS" value="Сундук с ресурсами"/>
+
+    <message name="SEARCH_ZONE_GRADE_S" value="Можно получить только за победу над супербоссами."/>
+    <message name="GRADE_S_DEMAND" value="Требуется для сбора шапок и артефактов."/>
+    <message name="BADGE" value="Эмблема Вормикс"/>
+    <message name="EQUIP_IS_ON_BOSS" value="Этот предмет выдается за победу над боссом: {bossName}"/>
+    <message name="ADDITIONAL_BONUSES" value="Дополнительные бонусы"/>
+
+    <message name="CRAFT_BTN" value="Собрать"/>
+    <message name="REBUILD_BTN" value="Перековать"/>
+    <message name="ALREADY_CRAFTED" value="Собрано"/>
+    <message name="CRAFT_CHANCE" value="Шанс:"/>
+    <message name="CRAFT_VARIATION_HINT" value="Машина крафта барахлит и результат непредсказуем. Качество вещи зависит только от удачи."/>
+    <message name="TRY_YOUR_LUCK" value="Испытай удачу!"/>
+    <message name="CRAFT_EQUIP_NOT_ENOUGH_REGS" value="Не хватает реагентов для покупки за фузы"/>
+
+    <message name="NEW_ITEM_CRAFTED_1" value="Вот это да! Я только что собрал: {item}!"/>
+    <message name="NEW_ITEM_CRAFTED_2" value="Вот это вещь! Я собрал: {item}!"/>
+    <message name="NEW_ITEM_CRAFTED_3" value="Зацени, что я собрал: {item}!"/>
+    <message name="DETAILS_FOR_CRAFT" value="Детали"/>
+
+    <message name="CRAFT_PRICE" value="Стоимость сборки:"/>
+    <message name="CHRISTMAS_KEY" value="Ключ"/>
+    <message name="CHRISTMAS_KEY_DESCRIPTION" value="Используйте ключ, чтобы открыть сундук с боеприпасами!"/>
+
+    <message name="WEAPON_CRAFT_BTN" value="Оружие"/>
+    <message name="EQUIP_CRAFT_BTN" value="Предметы"/>
+    <message name="REAGENTS_CRAFT_BTN" value="Ресурсы"/>
+
+    <!-- 1.21 -->
+
+    <message name="GREAT_LUCK" value="Великая удача!"/>
+    <message name="RECRAFT_VARIATION_HINT" value="Перековка имеющегося предмета дает шанс получить его улучшенную версию."/>
+
+    <message name="RECRAFT_FAIL_POPUP1" value="Вы ударились лбом о наковальню."/>
+    <message name="RECRAFT_FAIL_POPUP2" value="От натуги вы сломали клещи."/>
+    <message name="RECRAFT_FAIL_POPUP3" value="Вы попали молотом по пальцу."/>
+    <message name="RECRAFT_FAIL_POPUP4" value="Вы прищемили ухо тисками."/>
+    <message name="RECRAFT_FAIL_POPUP5" value="Весь порох съели мыши."/>
+    <message name="RECRAFT_FAIL_POPUP6" value="Весь металл съели мыши."/>
+    <message name="RECRAFT_FAIL_POPUP01" value="Перековка не удалась."/>
+    <message name="RECRAFT_FAIL_POPUP02" value="Попробуйте ещё раз."/>
+
+    <message name="CRAFTED_MAX_QUALITY" value="Вы собрали предмет максимального качества!"/>
+    <message name="SEARCH_ZONE_GRADE_R" value="Этот предмет выдается в награду за попадание в дневной топ."/>
+</dictionary>

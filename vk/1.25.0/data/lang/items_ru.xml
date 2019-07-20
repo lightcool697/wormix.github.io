@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <!-- hats -->
+    <message name="HAT.SPEED" value="Скорость"/>
+    <message name="HAT.SPEED_ALL" value="Увеличивает скорость"/>
+    <message name="HAT.ANTIPOISON" value="Защита от яда"/>
+    <message name="HAT.FROST_PROTECTION" value="Защита от холода"/>
+    <message name="HAT.MIGHTY_JUMP" value="Усиленный прыжок"/>
+    <message name="HAT.DOUBLE_JUMP" value="Дополнительный прыжок в воздухе"/>
+    <message name="HAT.WATER_BREATH" value="Подводное дыхание"/>
+    <message name="HAT.PROTECTION_SLOWING" value="Защита от замедления"/>
+    <message name="HAT.VOODOO" value="Маска кролик вуду"/>
+    <message name="HAT.TRIBAL" value="Маска шаман кролей"/>
+    <message name="HAT.SOMBRERO" value="Сомбреро"/>
+    <message name="HAT.MUZZLE" value="Противогаз"/>
+    <message name="HAT.INDIAN" value="Перо индейца"/>
+    <message name="HAT.COWBOY" value="Шляпа шерифа"/>
+    <message name="HAT.CHIEFTAIN" value="Перья вождя"/>
+    <message name="HAT.AQUALUNG" value="Акваланг"/>
+    <message name="HAT.ACE" value="Шапка aса"/>
+    <message name="HAT.FARMER" value="Панамка"/>
+    <message name="HAT.SIMPLEHELM" value="Каска"/>
+    <message name="HAT.GENTLEMAN" value="Цилиндр"/>
+    <message name="HAT.TANKHELM" value="Шлем танкиста"/>
+    <message name="HAT.ALIEN" value="Инопланетный шлем"/>
+    <message name="HAT.VIKING" value="Шлем викингов"/>
+    <message name="HAT.MONSTER" value="Маска потрошителя"/>
+    <message name="HAT.PIRATE" value="Пиратская шапка"/>
+    <message name="HAT.SAMURAI" value="Самурайский шлем"/>
+    <message name="HAT.SPIKES" value="Шлем с шипами"/>
+    <message name="HAT.ELEGANTSAMURAI" value="Изысканный самурайский шлем"/>
+    <message name="HAT.LEGIONER" value="Шлем легионера"/>
+    <message name="HAT.PINKLEGIONER" value="Шлем легионера"/>
+    <message name="HAT.CROWN" value="Корона древних"/>
+    <message name="HAT.MASTER" value="Шапка мастера"/>
+    <message name="HAT.ARTIST" value="Берет"/>
+    <message name="HAT.PRINCESS" value="Корона древних женская"/>
+    <message name="HAT.JAPAN" value="Японская прическа"/>
+    <message name="HAT.PINKHAT" value="Розовая шапка"/>
+    <message name="HAT.PINKHELMET" value="Розовый шлем"/>
+    <message name="HAT.GIRLBERRET" value="Берет девочки"/>
+    <message name="HAT.WHITEHAT" value="Белая шапка"/>
+    <message name="HAT.WIZARD" value="Шапка звездочета"/>
+    <message name="HAT.CAP" value="Бейсбольная кепка"/>
+    <message name="HAT.GANSTER" value="Гангстерская шапка"/>
+    <message name="HAT.ELVIS" value="Прическа Элвиса"/>
+    <message name="HAT.CRASH_HELMET" value="Огнеупорный шлем"/>
+    <message name="HAT.SOVIET" value="Советская шапка"/>
+    <message name="HAT.RUSSIAN" value="Шапка-ушанка"/>
+    <message name="HAT.OFFICER" value="Офицерская фуражка"/>
+    <message name="HAT.BOSS_PIRATE" value="Пиратская шапка капитана"/>
+    <message name="HAT.BOSS_GENTLEMAN" value="Цилиндр иллюзиониста"/>
+    <message name="HAT.BOSS_TRIBAL" value="Маска шамана вуду"/>
+    <message name="HAT.BOSS_VIKING" value="Великий шлем викингов"/>
+    <message name="HAT.BOSS_ACE" value="Шапка мастера ветра"/>
+    <message name="HAT.BOSS_GHOST" value="Маска призрака"/>
+    <message name="HAT.BOSS_KING_DEAD" value="Шлем короля мертвых"/>
+    <message name="HAT.BOSS_DEAD_PIRATE" value="Шапка капитана-зомби"/>
+    <message name="HAT.BOSS_ROMEO" value="Шапка Ромео"/>
+    <message name="HAT.BOSS_JUILET" value="Шапка Джульетты"/>
+    <message name="HAT.BOSS_YAKUZA" value="Повязка банды якудза"/>
+    <message name="HAT.VAMPIRE" value="Шляпа вампира"/>
+    <message name="HAT.DOCTOR_ARMBAND" value="Докторская повязка"/>
+    <message name="HAT.NEO" value="Очки Нео"/>
+    <message name="HAT.NINJA_TURTLES" value="Повязка ниндзя"/>
+    <message name="HAT.BOSS_GUARDIAN" value="Шлем стража"/>
+    <message name="HAT.BOSS_ENGINEER" value="Каска инженера"/>
+    <message name="HAT.PSYCHO" value="Черный ворон"/>
+    <message name="HAT.GOOGLE_HELMET" value="Хромированный шлем"/>
+    <message name="HAT.RED_RACING_HELMET" value="Гоночный шлем"/>
+    <message name="HAT.PURPLE_RACING_HELMET" value="Шлем каскадера"/>
+    <message name="HAT.GLADIATOR_HELMET" value="Гладиаторский шлем"/>
+    <message name="HANDITEM.CHROMESHIELD" value="Хромированный щит"/>
+
+    <!-- off hand -->
+    <message name="ARTIFACT.BROKEN_SWORD" value="Cломанный меч"/>
+    <message name="ARTIFACT.TRAINING_SHIELD" value="Тренировочный щит"/>
+    <message name="ARTIFACT.WOODEN_SHIELD" value="Деревянный щит"/>
+    <message name="ARTIFACT.WHINGER" value="Короткий меч"/>
+    <message name="ARTIFACT.TALISMAN" value="Ловец снов"/>
+    <message name="ARTIFACT.SKULL_STAFF" value="Посох с черепушкой"/>
+    <message name="HAT.NIMBUS" value="Нимб"/>
+    <message name="HAT.HERO_MASK" value="Маска героя"/>
+    <message name="HAT.BOSS_DARK_KNIGHT" value="Шлем темного рыцаря"/>
+    <message name="HAT.BOSS_PALADIN" value="Шлем паладина"/>
+    <message name="HAT.BOSS_HACKER" value="Очки хакера"/>
+    <message name="HAT.BOSS_THIEF" value="Маска вора"/>
+
+    <!-- 1.9.0 -->
+    <message name="HAT.BOSS_PHANTOM" value="Маска фантома"/>
+    <message name="HAT.LAVA_JAW" value="Челюсть"/>
+    <message name="HAT.PSI_BIOTIC" value="Шлем биотика"/>
+    <message name="HAT.BOSS_PSI_TELEPATHIST" value="Шлем телепата"/>
+    <message name="ARTIFACT.SHIELD_ARCHDEMON" value="Щит Архидемона"/>
+    <message name="HAT.GREEN_IROQUOIS" value="Зеленый ирокез"/>
+    <message name="HAT.COLORED_IROQUOIS" value="Цветной ирокез"/>
+    <message name="HAT.MASK_SCREAM" value="Крик"/>
+    <message name="HAT.DEMON_HAT" value="Демонический шлем"/>
+    <message name="ARTIFACT.METAL_SHIELD" value="Железный щит"/>
+    <message name="ARTIFACT.JEDI_SWORD" value="Световой меч"/>
+    <message name="ARTIFACT.PIRATE_HOOK" value="Пиратский крюк"/>
+    <message name="ARTIFACT.SAW" value="Пила"/>
+    <message name="ARTIFACT.TOTEM_FIRE" value="Тотем огня"/>
+    <message name="ARTIFACT.TOTEM_POISON" value="Тотем яда"/>
+
+    <!-- 1.11.0 -->
+    <message name="HAT.WOLF_MASTER" value="Волчья накидка мастера"/>
+    <message name="HAT.WOLF_ACE" value="Волчья накидка аса"/>
+    <message name="HAT.WOLF_ELITE" value="Волчья накидка чемпиона"/>
+
+    <message name="HAT.CRAFT_SAMURAI_HELM" value="Самурайский шлем"/>
+    <message name="HAT.CRAFT_RESPIRATOR" value="Респиратор"/>
+    <message name="HAT.CRAFT_PSYKER_HELM" value="Шлем псайкера"/>
+    <message name="HAT.CRAFT_CHAMPION_HELM" value="Шлем чемпиона"/>
+    <message name="HAT.CRAFT_SPEC_OPS" value="Шлем спецназа"/>
+    <message name="ARTIFACT.CRAFT_CHROME_SHIELD" value="Хромированный щит"/>
+    <message name="ARTIFACT.CRAFT_BLADE" value="Клинок"/>
+
+    <!-- 1.12.0 -->
+
+    <message name="HAT.STEAMPUNK_GLASSES" value="Окуляр"/>
+    <message name="HAT.NORDIC_HELM" value="Скандинавский шлем"/>
+    <message name="HAT.FIRESHEEP_HAT" value="Горящий череп"/>
+    <message name="HAT.FIRE_MASK" value="Шлем огня"/>
+    <message name="ARTIFACT.ARHI_SWORD" value="Меч архидемона"/>
+
+    <!-- 1.13 -->
+    <message name="ARTIFACT.PALADIN_SWORD" value="Меч паладина"/>
+    <message name="HAT.MONK_MASTER" value="Шапка стратега"/>
+    <message name="HAT.MONK_ACE" value="Шапка наставника"/>
+    <message name="HAT.MONK_ELITE" value="Шапка гуру"/>
+    <message name="HAT.KNIGHT_MASTER" value="Рыцарский шлем мастера"/>
+    <message name="HAT.KNIGHT_ACE" value="Рыцарский шлем аса"/>
+    <message name="HAT.KNIGHT_ELITE" value="Рыцарский шлем чемпиона"/>
+    <message name="HAT.HOCKEY_PLAYER_MASTER" value="Хоккейный шлем мастера"/>
+    <message name="HAT.HOCKEY_PLAYER_ACE" value="Хоккейный шлем аса"/>
+    <message name="HAT.HOCKEY_PLAYER_ELITE" value="Хоккейный шлем чемпиона"/>
+    <message name="HAT.ASSASIN_MASTER" value="Боевой шлем мастера"/>
+    <message name="HAT.ASSASIN_ACE" value="Боевой шлем аса"/>
+    <message name="HAT.ASSASIN_ELITE" value="Боевой шлем чемпиона"/>
+    <message name="HAT.NIGHT_VISION" value="Прибор ночного видения"/>
+    <message name="HAT.ILLUSIONIST" value="Очки иллюзиониста"/>
+    <message name="HAT.DARK_CULTIST" value="Капюшон"/>
+    <message name="HAT.COSMONAUT" value="Скафандр"/>
+    <message name="HAT.AVIATOR" value="Очки авиатора"/>
+    <message name="HAT.MONK" value="Шапка монаха"/>
+    <message name="HAT.CHEMIST_BOSS" value="Шляпа алхимика"/>
+    <message name="HAT.ASSASIN_BOSS" value="Капюшон ассасина"/>
+
+    <!-- 1.13 halloween -->
+    <message name="HAT.HALLOWEEN1" value="Колдовская шляпа"/>
+    <message name="HAT.HALLOWEEN2" value="Зловещая шляпа"/>
+    <message name="HAT.PUMPKIN_GREEN" value="Скверная тыква"/>
+    <message name="HAT.PUMPKIN_RED" value="Адская тыква"/>
+    <message name="HAT.PUMPKIN_ORANGE" value="Оранжевая тыква"/>
+
+    <!-- 1.15 -->
+    <message name="HAT.WHITE_YETI" value="Белая шапка йети"/>
+    <message name="HAT.BLUE_YETI" value="Синяя шапка йети"/>
+    <message name="HAT.BLACK_YETI" value="Черная шапка йети"/>
+    <message name="HAT.WINTER_HAT" value="Новогодняя шапка"/>
+    <message name="HAT.PHARAOH" value="Клафт"/>
+    <message name="HAT.GIFT_HAT" value="Крышка от коробки"/>
+    <message name="HAT.EAGLE_HAT" value="Тотем орла"/>
+    <message name="HAT.CHRISTMAS_HELMET" value="Зимний шлем"/>
+    <message name="HAT.BOX_HAT" value="Подарочная коробка"/>
+    <message name="HAT.CYBORG" value="Шлем киборга"/>
+    <message name="HAT.MINION" value="Шлем терминатора"/>
+    <message name="HAT.KAMIKADZE" value="Шапкобомба"/>
+    <message name="ARTIFACT.ROBO_SHIELD" value="Робощит"/>
+    <message name="ARTIFACT.SNAKE_STAFF" value="Змеиный посох"/>
+
+    <message name="HAT.FORTITUDE" value="Снижает отброс от взрывов"/>
+    <message name="HAT.EXPLOSION_DEATH" value="Взрывная волна после уничтожения"/>
+    <message name="HAT.PENETRATION" value="Бронебойность"/>
+
+    <!--1.16-->
+    <message name="HAT.JARL" value="Шлем ярла"/>
+    <message name="ARTIFACT.JARL_SPEAR" value="Копье ярла"/>
+    <message name="ARTIFACT.JARL_STONE_HAMMER" value="Каменный молот"/>
+    <message name="ARTIFACT.ARCHBOT_TOTEM" value="Жезл архибота"/>
+    <message name="HAT.BOSS_ARCHBOT" value="Шапка архибота"/>
+
+    <!--1.17-->
+    <message name="HAT.NIGHT" value="Ночная шапка"/>
+
+    <!--1.18-->
+    <message name="HAT.WATER_PROTECTION" value="Спасает от утопления 1 раз за бой"/>
+    <message name="HAT.FROST_DAMAGE" value="Сила холода"/>
+
+    <message name="HAT.DOCTOR_MASK" value="Маска доктора"/>
+    <message name="HAT.ELECTRIC" value="Электрошапка"/>
+    <message name="HAT.PAN" value="Боевая кастрюля"/>
+    <message name="ARTIFACT.ICE_SHARD" value="Ледяной клык"/>
+    <message name="ARTIFACT.VAMPIRIC_SWORD" value="Вампирический меч"/>
+    <message name="ARTIFACT.WATER_SWORD" value="Меч глубин"/>
+    <message name="ARTIFACT.JAWBLADE" value="Зубастый меч"/>
+    <message name="ARTIFACT.MORGENSHTERN" value="Моргенштерн"/>
+
+    <!-- 1.19 -->
+    <message name="HAT.ENCHANTER" value="Маска заклинателя"/>
+    <message name="HAT.ARCHIVIST" value="Шлем архивариуса"/>
+    <message name="ARTIFACT.FIERY_DAGGER" value="Огненный кинжал"/>
+    <message name="ARTIFACT.DEATH_TORCH" value="Посох смерти"/>
+
+    <!-- 1.20 -->
+    <message name="HAT.EMPEROR" value="Феска императора"/>
+    <message name="ARTIFACT.EMPEROR" value="Императорский скипетр"/>
+    <message name="HAT.SCIENTIST" value="Очки ученого"/>
+    <message name="ARTIFACT.SCIENTIST" value="Странное устройство"/>
+    <message name="HAT.SYMBIOTE" value="Шлем симбиота"/>
+    <message name="ARTIFACT.SYMBIOTE" value="Биоклинок"/>
+
+    <!-- 1.21 -->
+    <message name="HAT.VILE_MASK" value="Зловещий образ"/>
+    <message name="ARTIFACT.FROST_SHIELD" value="Ледяной щит"/>
+    <message name="ARTIFACT.BLAZING_AXE" value="Пылающий топор"/>
+
+    <!-- 1.23 -->
+    <message name="HAT.GENERAL_CAP" value="Головной убор комиссара"/>
+    <message name="HAT.HELM_SAPPER" value="Шлем сапера"/>
+    <message name="ARTIFACT.SHOVEL_SAPPER" value="Саперская лопатка"/>
+
+    <message name="HAT.SQUAD_ATTACK" value="Атака отряда"/>
+    <message name="HAT.SQUAD_ARMOR" value="Защита отряда"/>
+
+    <!-- 1.24 -->
+    <message name="HAT.RAVEN_MASK" value="Призрачный ворон"/>
+    <message name="HAT.MOOSE_HELM" value="Сохатый шлем"/>
+    <message name="HAT.ROBOCHIKEN" value="Робоцып"/>
+    <message name="ARTIFACT.HAM_MACE" value="Окорок"/>
+    <message name="ARTIFACT.PROVOKER_SHIELD" value="Щит провокатора"/>
+
+    <!-- 1.25 -->
+    <message name="HAT.FIEND_HELM" value="Шлем изверга"/>
+    <message name="HAT.GRAVITY_MASTER" value="Шлем Гравимастера"/>
+    <message name="HAT.HELL_RACER_HELM" value="Шлем адского гонщика"/>
+    <message name="ARTIFACT.ARMY_KNIFE" value="Армейский нож"/>
+    <message name="ARTIFACT.GNAWED_BONE" value="Обглоданная кость"/>
+    <message name="ARTIFACT.GRAVITY_MASTER_SHIELD" value="Щит Гравимастера"/>
+    <message name="ARTIFACT.TANK_SHIELD" value="Танковая пластина"/>
+    <message name="HAT.BLACK_BANDAGE" value="Черная повязка"/>
+    <message name="HAT.SOLAR_PRIEST_HAT" value="Солнечная корона"/>
+    <message name="ARTIFACT.SOLAR_SICKLE" value="Солнечный серп"/>
+    <message name="ARTIFACT.MIRROR_SHIELD" value="Зеркальный щит"/>
+
+    <message name="HAT.HAM_HEAL" value="При уровне жизни ниже 30% восстанавливает {value} ед. и заменяется на кость"/>
+
+</dictionary>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <message name="TEXT1" value="Что может быть приятнее, чем жонглировать собственным врагом?"/>
+    <message name="TEXT2" value="Эти новые боссы изрядно потрепают ваши нервы и не отдадут своих сокровищ просто так!"/>
+
+    <message name="SHOP_BTN" value="В Магазин!"/>
+    <message name="ARMORY_BTN" value="В Оружейную!"/>
+</dictionary>

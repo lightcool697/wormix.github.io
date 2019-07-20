@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <!-- common -->
+    <message name="BOSS_ACHIEVE" value="Достижения босса"/>
+    <message name="ACHIEVE" value="Достижение"/>
+    <message name="COMPLETED" value="выполнено, осталось победить босса!"/>
+    <message name="FAILED" value="провалено!"/>
+    <message name="CREDITED" value="зачтено!"/>
+    <message name="PROGRESS" value="прогресс"/>
+
+    <!-- farmer -->
+    <message name="IRON_FARMER_NAME" value="Железный фермер"/>
+    <message name="IRON_FARMER" value="Победить Фермера, не собирая яблок"/>
+    <message name="PICK_APPLES_FARMER_NAME" value="Яблочник"/>
+    <message name="PICK_APPLES_FARMER" value="Собрать 12 яблок подряд, не пропустив ни одного"/>
+    <message name="FARMER_MANIPULATOR_NAME" value="Манипулятор"/>
+    <message name="FARMER_MANIPULATOR" value="Заставить Фермера взять {value} яблок"/>
+    <message name="FARMER_TOTAL_NAME" value="Достижения фермера"/>
+    <message name="FARMER_TOTAL" value="Выполнить все достижения фермера"/>
+
+    <!-- hunter -->
+    <message name="NOT_DESTROY_GENERATION_HUNTER_NAME" value="Аккуратный"/>
+    <message name="NOT_DESTROY_GENERATION_HUNTER" value="Не разрушить ни одного генератора за весь бой"/>
+    <message name="DESTROY_ACTIVATOR_HUNTER_NAME" value="Беспредельщик"/>
+    <message name="DESTROY_ACTIVATOR_HUNTER" value="Уничтожить {value} генераторов за ход"/>
+    <message name="NOT_GET_DAMAGE_HUNTER_NAME" value="Неуловимый"/>
+    <message name="NOT_GET_DAMAGE_HUNTER" value="Не получить урона за весь бой"/>
+    <message name="HUNTER_TOTAL_NAME" value="Достижения охотника"/>
+    <message name="HUNTER_TOTAL" value="Выполнить все достижения охотника"/>
+
+    <!-- maniacs -->
+    <message name="DODGE_HOOK_MANIACS_NAME" value="Проворный"/>
+    <message name="DODGE_HOOK_MANIACS" value="Не попасться ни на один крюк"/>
+    <message name="KILL_TOGETHER_MANIACS_NAME" value="Расчетливый"/>
+    <message name="KILL_TOGETHER_MANIACS" value="Добить маньяков на одном ходу"/>
+    <message name="FLOODING_BOSSES_MANIACS_NAME" value="Днища"/>
+    <message name="FLOODING_BOSSES_MANIACS" value="Утопить обоих боссов"/>
+    <message name="MANIACS_TOTAL_NAME" value="Достижения маньяков"/>
+    <message name="MANIACS_TOTAL" value="Выполнить все достижения маньяков"/>
+
+    <!-- miner -->
+    <message name="DESTROYER_MINER_NAME" value="Сапер"/>
+    <message name="DESTROYER_MINER" value="Разрушить {value} мин за ход"/>
+    <message name="DODGER_MINER_NAME" value="Легкий шаг"/>
+    <message name="DODGER_MINER" value="Не попасться ни на одну мину"/>
+    <message name="SCOUNDREL_MINER_NAME" value="Предательство"/>
+    <message name="SCOUNDREL_MINER" value="Убить босса с помощью мины"/>
+    <message name="MINER_TOTAL_NAME" value="Достижения минера"/>
+    <message name="MINER_TOTAL" value="Выполнить все достижения минера"/>
+
+    <!-- samurai -->
+    <message name="SINK_ALL_SAMURAI_NAME" value="Водные процедуры"/>
+    <message name="SINK_ALL_SAMURAI" value="Утопить самурая {value} раз"/>
+    <message name="FIRE_KILL_SAMURAI_NAME" value="Прижигатель"/>
+    <message name="FIRE_KILL_SAMURAI" value="Добить самурая огнем {value} раз"/>
+    <message name="DODGER_SAMURAI_NAME" value="Сёгун"/>
+    <message name="DODGER_SAMURAI" value="Получить не более {value} единиц урона"/>
+    <message name="SAMURAI_TOTAL_NAME" value="Достижения самурая"/>
+    <message name="SAMURAI_TOTAL" value="Выполнить все достижения самурая"/>
+
+    <!-- sergeant -->
+    <message name="KILL_SERGEANT_ON_FIRST_TURN_NAME" value="Гамбит"/>
+    <message name="KILL_SERGEANT_ON_FIRST_TURN" value="Убить сержанта на первом ходу"/>
+    <message name="KILL_SERGEANT_LATEST_NAME" value="Отложенная месть"/>
+    <message name="KILL_SERGEANT_LATEST" value="Убить сержанта последним"/>
+    <message name="DODGER_SERGEANT_NAME" value="Крепкая память"/>
+    <message name="DODGER_SERGEANT" value="Ни разу за весь бой не попасться на охранника"/>
+    <message name="SERGEANT_TOTAL_NAME" value="Достижения сержанта"/>
+    <message name="SERGEANT_TOTAL" value="Выполнить все достижения сержанта"/>
+
+    <!-- zombie -->
+    <message name="DODGER_BURNING_DEAD_NAME" value="Скрытный"/>
+    <message name="DODGER_BURNING_DEAD" value="Не попадитесь ни на один метеорит"/>
+    <message name="FAIL_DROP_THREE_METEORS_NAME" value="Не все сразу"/>
+    <message name="FAIL_DROP_THREE_METEORS" value="Не допустить падения 3 метеоритов за 1 ход"/>
+    <message name="METEOR_ON_ZOMBIE_NAME" value="Все средства хороши"/>
+    <message name="METEOR_ON_ZOMBIE" value="Заставить метеориты попасть на зомби {value} раз"/>
+    <message name="BURNING_DEAD_TOTAL_NAME" value="Достижения зомби"/>
+    <message name="BURNING_DEAD_TOTAL" value="Выполнить все достижения горящих зомби"/>
+</dictionary>

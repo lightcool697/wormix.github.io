@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <message name="HELP_CONTROL_TITLE1" value="Перемещение влево/вправо"/>
+    <message name="HELP_CONTROL_DESCR1"><![CDATA[<font color="#3C98FF"><b>Стрелки влево/вправо</b></font>, или <font color="#3C98FF"><b>A</b></font> и <font color="#3C98FF"><b>D</b></font>]]></message>
+
+    <message name="HELP_CONTROL_TITLE2" value="Прыжок вперед"/>
+    <message name="HELP_CONTROL_DESCR2"><![CDATA[<font color="#3C98FF"><b>Enter</b></font> или <font color="#3C98FF"><b>F</b></font>]]></message>
+
+    <message name="HELP_CONTROL_TITLE3" value="Прыжок назад"/>
+    <message name="HELP_CONTROL_DESCR3"><![CDATA[<font color="#3C98FF"><b>Backspace</b></font> или <font color="#3C98FF"><b>R</b></font><br>Прыжок назад выше, чем прыжок вперед.]]></message>
+
+    <message name="HELP_CONTROL_TITLE4" value="Прицеливание"/>
+    <message name="HELP_CONTROL_DESCR4"><![CDATA[<font color="#3C98FF"><b>Стрелки вверх/вниз</b></font>, или <font color="#3C98FF"><b>W</b></font> и <font color="#3C98FF"><b>S</b></font>]]></message>
+
+    <message name="HELP_CONTROL_TITLE5" value="Стрелять"/>
+    <message name="HELP_CONTROL_DESCR5"><![CDATA[<font color="#3C98FF"><b>Space (Пробел)</b></font><br>Удерживайте клавишу для увеличения дальности выстрела.]]></message>
+
+    <message name="HELP_CONTROL_TITLE6" value="Выбор оружия в рюкзаке"/>
+    <message name="HELP_CONTROL_DESCR6"><![CDATA[<font color="#3C98FF"><b>Q</b></font> или <font color="#3C98FF"><b>I</b></font> - открыть<br><font color="#3C98FF"><b>W, A, S, D</b></font> - перемещение<br><font color="#3C98FF"><b>Space (Пробел)</b></font> или <font color="#3C98FF"><b>E</b></font> - выбрать]]></message>
+
+    <message name="HELP_CONTROL_BUFF1"><![CDATA[<b>Отравление</b><br>Персонаж теряет жизни каждый ход.]]></message>
+    <message name="HELP_CONTROL_BUFF2"><![CDATA[<b>Заморозка</b><br>Персонаж не может ходить и прыгать.]]></message>
+    <message name="HELP_CONTROL_BUFF3"><![CDATA[<b>Замедление</b><br>Скорость персонажа снижена.]]></message>
+    <message name="HELP_CONTROL_BUFF4"><![CDATA[<b>Снижение брони</b><br>Показатель брони снижен.]]></message>
+    <message name="HELP_CONTROL_BUFF5"><![CDATA[<b>Антитоксин</b><br>Персонаж защищен от яда и лечится каждый ход.]]></message>
+    <message name="HELP_CONTROL_BUFF6"><![CDATA[<b>Антифриз</b><br>Персонаж защищен от заморозки.]]></message>
+</dictionary>

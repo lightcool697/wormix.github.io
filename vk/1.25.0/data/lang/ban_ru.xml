@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <message name="PARAMS_CHEAT" value="Бан за накрутку параметров"/>
+    <message name="PROTOCOL_CHEAT" value="Бан за взлом протокола игры"/>
+    <message name="BATTLE_CANCEL" value="Бан за использование программ и багов для отмены боя"/>
+    <message name="BOT_USE" value="Бан за использование бота"/>
+    <message name="SEARCH_CHEAT" value="Бан за использование программ для обыска друзей"/>
+    <message name="USE_PROGRAMS_FOR_CHEAT" value="Бан за использование и распространение программ для взлома игры"/>
+    <message name="WARDROBE_CHEAT" value="Бан за взлом гардероба"/>
+    <message name="FRIEND_LIST_CHEAT" value="Бан за подмену списка друзей"/>
+    <message name="SHOP_CHEAT" value="Бан за взлом покупки в магазине"/>
+    <message name="BAN_FOR_CHAT" value="Бан за оскорбление игроков в чате"/>
+    <message name="GENERAL_BAN" value="Бан за нарушение правил игры"/>
+    <message name="BAN_END_DATE" value="Дата снятия бана:"/>
+    <message name="HELP_FOR_BAN">
+        <![CDATA[Вы можете оставить заявку на снятие бана на сайте <a href='http://iwormix.ru' target='_blank'><font color='#5197FF'>www.iwormix.ru</font></a>]]> </message>
+</dictionary>

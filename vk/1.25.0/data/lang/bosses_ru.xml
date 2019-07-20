@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <message name="BOSS_PIRATE_NAME" value="Пираты"/>
+    <message name="BOSS_PIRATE_DESCR"
+             value="Капитан пиратов так часто тонул, что перестал бояться воды. А вот вам стоит."/>
+    <message name="TEAM_NAME_PIRATE1" value="Капитан"/>
+    <message name="TEAM_NAME_PIRATE2" value="Пушечное мясо"/>
+    <message name="BOT_NAME_PIRATE1" value="Капитан"/>
+    <message name="BOT_NAME_PIRATE2" value="Матрос"/>
+    <message name="BOT_NAME_PIRATE3" value="Падший матрос"/>
+
+    <message name="BOSS_ILLUSIONIST_NAME" value="Иллюзионист"/>
+    <message name="BOSS_ILLUSIONIST_DESCR"
+             value="Искусный фокусник, умеет создавать фальшивые клоны самого себя. Опасный и коварный противник."/>
+    <message name="TEAM_NAME_ILLUSIONIST1" value="Иллюзионист"/>
+    <message name="BOT_NAME_ILLUSIONIST1" value="Иллюзионист"/>
+
+    <message name="BOSS_SHAMAN_NAME" value="Шаман вуду"/>
+    <message name="BOSS_SHAMAN_DESCR"
+             value="Шаман использует демонов - хитрых и опасных: они перемещаются после каждой вашей атаки."/>
+    <message name="TEAM_NAME_SHAMAN1" value="Шаман Вуду"/>
+    <message name="TEAM_NAME_SHAMAN2" value="Подручные демоны"/>
+    <message name="BOT_NAME_SHAMAN1" value="Шаман Вуду"/>
+    <message name="BOT_NAME_SHAMAN2" value="Младший демон"/>
+
+    <message name="BOSS_VIKING_NAME" value="Викинги"/>
+    <message name="BOSS_VIKING_DESCR"
+             value="Против вас 3 суровых бойца, а время уходит. Будете медлить - останется всего 5 секунд на ход!"/>
+    <message name="TEAM_NAME_VIKING1" value="Балеог Свирепый"/>
+    <message name="TEAM_NAME_VIKING2" value="Эрик Быстрый"/>
+    <message name="TEAM_NAME_VIKING3" value="Олаф Крепкий"/>
+    <message name="BOT_NAME_VIKING1" value="Балеог"/>
+    <message name="BOT_NAME_VIKING2" value="Эрик"/>
+    <message name="BOT_NAME_VIKING3" value="Олаф"/>
+
+    <message name="BOSS_WIND_MASTER_NAME" value="Мастер ветра"/>
+    <message name="BOSS_WIND_MASTER_DESCR"
+             value="Держитесь крепче! Ветер больше не помощник - он слуга Мастера Ветра."/>
+    <message name="TEAM_NAME_WIND1" value="Мастер ветра"/>
+    <message name="TEAM_NAME_WIND2" value="Охрана Мастера"/>
+    <message name="BOT_NAME_WIND1" value="Мастер ветра"/>
+    <message name="BOT_NAME_WIND2" value="Лейтенант"/>
+    <message name="BOT_NAME_WIND3" value="Прислужник"/>
+
+    <message name="BOSS_SAMURAI_CAT_NAME" value="Cамурай"/>
+    <message name="BOSS_SAMURAI_CAT_DESCR"
+             value="У этого кота действительно 9 жизней! Поединок с ним станет испытанием вашей выносливости."/>
+    <message name="TEAM_NAME_SAMURAI_CAT" value="Cамурай"/>
+    <message name="BOT_NAME_SAMURAI_CAT" value="Cамурай"/>
+
+    <message name="BOSS_MINER_NAME" value="Минер"/>
+    <message name="BOSS_MINER_DESCR" value="Гений-подрывник, чья база защищена множеством улучшенных мин."/>
+    <message name="TEAM_NAME_MINER" value="Минер"/>
+    <message name="BOT_NAME_MINER" value="Минер"/>
+
+    <message name="BOSS_ELDER_DEMONS_NAME" value="Пылающие зомби"/>
+    <message name="BOSS_ELDER_DEMONS_DESCR"
+             value="Эти зомби захвачены темными силами. Надеюсь, вы подготовлены к метеоритному дождю?"/>
+    <message name="TEAM_NAME_ELDER_DEMONS" value="Пылающие зомби"/>
+    <message name="BOT_NAME_DEMON" value="Зомби"/>
+
+    <message name="BOSS_SOUL_NAME" value="Блуждающий дух"/>
+    <message name="BOSS_SOUL_DESCR"
+             value="Дух будет ускользать от вас, пытаясь лечить своих носителей. Не давайте ему шанса."/>
+    <message name="TEAM_NAME_SOUL_1" value="Носители"/>
+    <message name="BOT_NAME_SOUL_1" value="Носитель"/>
+
+    <message name="BOSS_GHOST_NAME" value="Древний призрак"/>
+    <message name="BOSS_GHOST_DESCR"
+             value="Злобное существо, за долгие годы сумевшее подчинить себе силу молний. У вас нет шансов."/>
+    <message name="TEAM_NAME_GHOST_MAIN" value="Древний призрак"/>
+    <message name="BOT_NAME_GHOST_MAIN" value="Древний призрак"/>
+    <message name="TEAM_NAME_GHOST_ACOLYTE" value="Прислужники"/>
+    <message name="BOT_NAME_GHOST_ACOLYTE" value="Прислужник"/>
+
+    <message name="BOSS_YAKUZA_NAME" value="Якудза"/>
+    <message name="BOSS_YAKUZA_DESCR"
+             value="Между членами банды тесная связь. Убив одного из них, вы делаете сильнее остальных."/>
+    <message name="TEAM_NAME_YAKUZA_CAT" value="Тигр"/>
+    <message name="BOT_NAME_YAKUZA_CAT" value="Тигр"/>
+    <message name="TEAM_NAME_YAKUZA_BOXER" value="Сталь"/>
+    <message name="BOT_NAME_YAKUZA_BOXER" value="Сталь"/>
+    <message name="TEAM_NAME_YAKUZA_RABBIT" value="Буря"/>
+    <message name="BOT_NAME_YAKUZA_RABBIT" value="Буря"/>
+
+    <message name="BOSS_ROMEO_JULIET_NAME" value="Ромео и Джульетта"/>
+    <message name="BOSS_ROMEO_JULIET_DESCR"
+             value="Самая успешная команда наемников. Пока еще никто не разгадал их секрет."/>
+    <message name="TEAM_NAME_ROMEO" value="Ромео"/>
+    <message name="BOT_NAME_ROMEO" value="Ромео"/>
+    <message name="TEAM_NAME_JULIET" value="Джульетта"/>
+    <message name="BOT_NAME_JULIET" value="Джульетта"/>
+
+    <message name="BOSS_KING_DEAD_NAME" value="Король мертвых"/>
+    <message name="BOSS_KING_DEAD_DESCR"
+             value="Вы серьезно намерены справиться с толпой зомби и черной магией Короля?"/>
+    <message name="TEAM_KING_DEAD_NAME" value="Король мертвых"/>
+    <message name="BOT_KING_DEAD_NAME" value="Король мертвых"/>
+    <message name="TEAM_KING_DEAD_MINIONS" value="Прислужники короля"/>
+    <message name="BOT_KING_DEAD_SUMMONER" value="Заклинатель"/>
+    <message name="BOT_KING_DEAD_MINION" value="Миньон"/>
+
+    <message name="BOSS_DEAD_PIRATE_NAME" value="Оживший Капитан"/>
+    <message name="BOSS_DEAD_PIRATE_DESCR" value="Старый Пират вернулся с новыми силами! Мстить!"/>
+
+    <message name="BOSS_SERGEANT_NAME" value="Сержант"/>
+    <message name="BOSS_SERGEANT_DESCR"
+             value="Сержант защищен верной командой и новейшей военной разработкой - невидимыми охранниками!"/>
+    <message name="TEAM_SERGEANT_NAME_1" value="Сержант"/>
+    <message name="BOT_SERGEANT_NAME_1" value="Сержант"/>
+    <message name="TEAM_SERGEANT_NAME_2" value="Боевой состав"/>
+    <message name="BOT_SERGEANT_NAME_2" value="Капрал"/>
+
+    <message name="BOSS_FARMER_NAME" value="Фермер"/>
+    <message name="BOSS_FARMER_DESCR"
+             value="Точно неизвестно, что выращивает этот Фермер, но необходимо остановить его эксперименты."/>
+    <message name="BOT_NAME_FARMER" value="Фермер"/>
+    <message name="ENHANCEMENT_APPLE_NAME" value="Странное яблоко"/>
+
+    <message name="BOSS_HUNTER_NAME" value="Охотник"/>
+    <message name="BOSS_HUNTER_DESCR"
+             value="Охотник полагается на свои лазерные капканы, из которых, по его мнению, невозможно выбраться."/>
+    <message name="BOT_NAME_HUNTER" value="Охотник"/>
+
+    <message name="BOSS_MANIACS_NAME" value="Маньяки"/>
+    <message name="BOSS_MANIACS_DESCR"
+             value="Эти создания мастерски владеют крючьями - держитесь от них подальше, и вы победите."/>
+    <message name="BOT_NAME_MANIAC_1" value="Фредди"/>
+    <message name="BOT_NAME_MANIAC_2" value="Джек"/>
+
+    <message name="BOSS_GUARDIANS_DEPTHS_NAME" value="Стражи недр"/>
+    <message name="BOSS_GUARDIANS_DEPTHS_DESCR"
+             value="На стороне стражей сражается сама земля! Даже не пытайтесь атаковать без сильной команды!"/>
+    <message name="TEAM_GUARDIANS_DEPTHS_NAME" value="Стражи"/>
+    <message name="BOT_GUARDIANS_DEPTHS" value="Страж"/>
+    <message name="PROGRESS_BAR_GUARDIANS_DEPTHS" value="землетрясение"/>
+
+    <message name="BOSS_ENGINEER_NAME" value="Инженер"/>
+    <message name="BOSS_ENGINEER_DESCR"
+             value="Изобретатель, построивший свою базу в древней гробнице. Любой неверный шаг - поражение!"/>
+    <message name="BOT_NAME_ENGINEER_BOSS" value="Инженер"/>
+    <message name="BOT_NAME_ENGINEER_DROID" value="Защитный дроид"/>
+    <message name="PROGRESS_BAR_ENGINEER" value="новый дроид"/>
+
+    <message name="BOSS_DARK_KNIGHT_NAME" value="Темный рыцарь"/>
+    <message name="BOSS_DARK_KNIGHT_DESCR"
+             value=" Защищен темными силами. У армии его прислужников одна цель - уничтожить вас!"/>
+    <message name="BOSS_DARK_KNIGHT_TEAM_ACOLYTES" value="Прислужники рыцаря"/>
+    <message name="BOSS_DARK_KNIGHT_ACOLYTE" value="Прислужник"/>
+
+    <message name="BOSS_PALADIN_NAME" value="Паладин"/>
+    <message name="BOSS_PALADIN_DESCR"
+             value="Воин света, владеющий как атакующей, так и защитной магией. Но на вашей стороне численное преимущество."/>
+
+    <message name="BOSS_HACKER_NAME" value="Хакер"/>
+    <message name="BOSS_HACKER_DESCR"
+             value="В бою хакер полагается на свое защитное поле. Захватите контроль над генераторами и уничтожьте врага!"/>
+    <message name="BOSS_HACKER_TEAM_PUPILS" value="Ученики хакера"/>
+    <message name="BOSS_HACKER_PUPILS" value="Ученик"/>
+
+    <message name="BOSS_THIEVES_NAME" value="Ворюги"/>
+    <message name="BOSS_THIEVES_DESCR"
+             value="Они полностью обчистят вас и вам придется сражаться с ними тем, что осталось от арсенала."/>
+    <message name="BOSS_THIEF_BOT_1_NAME" value="Карманник"/>
+    <message name="BOSS_THIEF_BOT_2_NAME" value="Домушник"/>
+    <message name="BOSS_THIEF_KEY" value="Ключ"/>
+    <message name="BOSS_THIEF_BOX" value="Сундук с краденым"/>
+
+    <message name="BOSS_PSIONICS_NAME" value="Телепат"/>
+    <message name="BOSS_PSIONICS_DESCR"
+             value="Создаёт черные дыры, уничтожающие бойцов. Вас спасёт только быстрая реакция союзника!"/>
+    <message name="BOSS_PSIONICS_BOT_NAME_1" value="Телепат"/>
+    <message name="BOSS_PSIONICS_TEAM_BOT_2" value="Биотики"/>
+    <message name="BOSS_PSIONICS_BOT_NAME_2" value="Биотик"/>
+
+    <message name="BOSS_PHANTOMS_NAME" value="Фантомы"/>
+    <message name="BOSS_PHANTOMS_DESCR"
+             value="Даже если вы справитесь со страхом перед ними, как насчет ваших призрачных клонов?"/>
+    <message name="BOSS_PHANTOMS_BOT_NAME" value="Фантом"/>
+
+    <message name="BOSS_ARCHDEMON_NAME" value="Архидемон"/>
+    <message name="BOSS_ARCHDEMON_DESCR"
+             value="Хозяин местного ада. Запрет вас в клетке, закует в цепи и будет злорадно смеяться."/>
+
+    <!-- 1.13 -->
+
+    <message name="BOSS_ASSASSIN_NAME" value="Ассасин"/>
+    <message name="BOSS_ASSASSIN_DESCR"
+             value="Мастер ножевого боя и скрытного передвижения. Укрыться от его атак сложно, но все же возможно."/>
+
+    <message name="BOSS_ALCHEMIST_NAME" value="Алхимик"/>
+    <message name="BOSS_ALCHEMIST_DESCR" value="Алхимик опасен в бою, но только пока у него есть доступ к реагентам."/>
+    <message name="BOSS_ALCHEMIST_ASISSTANT_TEAM" value="Ассистенты"/>
+    <message name="BOSS_ALCHEMIST_ASISSTANT" value="Ассистент"/>
+
+    <!-- 1.15 -->
+
+    <message name="BOSS_DRUID_NAME" value="Друид"/>
+    <message name="BOSS_DRUID_DESCR"
+             value="В этом бою главное - не стоять на месте. Иначе вы будете просто сметены силами природы."/>
+    <message name="BOSS_DRUID_HELPER_TEAM" value="Хранители"/>
+    <message name="BOSS_DRUID_HELPER_FIRE" value="Хранитель огня"/>
+    <message name="BOSS_DRUID_HELPER_POISON" value="Хранитель земли"/>
+    <message name="BOSS_DRUID_TOTEM_FIRE" value="Тотем огня"/>
+    <message name="BOSS_DRUID_TOTEM_POISION" value="Тотем яда"/>
+
+    <message name="BOSS_PHARAOH_NAME" value="Фараон"/>
+    <message name="BOSS_PHARAOH_DESCR"
+             value="Древний жрец, мастер перевоплощений. Очень серьезный соперник, хоть и немного самоуверенный."/>
+    <message name="BOSS_PHARAOH_MINION_NAME" value="Зомби-камикадзе"/>
+    <message name="BOSS_PHARAOH_SARCOPHAGUS" value="Саркофаг"/>
+
+    <message name="BOSS_CYBORG_NAME" value="Киборг"/>
+    <message name="BOSS_CYBORG_MINION_NAME" value="Терминатор"/>
+    <message name="BOSS_CYBORG_DESCR"
+             value="Прекрасное снежное ущелье было захвачено вражеской технологией. Придется выжечь это место!"/>
+
+    <!--1.16-->
+    <message name="BOSS_JARL_NAME" value="Ярл"/>
+    <message name="BOSS_JARL_DESCR"
+             value="Ярл и его спутники защищены практически от всех атак. Ваша задача - пробиться сквозь их защиту, захватывая руны."/>
+    <message name="BOSS_JARL_HELPER_TEAM" value="Таны стихий"/>
+    <message name="BOSS_JARL_HELPER_NAME" value="Тан"/>
+    <message name="BASE_RUNE_HINT" value="Физический урон"/>
+    <message name="FIRE_RUNE_HINT" value="Урон от огня"/>
+    <message name="SHOCK_RUNE_HINT" value="Урон от тока"/>
+    <message name="POISON_RUNE_HINT" value="Урон от яда"/>
+
+    <message name="BOSS_ARCHBOT_NAME" value="Архибот"/>
+    <message name="BOSS_ARCHBOT_DESCR"
+             value="Что может быть страшнее робота, освоившего магию? Защита от разных стихий будет очень кстати!"/>
+    <message name="BOSS_ARCHBOT_ASISSTANT_TEAM" value="Големы"/>
+    <message name="BOSS_ARCHBOT_GOLEM" value="Голем"/>
+
+    <!--1.19-->
+    <message name="BOSS_ENCHANTER_NAME" value="Заклинатель"/>
+    <message name="BOSS_ENCHANTER_DESCR"
+             value="Огненные духи и магия вуду - вам придется сильно постараться, чтобы победить этого шамана!"/>
+    <message name="BOSS_ENCHANTER_BOT_NAME_1" value="Заклинатель"/>
+    <message name="BOSS_ENCHANTER_TEAM_BOT_2" value="Служители"/>
+    <message name="BOSS_ENCHANTER_BOT_NAME_2" value="Служитель"/>
+    <message name="BOSS_ENCHANTER_FIRE_SOUL" value="Дух огня"/>
+
+    <message name="BOSS_ARCHIVIST_NAME" value="Архивариус"/>
+    <message name="BOSS_ARCHIVIST_DESCR"
+             value="Если честно, шансов у вас немного. Вы даже не поймете, что вас убивает."/>
+    <message name="BOSS_ARCHIVIST_BOT_NAME_1" value="Архивариус"/>
+    <message name="BOSS_ARCHIVIST_TEAM_BOT_2" value="Отряд теней"/>
+    <message name="BOSS_ARCHIVIST_BOT_NAME_2" value="Тень"/>
+
+    <!--1.20-->
+    <message name="BOSS_EMPEROR_NAME" value="Император"/>
+    <message name="BOSS_EMPEROR_DESCR" value="Все, что осталось в его подчинении - горстка терракотовых воинов. Но не думайте, что сможете просто прийти и присвоить его сокровища."/>
+    <message name="BOSS_EMPEROR_BOT_NAME_1" value="Император"/>
+    <message name="BOSS_EMPEROR_ARCHER" value="Арбалетчик"/>
+    <message name="BOSS_EMPEROR_SPEARMAN" value="Копейщик"/>
+    <message name="BOSS_EMPEROR_GENERAL" value="Генерал"/>
+    <message name="BOSS_EMPEROR_DEFENDER" value="Телохранитель"/>
+
+    <message name="BOSS_SCIENTIST_NAME" value="Ученый"/>
+    <message name="BOSS_SCIENTIST_DESCR" value="В этом бою вы очень быстро ощутите на себе силу науки (а также молний и магнетизма)."/>
+    <message name="BOSS_SCIENTIST_BOT_NAME_1" value="Ученый"/>
+
+    <message name="BOSS_SYMBIOTE_NAME" value="Симбиот"/>
+    <message name="BOSS_SYMBIOTE_DESCR" value="Теперь ваш девиз: бей своих, чтобы чужие боялись!"/>
+    <message name="BOSS_SYMBIOTE_BOT_NAME_1" value="Симбиот"/>
+    <message name="BOSS_SYMBIOTE_COCOON" value="Кокон"/>
+
+    <!--1.21-->
+    <message name="TEAM_NAME_PIRATE" value="Пираты"/>
+    <message name="TEAM_NAME_VIKING" value="Викинги"/>
+
+    <!--1.25-->
+    <message name="GRAVITY_MASTER_NAME" value="Гравимастер"/>
+    <message name="GRAVITY_MASTER_DESCR"
+             value="Изменяет само пространство вокруг себя. Действуйте аккуратно, иначе он вас просто расплющит!"/>
+    <message name="GRAVITY_MASTER_ANOMALY" value="Аномалия"/>
+
+    <message name="BOSS_SOLAR_PRIEST_NAME" value="Солнечный жрец"/>
+    <message name="BOSS_SOLAR_PRIEST_DESCR"
+             value="Высокомерный служитель культа прольет свет на вашу несостоятельность как игрока."/>
+    <message name="BOSS_SOLAR_PRIEST_TEAM_BOT" value="Неофиты"/>
+    <message name="BOSS_SOLAR_PRIEST_BOT_NAME" value="Неофит"/>
+</dictionary>

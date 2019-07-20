@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <!-- VIRAL -->
+    <message name="VIRAL_NEW_LEVEL" value="Я на {level}-м уровне в Вормикс!"/>
+    <message name="VIRAL_NEW_RACE_TITLE" value="Новая раса!"/>
+    <message name="VIRAL_NEW_RACE" value="Я выбрал расу {race}"/>
+    <message name="VIRAL_NEW_ARTIFACT_TITLE" value="Новый артефакт!"/>
+    <message name="VIRAL_NEW_ARTIFACT" value="У меня новый артефакт: {artifact}!"/>
+    <message name="VIRAL_NEW_HAT_TITLE" value="Новая шапка!"/>
+    <message name="VIRAL_NEW_HAT" value="Теперь у меня новая шапка: {hat}!"/>
+    <message name="VIRAL_NEW_WEAPON_TITLE" value="Новое оружие!"/>
+    <message name="VIRAL_NEW_WEAPON" value="Ура! У меня новое оружие: {weapon}!"/>
+
+    <message name="VIRAL_4DAY_SEQUENCE_TITLE" value="Бонус за 4 дня"/>
+    <message name="VIRAL_5DAY_SEQUENCE_TITLE" value="Бонус за 5 дней"/>
+    <message name="VIRAL_4DAY_SEQUENCE" value="Я заходил в Вормикс 4 дня подряд и получил {reward}"/>
+    <message name="VIRAL_5DAY_SEQUENCE" value="Я заходил в Вормикс 5 дней подряд и получил {reward}"/>
+    <message name="VIRAL_5DAY_2MISSION_REWARD" value="2 миссии!"/>
+    <message name="VIRAL_5DAY_REACTION_REWARD" value="+{count} к скорости реакции!"/>
+    <message name="VIRAL_5DAY_FUZZES_REWARD" value="кучу фузов!"/>
+    <message name="VIRAL_5DAY_RUBIES_REWARD" value="рубины! Ура!"/>
+
+    <message name="VIRAL_QUESTION_NEW_TEAMMATE" value="Рассказать другу, что Вы взяли его в команду?"/>
+
+    <message name="VIRAL_QUESTION_PUMP_REACTION_POST" value="Отправить другу просьбу прокачать реакцию в ответ?"/>
+    <message name="VIRAL_PUMPQUESTION_EMPTYLIST" value="Вы никого не выбрали для отправки просьбы прокачать реакцию"/>
+    <message name="VIRAL_PUMPREACTION" value="Качни мне реакцию, отвечу тем же!"/>
+
+    <message name="VIRAL_QUESTION_ENEMY_LOSED" value="Оставить напоминание о Вашей победе?"/>
+    <message name="VIRAL_ENEMY_LOSED" value="Ты проиграл в честном бою! Хочешь взять реванш?"/>
+    <message name="VIRAL_QUESTION_CHALLENGE_POST" value="Отправить вызов?"/>
+    <message name="VIRAL_LETSFIGHT" value="Мой рейтинг в Вормикс: {rating}. Заходи, сразимся!"/>
+
+    <message name="VIRAL_SHARE" value="Расскажи своим друзьям!"/>
+    <message name="VIRAL_FOUND_RUBY" value="Хей! Мне попался рубин в домике у {name}!"/>
+    <message name="VIRAL_FOUND_RUBY_TITLE" value="Найден рубин"/>
+
+    <!-- VIRAL notification -->
+    <message name="NOTIFY_SPAM_ERROR" value="{userName} получил сегодня слишком много приглашений. Попробуй отправить приглашение завтра!"/>
+    <message name="NOTIFY_LOOSER_TEXT" value="Ты проиграл!"/>
+    <message name="NOTIFY_QUESTION_KICK_TEAMMATE" value="Оповестить друга?"/>
+    <message name="NOTIFY_KICK_TEAMMATE" value="Ты уволен из моей команды в Вормикс!"/>
+    <message name="NOTIFY_NEW_TEAMMATE" value="Теперь ты в моей команде в Вормикс!"/>
+    <message name="NOTIFY_RETURN_FRIEND" value="Скорее возвращайся в Вормикс и получи награду!"/>
+    <message name="NOTIFY_QUESTION" value="Оповестить друга?"/>
+    <message name="NOTIFY_FOUND_RUBY" value="Нашел рубин в твоем доме!"/>
+    <message name="NOTIFY_СALL_TO_PVP" value="Мой рейтинг: {rating}. {name}, где ты, прими бой!"/>
+    <message name="NOTIFY_СALL_TO_PVP_NO_RATING" value="{name}, где ты, прими бой!"/>
+
+    <!-- VIRAL activity -->
+    <message name="ACTIVITY_BOUGHT_ITEMS" value="Купил {weaponName}"/>
+    <message name="ACTIVITY_WIN_PVP_WAGER" value="Победил {enemyName} и заработал {rating} рейтинга"/>
+    <message name="ACTIVITY_WIN_PVP_NO_RATING" value="Победил {enemyName}"/>
+    <message name="ACTIVITY_NEW_TEAMMATE" value="{name} принят в команду!"/>
+    <message name="ACTIVITY_KICK_TEAMMATE" value="{name} уволен из команды!"/>
+    <message name="ACTIVITY_СALL_TO_PVP" value="Мой рейтинг: {rating}. {name}, где ты, прими бой!"/>
+    <message name="ACTIVITY_СALL_TO_PVP_NO_RATING" value="{name}, где ты, прими бой"/>
+    <message name="ACTIVITY_NEW_PHOTO" value="Добавил новую фотографию"/>
+    <message name="ACTIVITY_PUMP_FRIENDS_REACTION" value="Увеличил реакцию {name} на {count}"/>
+    <message name="ACTIVITY_PUMP_FRIENDS_REACTION_W" value="Увеличила реакцию {name} на {count}"/>
+    <message name="ACTIVITY_FOUND_RUBY" value="Нашел рубин у {name}"/>
+    <message name="ACTIVITY_NEW_LEVEL" value="На {level}-м уровне"/>
+    <message name="ACTIVITY_FEED_NEW_LEVEL" value="Получил {level} уровень"/>
+    <message name="ACTIVITY_RACE_CHANGED" value="Сменил расу на {race}"/>
+
+    <message name="ACTIVITY_CHANGE_RACE_ON_ZOMBIE" value="Я играю за Зомби"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_RABBIT" value="Я играю за Зайца"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_CAT" value="Я играю за Кота"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_BOXER" value="Я играю за Боксера"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_DEMON" value="Я играю за Демона"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_DRAGON" value="Я играю за Дракона"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_ROBOT" value="Я играю за Робота"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_RHINO" value="Я играю за Носорога"/>
+    <message name="ACTIVITY_CHANGE_RACE_ON_BOAR" value="Я играю за Кабана"/>
+
+    <!-- VIRAL clans -->
+    <message name="NOTIFY_ABOUT_INVITATION_QUESTION" value="Рассказать другу о том, что вы пригласили его в клан?"/>
+    <message name="NOTIFY_ABOUT_INVITATION_TO_CLAN" value="{friendName}, приглашаю тебя в клан {clanName}!"/>
+    <message name="WALL_POST_NEW_CLAN" value="Новый клан {clanName}!"/>
+    <message name="WALL_POST_CLAN_CREATE" value="Я командую кланом {clanName}. А чего добился ты?"/>
+    <message name="WALL_POST_JOINED_TO_CLAN_TITLE" value="Я вступил в клан {clanName}!"/>
+    <message name="WALL_POST_JOINED_TO_CLAN" value="А нас — рать! Я вступил в клан {clanName}."/>
+    <message name="WALL_POST_CLAN_EXTENDED_TITLE" value="Я расширил клан {clanName}!"/>
+    <message name="WALL_POST_CLAN_EXTENDED" value="Мой клан расширился. Померимся силами?"/>
+    <message name="WALL_POST_OPENED_CLAN_TITLE" value="Я открыл клан {clanName}"/>
+    <message name="WALL_POST_OPENED_CLAN" value="Заходи на огонёк! Открытый клан {clanName}."/>
+
+    <!-- VIRAL bosses -->
+    <message name="WALL_POST_PLAYER_WIN_BOSS_FARMER" value="Я победил Фермера!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_HUNTER" value="Я победил Охотника!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_MANIACS" value="Я победил Маньяков!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ENGINEER" value="Я победил Инженера!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_GUARDIANS_DEPTHS" value="Я победил Стражей Земли!"/>
+
+    <message name="WALL_POST_PLAYER_WIN_BOSS_PIRATE" value="Я победил Пирата! Кто теперь Гроза морей?"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ILLUSIONIST" value="Я победил Иллюзиониста - больше не будет людям голову морочить!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_SHAMAN" value="Я победил! Шаман называется - даже демонов нормальных вызвать не может."/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_VIKING" value="Викинги - лучшие воины? Да я их начисто разбил, хотя их было больше."/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_WINDMASTER" value="И где теперь Мастер ветра? Как ветром сдуло, только я появился!"/>
+
+    <message name="WALL_POST_PLAYER_WIN_BOSS_MINER" value="Я победил Минера! Рано или поздно на каждого минера сапер найдется."/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_SAMURAI_CAT" value="Победил кота. Вот тебе и 9 жизней!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_SERGEANT" value="Сержант... Да будь у него хоть 10 лекарей, я бы все равно победил!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_BURNING_DEAD" value="Пылающие зомби побеждены! Сколько раз уже говорили - не играйте с огнем, плохо кончится."/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_WANDERING_SOUL" value="Я победил! Вот был бы этот дух боевой, а не блуждающий, может и выиграли бы. А так - никаких шансов."/>
+
+    <message name="WALL_POST_PLAYER_WIN_BOSS_YAKUZA" value="Победил Якудзу! Не всех конечно, но троих точно."/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_DEAD_PIRATE" value="Оживший Капитан устранен. Вода, метеориты, ледяные шипы? Ха! Тактика, умение, чистая победа!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ROMEO_JULIET" value="Ромео и Джульетта повержены. Любовь им зла... Да они меня в бою не видели!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_KING_DEAD" value="Эх, не дождался. Не дождался, когда Король мертвых сам лопнет. Просто победил!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ANCIENT_GHOST" value="Древний призрак достойный был противник. Одно не рассчитал - я грозы не боюсь!"/>
+
+    <message name="WALL_POST_PLAYER_WIN_BOSS_DARK_KNIGHT" value="Я победил Темного Рыцаря!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_PALADIN" value="Я победил Паладина!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_HACKER" value="Я победил Хакера!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_THIEVES" value="Я победил Ворюг!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_PSIONIC" value="Я победил Телепата!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_PHANTOMS" value="Я победил Фантомов!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ARCHIDEMON" value="Я победил Архидемона!"/>
+
+    <message name="WALL_POST_WIN_BOSS_DRUID" value="Я победил Друида!"/>
+    <message name="WALL_POST_WIN_BOSS_PHARAOH" value="Я победил Фараона!"/>
+    <message name="WALL_POST_WIN_BOSS_CYBORG" value="Я победил Киборга!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ASSASSIN" value="Я победил Ассасина!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ALCHEMIST" value="Я победил Алхимика!"/>
+
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ARCHBOT" value="Я победил Архибота!"/>
+    <message name="WALL_POST_WIN_BOSS_JARL" value="Я победил Ярла!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ENCHANTER" value="Я победил Заклинателя!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_ARCHIVIST" value="Я победил Архивариуса!"/>
+
+    <message name="WALL_POST_PLAYER_WIN_BOSS_EMPEROR" value="Я победил Императора!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_SCIENTIST" value="Я победил Ученого!"/>
+    <message name="WALL_POST_PLAYER_WIN_BOSS_SYMBIOTE" value="Я победил Симбиота!"/>
+
+    <!-- VIRAL bosses -->
+    <message name="COOPERATIVE_WIN_GAMEOVER_BOSS_MESSAGE" value="{userName} и {friendName} победили босса {bossName}"/>
+    <message name="WIN_GAMEOVER_BOSS_MESSAGE" value="{userName} победил босса {bossName}"/>
+
+    <message name="COOPERATIVE_LOSE_GAMEOVER_BOSS_MESSAGE" value="Босс {bossName} оказался сильнее, чем я и {friendName}"/>
+    <message name="LOSE_GAMEOVER_BOSS_MESSAGE" value="Босс {bossName} оказался сильнее, чем {userName}"/>
+
+    <message name="COOPERATIVE_WIN_GAMEOVER_SUPERBOSS_MESSAGE" value="{userName} и {friendName} победили супербосса {bossName} + {bossName2}"/>
+    <message name="WIN_GAMEOVER_SUPERBOSS_MESSAGE" value="{userName} победил супербосса {bossName} + {bossName2}"/>
+
+    <message name="COOPERATIVE_LOSE_GAMEOVER_SUPERBOSS_MESSAGE" value="Супербосс {bossName} + {bossName2} оказался сильнее, чем я и {friendName}"/>
+    <message name="LOSE_GAMEOVER_SUPERBOSS_MESSAGE" value="Супербосс {bossName} + {bossName2} оказался сильнее, чем {userName}"/>
+
+    <!-- VIRAL battle -->
+    <message name="VIRAL_WIN_PVP_WAGER_SURVIVE" value="{enemyName} и {enemyName2} повержены в бою на выживание в {hashtag}Вормикс, теперь мой рейтинг {rating}!"/>
+    <message name="VIRAL_WIN_PVP_WAGER" value="{enemyName} повержен(а) в {hashtag}Вормикс, теперь мой рейтинг {rating}!"/>
+    <message name="VIRAL_WIN_PVP_NO_RATING" value="{enemyName} был(а) побежден(а) мной в {hashtag}Вормикс!"/>
+    <message name="VIRAL_WIN_PVP_WAGER_WITH_ALLY" value="Я и {allyName} победили в битве 2 на 2 в {hashtag}Вормикс!"/>
+    <message name="VIRAL_LOOSE_PVP" value="{enemyName} победил(а) меня в {hashtag}Вормикс!"/>
+    <message name="VIRAL_LOOSE_PVP_EMENIES" value="{enemyName} и {enemyName2} победили меня в {hashtag}Вормикс!"/>
+
+    <!-- VIRAL clans -->
+    <message name="WALL_POST_CLAN_MEMBER_PROMOTE_TITLE" value="{userName} повышен(а) в звании!"/>
+    <message name="WALL_POST_CLAN_MEMBER_PROMOTE" value="Боец {userName}, я повысил(а) тебя в звании до офицера в нашем клане {clanName}!"/>
+    <message name="WALL_POST_CLAN_MEMBER_PROMOTE_LEADER" value="Боец {userName}, я передал(а) тебе лидерство в клане {clanName}!"/>
+    <message name="WALL_POST_CLAN_MEMBER_LOWER_TITLE" value="{userName} разжалован(а) в звании!"/>
+    <message name="WALL_POST_CLAN_MEMBER_LOWER" value="Боец {userName}, я разжаловал(а) тебя в звании до солдата в нашем клане {clanName}!"/>
+    <message name="WALL_POST_CLAN_MEMBER_EXPEL_TITLE" value="{userName} исключён из клана!"/>
+    <message name="WALL_POST_CLAN_MEMBER_EXPEL" value="Боец {userName}, я исключил(а) тебя из клана {clanName}!"/>
+    <message name="WALL_POST_CLAN_MEDALS_EXCHANGE_TITLE" value="Обменял медали на рубины!"/>
+    <message name="WALL_POST_CLAN_MEDALS_EXCHANGE" value="Обменял медали на рубины в клане {clanName}!"/>
+    <message name="WALL_POST_CLAN_DISSOLUTION_TITLE" value="Распустил клан {clanName}!"/>
+    <message name="WALL_POST_CLAN_DISSOLUTION" value="Клана {clanName} больше нет! Я распустил его."/>
+    <message name="WALL_POST_CLAN_MEMBER_EXIT_TITLE" value="Покинул клан {clanName}!"/>
+    <message name="WALL_POST_CLAN_MEMBER_EXIT" value="Я покинул клан {clanName} и теперь волк-одиночка!"/>
+
+    <message name="ACTIVITY_MISSION_COMPLETE" value="Миссия: '{name_mission}' пройдена!"/>
+    <message name="ACTIVITY_MISSION_FAIL" value="Проиграл миссию '{name_mission}'"/>
+</dictionary>

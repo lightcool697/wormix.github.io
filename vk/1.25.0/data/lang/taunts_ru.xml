@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- фразы в бою-->
+<!-- во всех фразах %source% кто стрелял/чей сейчас ход, %target% в кого попали-->
+<taunts>
+    <!-- начало хода-->
+    <onNextTurn>
+        <message>Прячьтесь! %source% стрелять будет!</message>
+        <message>Стой! Не стреляй! Ты не прицелился!</message>
+		<message>Вот сейчас что-то будет...</message>
+		<message>%source%, твоя очередь</message>
+		<message>%source% настроен решительно</message>
+		<message>Эй, %source%, стреляй уже!</message>
+		<message>%source%, ты чего еще задумал?</message>
+		<message>%source%, промахнешься-промахнешься!</message>
+		<message>%source%, да ты не торопись, времени много</message>
+		<message>%source%, думаешь, попадешь?</message>
+		<message>Стреляй на счет три! Один...</message>
+		<message>%source%, ты прицеливайся, а я пока за кофейком сбегаю...</message>
+        <message>Есть только мы: ты, я и мортира!</message>
+        <message>%source% жаждет крови!</message>
+        <message>%source% настроен очень решительно</message>
+        <message>%source% в ярости!</message>
+        <message>%source%, сегодня не твой день</message>
+        <message>Лучшая оборона - это нападение</message>
+        <message>Наступает решающий момент!</message>
+        <message>Время писать завещание...</message>
+        <message>Может, сегодня %source% попадёт?</message>
+    </onNextTurn>
+    <!-- попал в противника-->
+    <onDamage>
+        <message>Попал-попал!</message>
+        <message>Видели-видели? Попал!</message>
+		<message>Что тут сказать.. он сам виноват!</message>
+		<message>А я предупреждал, не надо со мной связываться!</message>
+		<message>Попал, что ли?</message>
+		<message>Шикарно!</message>
+		<message>Ты что? Еще не умер?</message>
+
+		<message>Эй, %target%, ты как там?</message>
+		<message>Ну что? Нечего ответить?</message>
+        <message>%target%, сдавайся!</message>
+        <message>%target%, моли о пощаде!</message>
+        <message>Ну все, %target%, ты проиграл!</message>
+        <message>%target%, да сколько у тебя там жизней!</message>
+        <message>%target%, в гневе я страшен!</message>
+        <message>%target%, получил, да?</message>
+
+        <message>%source%, рано радуешься!</message>
+        <message>%source%, наконец-то ты попал. Умница.</message>
+        <message>%source%, что это было?</message>
+        <message>%source%, это твой лучший удар?</message>
+        <message>%source%, это и был твой "смертельный удар"?</message>
+		<message>%source%, ну насмешил...</message>
+		<message>%source%, ты бы хоть стрелять научился.</message>
+
+        <message>Остается только пожалеть тебя</message>
+
+        <message>%target%, как тебе на вкус мой порох?</message>
+        <message>%target%, поиграл и хватит</message>
+        <message>%target%, сдавайся!</message>
+        <message>%source%, я отомщу!</message>
+        <message>%source% повтори, мы всё пропустили</message>
+    </onDamage>
+    <!-- попал в себя-->
+    <onSelfDamage>
+        <message>Куда-то я не туда стрельнул...</message>
+        <message>Ой!</message>
+        <message>Я случайно!</message>
+        <message>%source%, ты в кого стреляешь?!</message>
+		<message>Эй, %source%, аккуратней давай!</message>
+		<message>Не туда стреляешь!</message>
+		<message>Эй, а это-то за что?</message>
+		<message>Я больше не буду!</message>
+		<message>Пррростите...</message>
+		<message>Ой, не туда...</message>
+
+        <message>%target% - дуралей</message>
+        <message>Бей своих, жалей чужих</message>
+        <message>Вот мой тебе совет – целься в голову</message>
+        <message>Я работаю над собой, работаю!!!</message>
+        <message>Я тебя породил, я тебя и убью!</message>
+        <message>Это я тренируюсь</message>
+        <message>Без комментариев</message>
+        <message>%target% всё перепутал</message>
+    </onSelfDamage>
+</taunts>

@@ -1,0 +1,927 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- для оружия которое червь держит в руке обязательно задавать width, height !!!!!-->
+    <library path="data/common/objects/weapons.swf">
+        <!-- фугас -->
+        <resource className="IconFugasRocket"/>
+        <resource className="AmFugasRocket"/>
+        <resource className="FugasRocketBazooka" width="37.1" height="22.2"/>
+
+        <!-- бункер -->
+        <resource className="IconBunkerBreaker"/>
+        <resource className="AmBunkerBreaker"/>
+
+        <!-- супербункер -->
+        <resource className="IconSuperBunkerBuster"/>
+
+        <!-- Ледяная мина -->
+        <resource className="IceMine" width="14.6" height="10.8"/>
+        <resource className="IconIceMine"/>
+        <resource className="AmIceMine"/>
+
+        <!-- Замораживающая базука -->
+        <resource className="FreezingBazooka" width="37.3" height="30.2"/>
+        <resource className="IconFreezingBazooka"/>
+        <resource className="AmFreezingBazooka" width="15.2" height="15.2"/>
+        <resource className="AmAlternativeFreezing"/>
+        <!--Лед для замороженного червя -->
+        <resource className="IceWorm"/>
+
+        <!-- Арбалет -->
+        <resource className="Crossbow" width="40.9" height="16.5"/>
+        <resource className="IconCrossbow"/>
+        <resource className="AmCrossbow"/>
+
+        <!--Телепорт-граната -->
+        <resource className="IconTeleportThrower"/>
+        <resource className="TeleportThrower" width="22.2" height="21.4"/>
+        <resource className="AmTeleportThrower" width="20.5" height="20.5"/>
+        <resource className="TeleportThrowerBlink" width="20.5" height="20.5"/>
+
+
+        <!--bazooka-->
+        <!--main bazooka-->
+        <resource className="MainBazooka" width="41.1" height="28.05"/>
+        <resource className="AmMainBazooka" width="22.05" height="15.6"/>
+        <resource className="IconMainBazooka"/>
+
+        <!-- простая граната-->
+        <!-- main grenade-->
+        <resource className="IconMainGrenade"/>
+        <resource className="MainGrenade" width="25.4" height="24.7"/>
+        <resource className="AmMainGrenade" width="24.7" height="24.7"/>
+        <resource className="MainGrenadeBlink" width="24.7" height="24.7"/>
+
+        <!-- газовая граната -->
+        <resource className="IconGasGrenade"/>
+        <resource className="GasGrenade" width="29.7" height="30.3"/>
+        <resource className="AmGasGrenade" width="25.2" height="29.1"/>
+
+        <!-- осколочная граната -->
+        <resource className="DefaultShard" width="6" height="6"/>
+
+        <!-- cl grenade main -->
+        <resource className="IconMainClGrenade"/>
+        <resource className="ClMainGrenade" width="16.5" height="17.15"/>
+        <resource className="AmClMainGrenade" width="16.5" height="17.05"/>
+        <resource className="ClMainGrenadeBlink" width="16.5" height="17.05"/>
+
+        <!--Липучая граната -->
+        <resource className="AmStickBombSplinter" width="16.95" height="15.75"/>
+        <!-- sticky bomb main -->
+        <resource className="IconMainStickyBomb"/>
+        <resource className="MainStickyBomb" width="23.25" height="23.2"/>
+        <resource className="AmMainStickyBomb" width="21.5" height="22.2"/>
+        <resource className="MainStickyBombBlink" width="21.5" height="22.2"/>
+
+        <!-- blow torch -->
+        <!-- main blow torch -->
+        <resource className="MainBlowTorch" width="25.8" height="21.8"/>
+        <resource className="AmMainBlowTorch" width="35.1" height="29.7"/>
+        <resource className="IconMainBlowTorch"/>
+
+        <!-- drill -->
+        <resource className="Drill" width="42.2" height="31.55"/>
+        <resource className="AmDrill" width="29.85" height="15.2"/>
+        <resource className="IconDrill"/>
+
+        <!-- авиаудар-->
+        <resource className="AirControl" width="18.35" height="37.95"/>
+
+        <resource className="AirBomb"/>
+        <resource className="IconAirBomb"/>
+        <resource className="RightAirCursor"/>
+        <resource className="LeftAirCursor"/>
+
+        <resource className="Meteor" width="340" height="52.55"/>
+        <resource className="MeteorShard" width="24.65" height="24.15"/>
+        <resource className="IconMeteor"/>
+
+        <!-- mortar-->
+        <!-- main mortar-->
+        <resource className="IconMainMortar"/>
+        <resource className="MainMortar" width="38.75" height="38.5"/>
+        <resource className="AmMainMortar" width="22.45" height="16"/>
+
+        <!-- shotgun -->
+        <resource className="AmShotgun" width="2" height="2"/>
+        <!-- main shotgun -->
+        <resource className="IconMainShotgun"/>
+        <resource className="MainShotgun" width="41.9" height="14.75"/>
+
+        <!--rifle-->
+        <!--main rifle-->
+        <resource className="IconMainRifle"/>
+        <resource className="MainRifle" width="49.55" height="19.3"/>
+
+        <!-- minigun -->
+        <!-- main minigun -->
+        <resource className="IconMainMinigun"/>
+        <resource className="MainMinigun" width="40.7" height="22.6"/>
+        <!--uzi-->
+        <!--main uzi-->
+        <resource className="IconMainUzi"/>
+        <resource className="MainUzi" width="34.8" height="20.75"/>
+        <!-- sniper rifle -->
+        <resource className="IconMainSniperRifle"/>
+        <resource className="MainSniperRifle" width="43.15" height="16.1"/>
+
+        <resource className="AmGun" width="22.5" height="4.5"/>
+
+        <!-- Отбойный молоток -->
+        <resource className="PneumaticDrill" width="34.25" height="35.7"/>
+        <resource className="AmPneumaticDrill" width="34.15" height="35.7"/>
+        <resource className="IconPneumaticDrill"/>
+
+        <!-- Dynamite -->
+        <resource className="IconDynamite"/>
+        <resource className="Dynamite" width="13.15" height="29.9"/>
+        <resource className="AmDynamite" width="19.05" height="36.45"/>
+
+        <!--holy grenade-->
+        <!-- main holy grenade -->
+        <resource className="MainHolyGrenade" width="25.7" height="26.85"/>
+        <resource className="AmMainHolyGrenade" width="25.1" height="25.1"/>
+        <resource className="IconMainHolyGrenade"/>
+
+        <resource className="IconJetpack"/>
+
+        <!--Китайский фейверк -->
+        <resource className="IconFirework"/>
+        <resource className="Firework" width="17.65" height="40.45"/>
+        <resource className="AniFirework" width="16.65" height="42.95"/>
+        <resource className="AmFirework"/>
+
+        <!--Огнемет -->
+        <resource className="IconFireThrow"/>
+        <resource className="FireThrow" width="46.3" height="26.30"/>
+        <resource className="FireThrowBag" width="14.35" height="31.5"/>
+
+        <!--<resource className="Fire" width="21" height="30"/>-->
+        <resource className="Fire" width="19" height="24"/>
+        <resource className="FireShot" width="36" height="7"/>
+
+        <!-- Teleport-->
+        <resource className="Teleport" width="28.2" height="33.05"/>
+        <resource className="IconTeleport"/>
+
+        <resource className="AmShocker"/>
+        <resource className="IconShocker"/>
+        <resource className="Shocker" width="30.9" height="29.45"/>
+
+        <!-- Mine-->
+        <!-- main mine-->
+        <resource className="IconMainMine"/>
+        <resource className="AmMainMine"/>
+        <resource className="MainMine" width="19.65" height="12.65"/>
+
+
+        <resource className="IconGuardingBotWeapon"/>
+        <resource className="AmGuardingBot"/>
+        <resource className="GuardingBotWeapon" width="15.65" height="19"/>
+
+        <!-- арбузобомба -->
+        <resource className="IconWatermelon"/>
+        <resource className="Watermelon" width="30.75" height="26.35"/>
+        <resource className="AmWatermelon" width="26.6" height="26.35"/>
+        <resource className="WatermelonPiece" width="14.9" height="7.5"/>
+
+        <resource className="IconCarpetStrike"/>
+        <resource className="AmCarpetStrike"/>
+
+        <resource className="GuidingBazookaCursor"/>
+
+        <!--homing bazooka-->
+        <!--main homing bazooka-->
+        <resource className="MainHomingBazooka" width="41.45" height="31.65"/>
+        <resource className="IconMainHomingBazooka"/>
+        <resource className="AmMainHomingBazooka"/>
+
+        <resource className="IconMolotov"/>
+        <resource className="Molotov" width="21" height="24.15"/>
+        <resource className="AmMolotov"/>
+
+        <resource className="IconSheep"/>
+        <resource className="AmSheep"/>
+        <resource className="Sheep" width="36.8" height="33.65"/>
+
+        <resource className="IconSuperSheep"/>
+        <resource className="SuperSheep" width="37.7" height="64.15"/>
+        <resource className="AmSuperSheepRight" width="76.05" height="43.05"/>
+        <resource className="AmSuperSheepLeft" width="76.05" height="43.05"/>
+        <resource className="AmSuperSheepUp" width="64.15" height="35.6"/>
+
+        <resource className="NextTurn"/>
+        <resource className="IconNextTurn"/>
+
+        <resource className="IconNapalm"/>
+        <resource className="AmNapalmBomb" width="42.8" height="27.1"/>
+
+        <!-- simple carpet bazooka-->
+        <resource className="IconCarpetBazooka"/>
+        <resource className="CarpetBazooka" width="32" height="29"/>
+
+        <!-- кувалда-->
+        <resource className="SledgeHammer" width="8.3" height="7.55"/>
+        <resource className="IconSledgehammer"/>
+
+        <!-- сюрикен -->
+        <!-- main сюрикен -->
+        <resource className="IconMainShuriken"/>
+        <resource className="MainShuriken" width="25.15" height="25.5"/>
+        <resource className="AmMainShuriken" width="28.95" height="29.4"/>
+        <!-- пушка -->
+        <resource className="AmCannon" width="14.3" height="14.3"/>
+
+        <resource className="Cannon" width="42.05" height="26.85"/>
+        <resource className="IconCannon"/>
+
+        <!-- паук -->
+        <!-- main spider -->
+        <resource className="MainSpider" width="56.9" height="35.6"/>
+        <resource className="AmMainSpider" width="53.65" height="18.8"/>
+        <resource className="IconMainSpider"/>
+
+        <!-- веревка -->
+        <resource className="IconRope"/>
+        <resource className="Rope" width="34.6" height="15.6"/>
+        <resource className="RopeTip" width="10.65" height="23.25"/>
+
+        <!-- гарпун -->
+        <!--main electric harpoon-->
+        <resource className="IconElectricHarpoon"/>
+        <resource className="MainElectricHarpoon" width="51.9" height="21.45"/>
+        <resource className="MainElectricHarpoonTip"/>
+
+        <!-- бита -->
+        <resource className="IconBat"/>
+        <resource className="Bat" width="34.7" height="32.65"/>
+
+        <!-- калаш -->
+        <resource className="IconKalash"/>
+        <resource className="Kalash" width="43.45" height="23.40"/>
+
+        <!-- НОВЫЕ ПУШКИ -->
+        <!-- бумеранг -->
+        <resource className="AmBoomerang"/>
+        <resource className="Boomerang" width="33.25" height="35"/>
+        <resource className="IconBoomerang"/>
+
+        <!-- курячья пушка -->
+        <resource className="AmBirdgun"/>
+        <resource className="Birdgun" width="36.65" height="15.2"/>
+        <resource className="IconBirdgun"/>
+
+        <!-- антимагнит -->
+        <resource className="AmAntimagnit"/>
+        <resource className="Antimagnit" width="14" height="12.45"/>
+        <resource className="IconAntimagnit"/>
+        <resource className="PulsatingWave"/>
+
+        <!-- дисковая пушка -->
+        <resource className="AmDiscgun"/>
+        <resource className="Discgun" width="48.75" height="17.9"/>
+        <resource className="IconDiscgun"/>
+
+        <!-- наковальня -->
+        <resource className="AmAnvil"/>
+        <resource className="IconAnvil"/>
+
+        <!-- нло -->
+        <resource className="AmFlight" width="70.05" height="24.6"/>
+        <resource className="AmFreight"/>
+        <resource className="IconUfo"/>
+
+        <!-- вертолет -->
+        <resource className="Helicopter" width="78.35" height="42.6"/>
+        <resource className="IconHelicopter"/>
+
+        <!-- разморозка -->
+        <resource className="Defrost" width="19" height="25.85"/>
+        <resource className="IconDefrost"/>
+
+        <!-- большая пушка -->
+        <resource className="BigCannonWheels" width="54.9" height="33.6"/>
+        <resource className="BigCannon" width="57.25" height="36.35"/>
+        <resource className="IconBigCannon"/>
+
+        <!-- балка -->
+        <resource className="IconGirder" width="15" height="15"/>
+        <resource className="GirderH" width="200" height="20"/>
+        <!-- супербалка -->
+        <resource className="IconTitaniumGirder"/>
+
+        <!-- тыква бомба-->
+        <resource className="PumpkinBomb" width="33.7" height="34.2"/>
+        <resource className="IconPumpkinBomb"/>
+        <resource className="AmPumpkinBomb"/>
+        <resource className="PumkinBombLigthBolt"/>
+        <resource className="PumkinBombParticle"/>
+        <resource className="IconBandage"/>
+        <resource className="Bandage" width="16.4" height="15.45"/>
+        <resource className="IconGravityGun"/>
+        <resource className="GravityGun" width="65.6" height="37.55"/>
+        <resource className="IconThunderbolt"/>
+        <resource className="ThunderBolt" width="51.8" height="35.75"/>
+        <resource className="AmThunderBolt"/>
+
+        <resource className="IconAntitoxin"/>
+        <resource className="Antitoxin" width="38.85" height="17.6"/>
+
+        <!-- laser barrier -->
+        <!-- main laser barrier -->
+        <resource className="IconMainLaserBarrier"/>
+        <resource className="MainLaserBarrier" width="15.5" height="15.45"/>
+        <resource className="AmMainLaserBarrier" width="15.5" height="15.45"/>
+
+        <resource className="AntitoxinActivation"/>
+        <resource className="AntitoxinEffect"/>
+
+        <resource className="ProgressBarBoss" width="260.25" height="17.4"/>
+        <resource className="ProtectiveDroid" width="29.25" height="23.55"/>
+
+        <resource className="GasCloud"/>
+        <resource className="IconAtomBomb"/>
+        <resource className="AmAtomBomb" width="88.4" height="49.20"/>
+        <resource className="CrossAtomBomb" width="32.2" height="32.2"/>
+        <resource className="AtomBomb" width="25.7" height="32.1"/>
+
+        <resource className="BlockerIcon"/>
+        <resource className="BlockerClip" width="34.40" height="32.15"/>
+        <resource className="HealBrakeClip"/>
+        <resource className="HealBrakePhase"/>
+        <resource className="HealBlockerIdle"/>
+
+        <resource className="KamikazeBuff"/>
+
+        <resource className="IconEmergencyTeleport"/>
+        <resource className="EmergencyTeleport" width="17.3" height="15.2"/>
+
+        <resource className="ChromeOrb" width="37.1" height="31.95"/>
+        <resource className="ChromeOrbBall" width="31.9" height="31.95"/>
+        <resource className="ChromeOrbIcePiece" width="16.4" height="11.40"/>
+        <resource className="IconChromeOrb"/>
+
+        <resource className="IconParasite"/>
+        <resource className="Parasite" width="24.10" height="27.85"/>
+        <resource className="AmParasite" width="24.10" height="27.85"/>
+        <resource className="ParasiteBlink" width="32.5" height="36.45"/>
+        <resource className="ParasiteAttachedBlink" width="31.5" height="35.4"/>
+
+        <resource className="Blizzard" width="27.35" height="16.8"/>
+        <resource className="IconBlizzard"/>
+        <resource className="AmBlizzard" width="31.35" height="8.15"/>
+
+        <resource className="IconPumpkin"/>
+        <resource className="Pumpkin" width="25.75" height="25"/>
+        <resource className="AmPumpkin" width="25" height="25"/>
+
+        <resource className="IconDarkPact"/>
+        <resource className="DarkPact" width="33" height="28.05"/>
+        <resource className="AmDarkPact" width="25" height="21.3"/>
+
+        <resource className="SoulGun" width="42" height="26"/>
+        <resource className="SoulGunIcon"/>
+
+        <resource className="ShopBallClip" width="44.55" height="42.8"/>
+        <resource className="AmShopBallClip" width="49.45" height="46.35"/>
+        <resource className="ShopBallIcon"/>
+
+        <resource className="DeepFreezeClip" width="49.45" height="46.35"/>
+        <resource className="AmDeepFreeze" width="2.10" height="2.05"/>
+        <resource className="DeepFreezeIcon"/>
+
+        <resource className="FireworkBarrelIcon"/>
+        <resource className="FireworkBarrelBox" width="32.15" height="24.8"/>
+        <resource className="FireworkBarrelClip" width="46.5" height="50.85"/>
+
+        <resource className="BoxHatIcon"/>
+        <resource className="BoxHatClip" width="67.1" height="59.2"/>
+        <resource className="AmBoxHatClip" width="43.25" height="34.5"/>
+
+        <!--1.16-->
+        <resource className="AmNailGrenade"/>
+        <resource className="NailGrenadeFragment"/>
+        <resource className="NailGrenade"/>
+        <resource className="NailGrenadeBlink"/>
+        <resource className="NailGrenadeRotate"/>
+        <resource className="IconNailGrenade"/>
+
+        <resource className="StickyMine"/>
+        <resource className="IconStickyMine"/>
+        <resource className="AmStickyMine"/>
+
+        <resource className="IconArtilleryStrike"/>
+        <resource className="AmArtilleryStrike"/>
+        <resource className="AniArtilleryStrike"/>
+        <resource className="ArtilleryStrike"/>
+        <resource className="ArtilleryStrikeShoot"/>
+
+        <resource className="IconLaserGun"/>
+        <resource className="LaserGun"/>
+        <resource className="LaserRay"/>
+        <resource className="LaserFire"/>
+
+        <resource className="BoulderShopIcon"/>
+        <resource className="Boulder"/>
+        <resource className="BoulderBall"/>
+
+        <resource className="VacuumGrenadeShopIcon"/>
+        <resource className="VacuumGrenade"/>
+        <resource className="AmVacuumGrenade"/>
+        <resource className="VacuumFunnelFade"/>
+        <resource className="VacuumFunnel"/>
+
+        <!-- 1.18 qiwi -->
+        <resource className="QiwiControl"/>
+        <resource className="IconQiwi"/>
+
+        <!-- 1.19 -->
+
+        <resource className="DoctorBag" width="34.5" height="27"/>
+        <resource className="IconDoctorBag"/>
+
+        <resource className="UnderwaterBreathPotion" width="39.3" height="57.5"/>
+        <resource className="IconUnderwaterBreathPotion"/>
+
+        <!-- 1.20 -->
+        <resource className="IconNecroBook"/>
+        <resource className="NecroBook"/>
+
+        <resource className="IconFieryPumpkin"/>
+        <resource className="AmFieryPumpkin"/>
+        <resource className="FieryPumpkin"/>
+
+        <resource className="AmAlchemistPotion"/>
+        <resource className="AlchemistPotion"/>
+        <resource className="IconAlchemistPotion"/>
+
+        <resource className="IconFoulWatermelon"/>
+        <resource className="FoulWatermelonPiece"/>
+        <resource className="AmFoulWatermelon"/>
+        <resource className="FoulWatermelon"/>
+
+        <!--1.21-->
+        <resource className="AmSnowflake"/>
+        <resource className="IconSnowflake"/>
+
+        <!--1.22-->
+        <resource className="IconCallReinforcements"/>
+        <resource className="CallReinforcementsMark"/>
+
+        <!--1.22-->
+        <resource className="AirBlockerIcon"/>
+        <resource className="AirBlockerClip"/>
+        <resource className="AirBlockerIdle"/>
+
+        <resource className="IconGlazeDonut"/>
+        <resource className="GlazeDonut"/>
+        <resource className="AmGlazeDonut"/>
+
+        <!--1.25-->
+        <resource className="IconPushingMine"/>
+        <resource className="PushingMine"/>
+        <resource className="AmPushingMine"/>
+    </library>
+
+    <library path="data/common/objects/weapon_upgrades.swf" estimatedBytes="126983">
+
+        <resource className="IconParasiteUpg1"/>
+        <resource className="AmParasiteUpg1" width="40" height="35.25"/>
+        <resource className="ParasiteUpg1" width="40" height="44.75"/>
+        <resource className="ParasiteBlinkUpg1" width="55" height="42.5"/>
+        <resource className="ParasiteAttachedBlinkUpg1" width="55" height="42.5"/>
+
+        <resource className="IconGasGrenadeUpg1"/>
+        <resource className="GasGrenadeUpg1" width="29.15" height="29.90"/>
+        <resource className="AmGasGrenadeUpg1" width="21.2" height="26.40"/>
+        <resource className="GasCloudUpg1"/>
+        <!-- stuffed bouncing grenade -->
+        <resource className="IconStuffedBouncingGrenade"/>
+        <resource className="AmStuffedBouncingGrenade" width="28.1" height="27.15"/>
+        <resource className="StuffedBouncingGrenade" width="29.1" height="28.15"/>
+        <resource className="StuffedBouncingGrenadeBlink" width="28.1" height="27.15"/>
+        <!-- grenade upg 2-->
+        <resource className="IconGrenadeUpg2"/>
+        <resource className="AmGrenadeUpg2" width="30.6" height="38.6"/>
+        <resource className="GrenadeUpg2Blink" width="30.6" height="38.6"/>
+        <resource className="GrenadeUpg2" width="32.95" height="38.6"/>
+        <!-- sticky bomb upg1 -->
+        <resource className="IconStickyBombUpg1"/>
+        <resource className="StickyBombUpg1" width="18" height="19.45"/>
+        <resource className="AmStickyBombUpg1" width="15.85" height="18.45"/>
+        <resource className="StickyBombUpg1Blink" width="15.85" height="18.45"/>
+        <!-- poison sticky bomb -->
+        <resource className="IconPoisonStickyBomb"/>
+        <resource className="PoisonStickyBomb" width="19.15" height="18.75"/>
+        <resource className="AmPoisonStickyBomb" width="19.15" height="18.3"/>
+        <resource className="PoisonStickyBombBlink" width="19.15" height="18.3"/>
+        <!-- sticky bomb - mine-->
+        <resource className="IconStickyBombMine"/>
+        <resource className="StickyBombMine" width="21.85" height="24.1"/>
+        <resource className="AmStickyBombMine" width="20.85" height="23.1"/>
+        <resource className="StickyBombMineBlink" width="20.85" height="23.1"/>
+        <resource className="AmStickBombMineSplinter" width="16.35" height="15.15"/>
+        <!-- cl grenade upg 1 -->
+        <resource className="IconClGrenadeUpg1"/>
+        <resource className="ClGrenadeUpg1" width="17.4" height="18.7"/>
+        <resource className="AmClGrenadeUpg1" width="17.4" height="17.9"/>
+        <resource className="ClGrenadeUpg1Blink" width="17.4" height="17.9"/>
+
+        <!-- cl grenade homing -->
+        <resource className="IconHomingClGrenade"/>
+        <resource className="HomingClGrenade" width="19" height="18.6"/>
+        <resource className="AmHomingClGrenade" width="19" height="18.45"/>
+        <resource className="HomingClGrenadeBlink" width="19" height="18.45"/>
+        <resource className="HomingClGrenadeSplinter" width="16.75" height="13.35"/>
+        <!-- cl grenade mine -->
+        <resource className="IconClGrenadeMine"/>
+        <resource className="ClGrenadeMine" width="20.35" height="20.2"/>
+        <resource className="AmClGrenadeMine" width="20.35" height="18.8"/>
+        <resource className="ClGrenadeMineBlink" width="20.35" height="18.8"/>
+        <!-- holy grenade upg1 -->
+        <resource className="IconHolyGrenadeUpg1"/>
+        <resource className="AmHolyGrenadeUpg1" width="25.6" height="28.6"/>
+        <resource className="HolyGrenadeUpg1" width="28.15" height="28.85"/>
+
+        <resource className="IconBunkerBreakerUpg1"/>
+        <resource className="BunkerBusterUpg1Control" width="27.0" height="27.55"/>
+        <resource className="AmBunkerBreakerUpg1"/>
+
+        <resource className="IconCarpetStrikeUpg1"/>
+        <resource className="AmCarpetStrikeUpg1"/>
+        <resource className="CarpetStrikeUpg1Control"/>
+
+        <resource className="IconMeteorUpg1"/>
+
+        <resource className="IconAirBombUpg1"/>
+        <resource className="AirBombUpg1"/>
+
+        <resource className="IconNapalmUpg1"/>
+        <resource className="AmNapalmBombUpg1"/>
+        <resource className="NapalmStrikeUpg1Control"/>
+
+        <!-- Dynamite upg 1 -->
+        <resource className="IconDynamiteUpg1"/>
+        <resource className="DynamiteUpg1" width="23.2" height="30.4"/>
+        <resource className="AmDynamiteUpg1" width="21.9" height="38.55"/>
+
+        <!-- Dynamite upg 2 -->
+        <resource className="IconDynamiteUpg2"/>
+        <resource className="DynamiteUpg2" width="47.75" height="26.85"/>
+        <!-- laser barrier upg 1-->
+        <resource className="IconLaserBarrierUpg1"/>
+        <resource className="AmLaserBarrierUpg1" width="13.5" height="13.5"/>
+        <resource className="LaserBarrierUpg1" width="16.9" height="15.7"/>
+        <!--mine upg1-->
+        <resource className="IconMineUpg1"/>
+        <resource className="AmMineUpg1"/>
+        <resource className="MineUpg1" width="29.05" height="13.5"/>
+        <!--mine upg2-->
+        <resource className="IconMineUpg2"/>
+        <resource className="AmMineUpg2"/>
+        <resource className="MineUpg2" width="28.7" height="11.65"/>
+
+        <resource className="IconShockerUpg1"/>
+        <resource className="ShockerUpg1" width="30.45" height="29.1"/>
+
+        <resource className="ShockerUpg2" width="31.1" height="21.5"/>
+        <resource className="IconShockerUpg2"/>
+
+        <!--main electric harpoon-->
+        <resource className="MainElectricHarpoonTrajectory" width="76.05" height="29.95"/>
+        <resource className="IconElectricHarpoonTrajectory"/>
+        <resource className="MainElectricHarpoonTrajectoryTip"/>
+        <!--electro gun-->
+        <resource className="IconElectroGun"/>
+        <resource className="ElectroGun" width="47.05" height="25.5"/>
+        <!--electro harpoon upg 2-->
+        <resource className="ElectricHarpoonUpg2" width="63.75" height="26.8"/>
+        <resource className="IconElectricHarpoonUpg2"/>
+        <resource className="ElectricHarpoonUpg2Tip"/>
+
+        <resource className="AmMolotovUpg1"/>
+        <resource className="IconMolotovUpg1"/>
+        <resource className="MolotovUpg1"/>
+
+        <resource className="BlockerIconUpg1"/>
+        <resource className="BlockerClipUpg1"/>
+        <resource className="HealBlockerIdleUpg1"/>
+
+        <resource className="BlockerIconUpg2A"/>
+        <resource className="BlockerClipUpg2A"/>
+        <resource className="HealBlockerIdleUpg2A"/>
+
+        <resource className="BlockerIconUpg2B"/>
+        <resource className="BlockerClipUpg2B"/>
+        <resource className="HealBlockerIdleUpg2B"/>
+
+        <resource className="IconBoomerangUpg1"/>
+        <resource className="BoomerangUpg1" width="32.1" height="36.8"/>
+        <resource className="AmBoomerangUpg1" width="20.4" height="31.05"/>
+
+        <resource className="IconBoomerangUpg2"/>
+        <resource className="BoomerangUpg2" width="22.15" height="32.35"/>
+        <resource className="AmBoomerangUpg2" width="38.9" height="38.1"/>
+        <!--homing bazooka upg1-->
+        <resource className="IconHomingBazookaUpg1"/>
+        <resource className="HomingBazookaUpg1" width="47.1" height="38.8"/>
+        <resource className="AmHomingBazookaUpg1" width="22.7" height="16.7"/>
+        <!--homing bazooka upg2-->
+        <resource className="IconHomingBazookaUpg2"/>
+        <resource className="HomingBazookaUpg2" width="52.65" height="36.4"/>
+        <resource className="AmHomingBazookaUpg2" width="19.95" height="15.2"/>
+
+        <!-- sheep upgrade 1 -->
+        <resource className="IconSheepUpgradeA"/>
+        <resource className="SheepUpgradeA" width="37.5" height="43.40"/>
+        <resource className="SheepUpgradeA_AM"/>
+
+        <!-- sheepUpgrade 2 -->
+        <resource className="IconSheepUpgradeB"/>
+        <resource className="SheepUpgradeB" width="42.2" height="41.05"/>
+        <resource className="SheepUpgradeB_AM"/>
+        <!-- сюрикен upg 1-->
+        <resource className="IconShurikenUpg1"/>
+        <resource className="ShurikenUpg1" width="23.05" height="22.95"/>
+        <resource className="AmShurikenUpg1" width="27.65" height="27.55"/>
+        <!-- сюрикен upg 1-->
+        <resource className="IconShurikenTrajectory"/>
+        <resource className="ShurikenTrajectory" width="21.2" height="24.3"/>
+        <resource className="AmShurikenTrajectory" width="22.75" height="28"/>
+        <!-- saw сюрикен -->
+        <resource className="IconShurikenSaw"/>
+        <resource className="ShurikenSaw" width="27.45" height="27.15"/>
+        <resource className="AmShurikenSaw" width="31.75" height="31.35"/>
+
+        <!-- spider upg 1 -->
+        <resource className="IconSpiderUpg1"/>
+        <resource className="AmSpiderUpg1"/>
+        <resource className="SpiderUpg1" width="45.65" height="34.5"/>
+
+        <!-- балка upg1 -->
+        <resource className="IconGirderUpg1" width="15" height="15"/>
+        <resource className="GirderHUpg1" width="200" height="20"/>
+
+        <!-- antifreeze upgrade -->
+        <resource className="AntifreezeIconUpg1"/>
+        <resource className="AntifreezeClipUpg1" width="28.30" height="30.70"/>
+
+        <resource className="AntifreezeIconAttackUpg"/>
+        <resource className="AntifreezeClipAttackUpg" width="28.8" height="31.2"/>
+
+        <resource className="AntifreezeIconArmorUpg"/>
+        <resource className="AntifreezeClipArmorUpg" width="30.35" height="30.85"/>
+
+        <!--main bazooka-->
+        <resource className="BazookaUpg1" width="45.8" height="32.2"/>
+        <resource className="IconBazookaUpg1"/>
+        <resource className="AmBazookaUpg1"/>
+        <!--cumulative bazooka-->
+        <resource className="CumulativeBazooka" width="41.55" height="34.3"/>
+        <resource className="IconCumulativeBazooka"/>
+        <resource className="AmCumulativeBazooka"/>
+        <!-- mortar upg 1-->
+        <resource className="IconMortarUpg1"/>
+        <resource className="MortarUpg1" width="33.65" height="33.8"/>
+        <resource className="AmMortarUpg1" width="22.45" height="16"/>
+        <!-- mortar upg radius-->
+        <resource className="IconMortarUpgRadius"/>
+        <resource className="MortarRadius" width="37.1" height="38.05"/>
+        <resource className="AmMortarRadius" width="22.45" height="16"/>
+        <!-- mortar upg radius-->
+        <resource className="IconMortarDoubleShot"/>
+        <resource className="MortarDoubleShot" width="38.35" height="38.65"/>
+        <resource className="AmMortarDoubleShot" width="22.45" height="16"/>
+
+        <!-- carpet bazooka upg 1-->
+        <resource className="IconCarpetBazookaUpg1"/>
+        <resource className="CarpetBazookaUpg1" width="42.6" height="28.35"/>
+        <resource className="AmCarpetUpg1" width="28.8" height="19.35"/>
+
+        <!-- carpet bazooka upg 2A-->
+        <resource className="IconCarpetBazookaUpg2A"/>
+        <resource className="CarpetBazookaUpg2A" width="48.15" height="30.5"/>
+        <resource className="AmCarpetUpg2A" width="28.8" height="19.4"/>
+
+        <!-- carpet bazooka upg 2B-->
+        <resource className="IconCarpetBazookaUpg2B"/>
+        <resource className="CarpetBazookaUpg2B" width="49.35" height="32.3"/>
+        <resource className="AmCarpetUpg2B" width="35.7" height="20.9"/>
+
+        <!-- пушка upg1 -->
+        <resource className="CannonUpg1" width="37.35" height="21.6"/>
+        <resource className="IconCannonUpg1"/>
+
+        <!-- пушка upg2 -->
+        <resource className="CannonUpg2" width="44.2" height="33.4"/>
+        <resource className="AmCannonUpg2" width="13.8" height="13.8"/>
+        <resource className="IconCannonUpg2"/>
+
+        <resource className="IconKalashUpg1"/>
+        <resource className="KalashUpg1"/>
+
+        <resource className="IconLaserGunUpg1"/>
+        <resource className="LaserGunUpg1"/>
+        <resource className="LaserFireUpg1"/>
+
+        <resource className="IconLaserGunUpg2A"/>
+        <resource className="LaserGunUpg2A"/>
+        <resource className="LaserFireUpg2A"/>
+
+        <resource className="IconLaserGunUpg2B"/>
+        <resource className="LaserGunUpg2B"/>
+        <resource className="LaserFireUpg2B"/>
+        <!-- shotgun upg 1-->
+        <resource className="IconShotgunUpg1"/>
+        <resource className="ShotgunUpg1" width="37.2" height="12.25"/>
+        <!-- shotgun slowing-->
+        <resource className="IconSlowingShotgun"/>
+        <resource className="SlowingShotgun" width="37.75" height="13.3"/>
+        <!-- shotgun double shot-->
+        <resource className="IconShotgunDoubleShot"/>
+        <resource className="ShotgunDoubleShot" width="38.3" height="16.1"/>
+
+        <resource className="IconSniperRifleUpgSight"/>
+        <resource className="SniperRifleUpgSight" width="47.2" height="15.3"/>
+
+        <resource className="IconSniperRifleUpg2A"/>
+        <resource className="SniperRifleUpg2A" width="80" height="25.9"/>
+
+        <resource className="IconSniperRifleUpg2B"/>
+        <resource className="SniperRifleUpg2B" width="67" height="33.7"/>
+
+        <resource className="IconThunderboltUpg1"/>
+        <resource className="ThunderBoltUpg1"/>
+        <!--uzi upg1-->
+        <resource className="IconUziUpg1"/>
+        <resource className="UziUpg1" width="32.25" height="26.55"/>
+
+        <resource className="GravityGunUpg1" width="13.3" height="23.5"/>
+        <resource className="IconGravityGunUpg1"/>
+        <!-- minigun upg 1-->
+        <resource className="IconMinigunUpg1"/>
+        <resource className="MinigunUpg1" width="43.1" height="25.85"/>
+        <!-- minigun rocket -->
+        <resource className="IconRocketMinigun"/>
+        <resource className="RocketMinigun" width="40.5" height="39.5"/>
+        <!-- minigun reduce armor -->
+        <resource className="IconMinigunReduceArmor"/>
+        <resource className="MinigunReduceArmor" width="39.15" height="27.5"/>
+        <!--rifle upg1-->
+        <resource className="IconRifleUpg1"/>
+        <resource className="RifleUpg1" width="47.8" height="24.45"/>
+
+        <resource className="IconRifleUpg2"/>
+        <resource className="RifleUpg2" width="70" height="18.8"/>
+        <!-- blow torch upg 1 -->
+        <resource className="IconBlowTorchUpg1"/>
+        <resource className="BlowTorchUpg1" width="24.6" height="20.8"/>
+        <resource className="AmBlowTorchUpg1" width="34.8" height="33.25"/>
+        <!-- blow torch upg 2 -->
+        <resource className="IconBlowTorchUpg2"/>
+        <resource className="BlowTorchUpg2" width="21.75" height="23.6"/>
+        <resource className="AmBlowTorchUpg2" width="31.4" height="29.7"/>
+
+        <resource className="IconPneumaticDrillUpg1"/>
+        <resource className="PneumaticDrillUpg1" width="47.25" height="46.6"/>
+        <resource className="AmPneumaticDrillUpg1" width="47.25" height="46.6"/>
+
+        <!-- teleport upg 1 -->
+        <resource className="TeleportUpg1" width="25.05" height="29.1"/>
+        <resource className="IconTeleportUpg1"/>
+
+        <resource className="IconEmergencyTeleportUpg1"/>
+        <resource className="IconEmergencyTeleportUpg2"/>
+        <resource className="EmergencyTeleportUpg1" width="11.9" height="16.3"/>
+        <resource className="EmergencyTeleportUpg2" width="13.35" height="28.7"/>
+
+        <resource className="IconRopeUpg1"/>
+        <resource className="RopeUpg1"/>
+        <resource className="RopeTipUpg1"/>
+
+        <resource className="TeleportThrowerIconUpg1"/>
+        <resource className="TeleportThrowerUpg1" width="22.20" height="20.80"/>
+        <resource className="AmTeleportThrowerUpg1"/>
+        <resource className="TeleportThrowerBlinkUpg1" width="20.50" height="20.70"/>
+
+        <resource className="IconSuperSheepUpg1"/>
+        <resource className="SuperSheepUpg1" width="37.7" height="64.15"/>
+        <resource className="AmSuperSheepRightUpg1" width="76.05" height="43.05"/>
+        <resource className="AmSuperSheepLeftUpg1" width="76.05" height="43.05"/>
+        <resource className="AmSuperSheepUpUpg1" width="64.15" height="35.6"/>
+
+        <resource className="IconSuperSheepUpg2"/>
+        <resource className="SuperSheepUpg2" width="37.7" height="64.15"/>
+        <resource className="AmSuperSheepRightUpg2" width="76.05" height="43.05"/>
+        <resource className="AmSuperSheepLeftUpg2" width="76.05" height="43.05"/>
+        <resource className="AmSuperSheepUpUpg2" width="64.15" height="35.6"/>
+
+        <resource className="AmFlightUpg1" width="70.05" height="24.6"/>
+        <resource className="IconUfoUpg1"/>
+
+        <resource className="AmFlightUpg2" width="70.05" height="24.6"/>
+        <resource className="IconUfoUpg2"/>
+
+        <resource className="IconKalashUpg2"/>
+        <resource className="KalashUpg2"/>
+
+        <!-- 1.21 -->
+        <resource className="IconPneumaticDrillUpg2"/>
+        <resource className="PneumaticDrillUpg2" width="47.25" height="46.6"/>
+        <resource className="AmPneumaticDrillUpg2" width="47.25" height="46.6"/>
+
+        <resource className="IconLaserBarrierUpg2"/>
+        <resource className="AmLaserBarrierUpg2" width="13.5" height="13.5"/>
+        <resource className="LaserBarrierUpg2" width="16.9" height="15.7"/>
+
+        <resource className="IconBunkerBreakerUpg2"/>
+        <resource className="AmBunkerBreakerUpg2"/>
+
+        <resource className="IconHolyGrenadeUpg2"/>
+        <resource className="AmHolyGrenadeUpg2" width="46.6" height="28.6"/>
+        <resource className="HolyGrenadeUpg2" width="28.15" height="28.85"/>
+
+        <!-- 1.22 -->
+
+        <resource className="GravityGunUpg2" width="13.3" height="23.5"/>
+        <resource className="IconGravityGunUpg2"/>
+
+        <resource className="FreezingBazookaUpg1" width="13.3" height="23.5"/>
+        <resource className="IconFreezingBazookaUpg1"/>
+        <resource className="AmFreezingBazookaUpg1"/>
+    </library>
+
+    <!-- эффекты -->
+    <library path="data/common/objects/battleStuff.swf" estimatedBytes="126983">
+        <resource className="Heal"/>
+        <resource className="WindAura"/>
+        <resource className="AnimatedText"/>
+        <resource className="Obsession"/>
+        <resource className="RageAura"/>
+        <resource className="RageAuraBig"/>
+        <resource className="SlowEffect"/>
+
+        <!-- explosions -->
+        <resource className="Boom" width="11" height="11"/>
+        <resource className="ExpParticle" width="15" height="15"/>
+        <resource className="ExplosionSmall"/>
+        <resource className="ExplosionMedium"/>
+        <resource className="ExplosionLarge"/>
+        <resource className="ElectricExplosion"/>
+        <resource className="MinimalExplosion"/>
+        <resource className="ZombieExplosion"/>
+        <resource className="MetalExplosion"/>
+        <resource className="DemonicExplosion"/>
+        <resource className="DemonicDamage"/>
+
+        <!-- blood-->
+        <resource className="Blood1"/>
+        <resource className="Blood2"/>
+        <resource className="Blood3"/>
+        <resource className="Blood4"/>
+        <resource className="Blood5"/>
+        <resource className="Blood6"/>
+
+        <resource className="MedkitLarge"/>
+        <resource className="MedkitMedium"/>
+        <resource className="MedkitSmall"/>
+
+        <resource className="Star"/>
+        <resource className="DisappearingStar"/>
+
+        <resource className="WeaponBox"/>
+        <resource className="WeaponBoxParachute"/>
+        <resource className="CraftBox"/>
+        <resource className="CraftBoxParachute"/>
+
+        <resource className="BoomerangDebuffEffect"/>
+
+        <!-- 1.18 -->
+        <resource className="ArmorReduceEffect"/>
+        <resource className="ArmorReduceStartEffect"/>
+
+        <!-- 1.18 qiwi -->
+        <resource className="QiwiIdle"/>
+        <resource className="QiwiActivation"/>
+        <resource className="QiwiDeactivation"/>
+
+        <!-- 1.19 -->
+        <resource className="UnderwaterBreathBuffAppear"/>
+        <resource className="UnderwaterBreathBuffFade"/>
+        <resource className="UnderwaterBreathBuffIdle"/>
+
+        <!-- 1.20-->
+        <resource className="PulsingSphere"/>
+        <resource className="LightningHit"/>
+        <resource className="PoisonExplosionSmall"/>
+        <resource className="PoisonExplosionLarge"/>
+
+        <resource className="ElectricCharge"/>
+
+        <!--1.24-->
+        <resource className="SwapRaceExplosion"/>
+
+
+    </library>
+</resources>

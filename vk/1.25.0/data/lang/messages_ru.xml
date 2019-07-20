@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+    <message name="LOADING" value="Загрузка..."/>
+    <message name="SAVING" value="Сохранение..."/>
+    <message name="WAITING_DATA" value="Ожидание данных..."/>
+    <message name="SWITCHING_TURN" value="Переход хода..."/>
+
+    <!-- titles -->
+    <message name="TITLE_ERROR" value="Ошибка"/>
+    <message name="TITLE_ATTENTION" value="Внимание"/>
+    <message name="TITLE_BUY" value="Покупка"/>
+    <message name="TITLE_BUY_RACE" value="Сменить расу"/>
+    <message name="TITLE_SERVER_MSG" value="Сообщение с сервера"/>
+    <message name="TITLE_MSG" value="Сообщение"/>
+    <message name="TITLE_BAN" value="Бан"/>
+    <message name="GAME_NAME" value="Вормикс"/>
+
+    <!-- gifts -->
+    <message name="FRIEND_GIFT_MENU" value="Отправить другу"/>
+    <message name="FRIEND_GIFT_TITLE" value="Подарок другу"/>
+    <message name="FRIEND_GIFT_DESCRIPTION" value="Подарок будет размещен на стене друга"/>
+
+    <!-- errors -->
+    <message name="SERVER_UPDATE" value="Сервер обновляется, зайдите позже"/>
+    <message name="ERROR_SERVER" value="Произошла ошибка при выполнении запроса."/>
+    <message name="ERROR_SAVING" value="Произошла ошибка при сохранении данных. Действие было отменено."/>
+    <message name="ERROR_SOCIAL" value="Произошла ошибка при обращении к API социальной сети."/>
+    <message name="ERROR_SOCIAL_OP" value="Произошла ошибка при обращении к API социальной сети. {error} "/>
+    <message name="ERROR_SCENE_LOAD" value="Произошла ошибка при загрузке карты (id = {id})"/>
+    <message name="ERROR_HACKING_ATTEMPT" value="Недостаточно денег. Действие было отменено."/>
+    <message name="ERROR_REQUEST_FRIEND_TO_BATTLE" value="Вы не можете вызвать этого игрока."/>
+    <message name="ERROR_BANK_FAIL"
+             value="Платеж не прошел. Возможно из-за большой нагрузки на сервер. Попробуйте повторить платеж позднее"/>
+    <message name="ERROR_NOT_ENOUGH_MONEY" value="У Вас недостаточно денег."/>
+    <message name="ERROR_AUTH_KEY" value="Неверный ключ авторизации."/>
+    <message name="UNSYNCH_ERROR" value="Рассинхронизация. Получена команда {received}, ожидалась {expected}."/>
+    <message name="TITLE_ERROR_LOAD_RES" value="Ошибка загрузки ресурсов."/>
+    <message name="MSG_ERROR_LOAD_ROOM_RES" value="Зайдите в комнату ещё раз."/>
+
+    <!-- capabilities -->
+    <message name="LEVEL_UP_DIALOG_TITLE" value="Уровень {level}"/>
+    <message name="LEVEL_UP_DIALOG_DESCRIPTION" value="Новые возможности"/>
+    <message name="LEVEL_UP_DIALOG_BONUS_TEXT" value="Бонус за достижение уровня:"/>
+    <message name="LEVEL_UP_DIALOG_THINGS_TEXT" value="Доступны новые вещи в магазине:"/>
+    <message name="LEVEL_UP_DIALOG_BUTTON_SHOP" value="В Магазин!"/>
+    <message name="LEVEL_UP_DIALOG_LIFE_TIPS" value="Здоровье"/>
+    <message name="LEVEL_UP_DIALOG_PARAMS_TIPS" value="Очки параметров"/>
+    <message name="LEVEL_UP_DIALOG_COMMAND_TIPS" value="Размер команды"/>
+
+    <!-- bank -->
+    <message name="BUY_RUBIES_SUCCESSFULL" value="Спасибо за покупку!"/>
+
+    <!-- shop -->
+    <message name="SHOP" value="Магазин"/>
+    <message name="WEAPON_TAB" value="Оружие"/>
+    <message name="HAT_TAB" value="Шапки"/>
+    <message name="BUY_EXISTING_WEAPON" value="Это оружие у Вас уже есть"/>
+    <message name="BUY_EXISTING_HAT" value="Эта шапка у Вас уже есть"/>
+    <message name="BUY_2_HAT" value="Вы купили новую шапку, хотите ее надеть?"/>
+    <message name="BUY_SUCCESSFUL" value="Покупки доставлены в ваш домик!"/>
+    <message name="SHOP_REQUIRED_LEVEL" value="Требуемый уровень"/>
+    <message name="SHOP_REQUIRED_FRIENDS" value="Необходимо друзей"/>
+    <message name="SHOP_REQUIRED_RATING" value="Требуемый рейтинг"/>
+    <message name="SHOP_BUY_FOR_REAL_MONEY" value="либо покупка за рубины"/>
+    <message name="SHOP_REQUIRED_FIELD" value="для покупки за фузы необходимо {requirements}"/>
+    <message name="FRIENDS_REQUIREMENT" value="{friendsCnt} друзей"/>
+    <message name="LEVEL_REQUIREMENT" value="{level} уровень"/>
+    <message name="RATING_REQUIREMENT" value="{rating} рейтинга"/>
+    <message name="PRICE_LABEL" value="Цена"/>
+    <message name="PRICE_FREE" value="бесплатно"/>
+    <message name="PRICE_OR_LABEL" value="или"/>
+    <message name="DAMAGE" value="Урон"/>
+    <message name="COUNT_LABEL" value="Количество"/>
+    <message name="QUANTITY_INFINITY" value=" бесконечно"/>
+    <message name="QUANTITY_PER_BATTLE" value=" за бой"/>
+    <message name="BUY_REACTION_RATES" value="Ваша реакция увеличена на {count}"/>
+    <message name="SHOP_REQUIREMENT_SPECIAL_QIWI"
+             value="Зарегистрируй Visa QIWI Wallet и получи это могущественное оружие бесплатно!"/>
+
+    <!-- arena -->
+    <message name="ARENA" value="Арена"/>
+    <message name="BATTLES_AVAILABLE" value="Доступно боев:"/>
+    <message name="TEAM_HP_LABEL" value="Общее здоровье"/>
+    <message name="TEAM_LABEL" value="Команда"/>
+    <message name="AWARD_LABEL" value="Награда"/>
+    <message name="MISSION_TAB_NAME" value="Миссии"/>
+    <message name="PVP_TAB_NAME" value="Поединки"/>
+    <message name="BOSS_TAB_NAME" value="Боссы"/>
+
+    <message name="PVP_TWO_VS_TWO_WITH_FRIEND_CARD_DESC">
+        <![CDATA[Выберите друга, он будет вашим напарником в этом бою.]]>
+    </message>
+
+    <message name="PVP_FIND_ENEMY" value="Найти противника!"/>
+    <message name="PVP_WAGER_LABEL" value="Cтавка:"/>
+    <message name="PVP_PRIZE_LABEL" value="Выигрыш:"/>
+    <message name="PVP_BONUS_LABEL" value="Рейтинг:"/>
+    <message name="PVP_WAGER_AVAILABLE_FOR" value="Будет доступно с {level} уровня"/>
+    <message name="PVP_WAGER_AVAILABLE_FOR_TEAM" value="Нужно {count} бойца в команде"/>
+    <message name="PVP_WAGER_BTN" value="Оставить заявку"/>
+    <message name="MISSION_BTN" value="Выполнить"/>
+    <message name="BOSS_BTN" value="Выполнить"/>
+
+    <message name="ARENA_DELAY_MESSAGE" value="Вы исчерпали лимит боев."/>
+    <message name="ARENA_DELAY_DESC"
+             value="Вы сможете вернуться к выполнению миссий и сражениям с боссами не раньше чем через:"/>
+    <message name="ARENA_DELAY_DONT_WAIT" value="Не хотите ждать? Терзает жажда сражений?"/>
+    <message name="ARENA_BUY_BATTLE" value="Вы можете купить ещё 1 бой:"/>
+    <message name="ARENA_BUY_FIVE_BATTLES" value="Вы можете купить ещё 5 боев:"/>
+    <message name="ARENA_BUY_BTN_NAME" value="Купить за:"/>
+    <message name="ARENA_EXISTS_MONEY" value="У вас на счету:"/>
+
+    <message name="MISSION_FREE_GAME" value="Свободная игра"/>
+
+    <message name="CHOOOSE_FRIEND_BTN_NAME" value="Выбрать друга!"/>
+    <message name="HOT_SEAT_CARD_TITLE" value="Игра на одном компьютере"/>
+    <message name="HOT_SEAT_CARD_DESC" value="Достаточно выбрать друга и отправить ему вызов!"/>
+
+    <message name="LEARN_BTN_NAME" value="Обучиться!"/>
+
+    <message name="UNKNOWN_CARD_NAME" value="Миссия неизвестна"/>
+    <message name="UNKNOWN_CARD_DESC" value="Слишком тайная и засекреченная миссия, чтобы так сразу её открывать!"/>
+
+    <message name="PLAY_MISSION_BTN_NAME" value="Выполнить!"/>
+
+    <message name="BOSS_SINGLE_MODE_BTN" value="В одиночку"/>
+    <message name="BOSS_COOP_MODE_BTN" value="C другом"/>
+    <message name="BOSS_PLAY_BTN" value="Сразиться!"/>
+    <message name="BOSS_AWARD" value="Награда: "/>
+    <message name="BOSS_LOCKED"
+             value="Вы не можете сейчас напаcть на этого босса, потому что не расчистили путь к нему!"/>
+    <message name="BOSS_UNAVAILABLE_TITLE" value="Ты храбр! Но одного этого мало!"/>
+    <message name="BOSS_UNAVAILABLE_DESC"
+             value="Ты слишком низкого уровня, чтобы вступить в такие серьезные сражения!"/>
+    <message name="BOSS_UNAVAILABLE_REQUIRED_LEVEL" value="Требуется: "/>
+    <message name="BOSS_UNAVAILABLE_REQUIRED_LEVEL_TEXT" value="уровень."/>
+
+    <!-- groups -->
+    <message name="REPLACE_IN_GROUP" value="Заменить в команде"/>
+    <message name="REMOVE_FROM_GROUP" value="Выгнать из команды"/>
+    <message name="ADD_IN_GROUP" value="Добавить в команду"/>
+    <message name="USER_PAGE" value="Страница пользователя"/>
+    <message name="CALL_TO_BATTLE" value="Вызвать на бой"/>
+    <message name="CALL_TO_LOCAL_BATTLE" value="Игра на 1-м компьютере"/>
+    <message name="GROUP_ICON_QTIP" value="Моя команда"/>
+    <message name="CAN_NOT_ADD_IN_GROUP" value="На вашем уровне больше нельзя добавлять друзей в команду"/>
+    <message name="REMOVE_FROM_GROUP_CONFIRMATION" value="Вы точно хотите выгнать друга из команды?"/>
+    <message name="ALREADY_IN_TEAM" value="Друг уже в команде"/>
+    <message name="BUTTON_ADD" value="Добавить"/>
+
+    <!-- params -->
+    <message name="PARAMS_TITLE" value="Параметры"/>
+
+    <message name="RESET_PARAMS_DESC">
+        <![CDATA[Cбрасываются только атака и броня. <br/>Скорость реакции остается неизменной. <br/><br/>Очки можно будет распределить заново.]]>
+    </message>
+    <message name="ALLOCATE_POINTS" value="Доступно баллов: {points}"/>
+    <message name="NO_POINTS" value="Нет баллов для повышения параметров"/>
+    <message name="ARMOR_DESCRIPTION" value="Чем больше Броня, тем меньше урон, который Вы получаете."/>
+    <message name="ATTACK_DESCRIPTION" value="Чем больше Атака, тем больше урон, который получает противник."/>
+    <message name="REACTION_DESCRIPTION"
+             value="Увеличивает шанс 1-го хода в поединке. Прокачать реакцию могут только друзья, зайдя к Вам в домик. А также Вы можете купить реакцию за рубины."/>
+    <message name="POINTS_ICON_QTIP" value="Мои параметры"/>
+
+    <!-- hint -->
+    <message name="ARMOR" value="Броня"/>
+    <message name="ATTACK" value="Атака"/>
+    <message name="ATTACK_POISON" value="Урон от яда"/>
+    <message name="ATTACK_FIRE" value="Урон от огня"/>
+    <message name="REDUCTION_FIRE" value="Защита от огня"/>
+    <message name="LEECH" value="Вампиризм"/>
+    <message name="DODGE" value="Шанс уворота"/>
+    <message name="REGENERATION" value="Регенерация"/>
+    <message name="REACTION" value="Реакция"/>
+    <message name="HP" value="Здоровье"/>
+    <message name="TO_HP" value="к здоровью"/>
+    <message name="RATING" value="Рейтинг"/>
+    <message name="PRIZE_TWO_MISSION" value="2 миссии"/>
+    <message name="RACE" value="Раса"/>
+    <message name="HARDNESS" value="Сложность"/>
+    <message name="EASY" value="Низкая"/>
+    <message name="MEDIUM" value="Средняя"/>
+    <message name="HARD" value="Высокая"/>
+
+    <message name="SHOW_FRIEND_HOUSE" value="Посетить друга"/>
+    <message name="LEVEL_NET_ENOUGH_FOR_SEARCH" value="Обыскать друга можно только после достижения им 2го уровня!"/>
+
+    <message name="CALL_TO_BATTLE_BY_ID" value="Вызов на бой по ID"/>
+    <message name="REFRESH_FRIENDLIST" value="Обновить список друзей"/>
+
+    <message name="TIPS_ON_OFF" value="Подсказки вкл./выкл."/>
+    <message name="CHAR_HINT_ON_OFF" value="Имена вкл./выкл."/>
+
+    <!-- reaction menu -->
+    <message name="REACTION_MENU_TITLE" value="Вам прокачали реакцию"/>
+    <message name="ASK_FRIEND_PUMP_REACTION_TITLE" value="Ваши друзья"/>
+    <message name="REACTION_MENU_BUTTON" value="Прокачать"/>
+    <message name="REACTION_MENU_MSG_NONE_SELECTED" value="Никого не выбрано для прокачки"/>
+    <message name="REACTION_MENU_MSG_NONE_PUMPED_3DAYS" value="За последние 3 дня вам никто не прокачивал реакцию"/>
+
+    <!-- album -->
+    <message name="ALBUM_TITLE" value="Вормикс"/>
+    <message name="ALBUM_DESCRIPTION" value="Мои лучшие моменты в Вормикс! Заходи, сразимся: {app_link}"/>
+
+    <message name="PHOTO_LOAD_COMPLETE" value="Загрузка завершена."/>
+    <message name="PHOTO_MENU_TITLE" value="Опубликовать фотографию"/>
+    <message name="PHOTO_REVIEW" value="Просмотр"/>
+
+    <!-- Video -->
+    <message name="VIDEO_TITLE" value="Видео"/>
+    <message name="VIDEO_LIMIT_MSG">
+        <![CDATA[<font color="#A20000"><b>Внимание!</b></font><br/><font color="#524336">Ограничение ролика <b>15Mb</b>.</font>]]>
+    </message>
+    <message name="VIDEO_LIMIT_DESC">
+        <![CDATA[Чем больше занимает места Ваш видео ролик, тем дольше он будет загружатся  на вашу страничку.]]>
+    </message>
+    <message name="VIDEO_SAVE_TITLE" value="Сохранение видео"/>
+    <message name="VIDEO_SAVE_ATTENTION">
+        <![CDATA[<font color="#A20000"><b>У вас есть несохраненное видео.</b></font>]]>
+    </message>
+    <message name="VIDEO_SAVE_SIZE">
+        <![CDATA[<b>Объем:</b> {value} Mb]]>
+    </message>
+    <message name="VIDEO_SAVE_QUESTION" value="Загрузить запись на вашу страничку?"/>
+    <message name="VIDEO_SAVE_SUCCESS" value="Успешно загружено на вашу страницу!"/>
+    <message name="VIDEO_FILE_NAME" value="Вормикс: Я vs {name} ({level} уровень)"/>
+    <message name="VIDEO_SAVING_TITLE" value="Видео сохраняется, подождите..."/>
+    <message name="VIDEO_SAVING_DESC"
+             value="Видео объемом 15мб на скорости доступа в интернет в 1Мбит сохраняется примерно 2 минуты"/>
+
+    <!-- bank -->
+    <message name="BANK_TITLE" value="Банк"/>
+    <message name="BANK_CHOOSE" value="Выберите, что вы хотите купить:"/>
+    <message name="BANK_BUY_RUBY" value="Купить рубины"/>
+    <message name="BANK_BUY_COIN" value="Купить фузы"/>
+    <message name="GO_AT_BANK" value="Вы можете приобрести фузы и рубины в банке"/>
+    <message name="BUTTON_GO_AT_BANK" value="В банк"/>
+    <message name="RUBY_PRICE" value="{count} рубинов за {price}"/>
+    <message name="FUZZES_PRICE" value="{count} фузов за {price}"/>
+    <message name="OK_CURRENCY" value="за {price} OK"/>
+
+    <message name="HU_CURRENCY" value="HUF"/>
+    <message name="BANK_BONUS" value="бонус"/>
+
+    <message name="BANK_INCOME_PAYMENT_RUBY" value="Поступил входящий платеж, на ваш счет зачислено {count} рубинов"/>
+    <message name="BANK_INCOME_PAYMENT_RUBY_ALT_END"
+             value="Поступил входящий платеж, на ваш счет зачислено {count} рубина"/>
+    <message name="BANK_INCOME_PAYMENT_RUBY_NO_END"
+             value="Поступил входящий платеж, на ваш счет зачислен {count} рубин"/>
+
+    <message name="BANK_INCOME_PAYMENT_COIN" value="Поступил входящий платеж, на ваш счет зачислено {count} фузов"/>
+    <message name="BANK_BTN" value="Добавить"/>
+
+    <!-- online battle -->
+    <message name="BATTLE_OFFER_TITLE" value="Вызов на дуэль!"/>
+    <message name="BATTLE_2X2_OFFER_TITLE" value="Командный бой!"/>
+    <message name="BATTLE_OFFER_ACCEPT" value="Принять"/>
+    <message name="BATTLE_WAITE_LABLE" value="Осталось ждать"/>
+    <message name="SEC_LABEL" value="сек"/>
+    <message name="BATTLE_OP_REQUEST_TITLE" value="Ожидание ответа от:"/>
+    <message name="ENEMY_WAITING_MSG" value="Ожидание соперника..."/>
+    <message name="BATTLE_REQUEST_MSG" value="Подождите, пока сервер подберет вам противника"/>
+
+    <message name="BATTLE_REQUEST_TITLE" value="Вызов на бой"/>
+    <message name="BATTLE_CANCEL_TITLE" value="Отмена боя"/>
+    <message name="BATTLE_REQUEST_BUSY" value="Вызываемый игрок находится в бою и не может принять вызов."/>
+    <message name="BATTLE_LOGIN_TIMEOUT" value="Превышено время подключения к pvp серверу, бой был отменен."/>
+    <message name="BATTLE_REQUEST_DECLINE" value="Игрок отклонил вызов."/>
+    <message name="BATTLE_REQUEST_NOT_ONLINE" value="Вызываемого игрока нет в игре."/>
+    <message name="PVP_SERVER_CONNECTION_ERROR" value="PvP сервер недоступен."/>
+    <message name="PVP_SERVER_LOGIN_ERROR" value="Не удалось подключится к PvP серверу."/>
+    <message name="PVP_SERVER_CONNECTION_CLOSED" value="Потеряно соединение с PvP сервером."/>
+
+    <message name="YOUR_ID" value="Ваш ID:"/>
+    <message name="ENEMY_ID" value="ID противника:"/>
+    <message name="ENTER_ID_FRIEND" value="Введите ID друга"/>
+    <message name="ENTER_INCORRECT_ID_FRIEND" value="Введенного ID не cуществует"/>
+    <message name="CALL_TO_BATTLE_YOUSELF" value="Нельзя вызывать на бой самого себя"/>
+    <message name="ENTER_ID_FRIEND_IS_NOT_FRIEND" value="Введен ID пользователя, который не является вашим другом"/>
+    <message name="EXCEEDED_MAX_LENGTH" value="Слишком длинный ID"/>
+
+    <message name="MAIN_SERVER_CONNECTION_CLOSED">
+        <![CDATA[Игра потеряла соединение с сервером. <br/>Пожалуйста, обновите страницу.]]>
+    </message>
+    <message name="PVP_SERVER_PROFILACTIC_WORK" value="На PvP сервере ведутся профилактические работы"/>
+    <message name="ENEMY_TURN_MSG" value="ожидание хода"/>
+
+    <message name="PVP_BATTLE_STUCK"
+             value="Бой был отменен сервером из-за того, что противник долгое время оставался неактивным"/>
+    <message name="PVP_BATTLE_UNSYNC" value="Бой был отменен из-за возникших ошибок рассинхронизации"/>
+
+    <message name="PVP_SERVER_DOWN" value="Техническая перезагрузка PvP сервера. Все ставки будут возвращены."/>
+    <message name="WAITING_FOR_OTHER_PLAYERS" value="Ожидание игроков..."/>
+    <message name="CURRENT_USER_ALREADY_IN_BATTLE"
+             value="Вы уже находитесь в бою. Попробуйте отправить заявку немного позже. Если ошибка остается, пожалуйста, обновите страницу."/>
+
+    <message name="BATTLE_REQUEST_UNDEFINED_RESULT" value="Неизвестная ошибка при запросе."/>
+    <message name="BATTLE_REQUEST_ACCEPTED" value="Ваша заявка принята."/>
+    <message name="BATTLE_REQUEST_BANNED" value="Вызываемый игрок забанен."/>
+    <message name="BATTLE_REQUEST_TIMEOUT" value="Превышено время ожидания ответа от сервера при заявке."/>
+    <message name="BATTLE_REQUEST_CLIENT_ERROR" value="Вызываемый игрок не смог обработать заявку."/>
+    <message name="BATTLE_REQUEST_DISCONNECTED" value="Разрыв связи при запросе."/>
+    <message name="BATTLE_REQUEST_FRIEND_LACKS_MONEY" value="У вызываемого союзника недостаточно денег!"/>
+    <message name="BATTLE_REQUEST_FRIEND_LACKS_LEVEL" value="Вызываемый союзник слишком низкого уровня!"/>
+    <message name="BATTLE_REQUEST_EXCEED_BATTLES" value="У вашего друга не осталось боев!"/>
+    <message name="BATTLE_REQUEST_MISSION_LOCKED" value="Этот босс недоступен для вашего друга!"/>
+    <message name="BATTLE_REQUEST_PLAYER_LACKS_MONEY" value="У вас недостаточно денег!"/>
+    <message name="BATTLE_REQUEST_PLAYER_LACKS_LEVEL" value="Вы слишком низкого уровня!"/>
+    <message name="BATTLE_REQUEST_PLAYER_EXCEED_BATTLES" value="У вас не осталось боев!"/>
+
+    <!-- game over title -->
+    <message name="WINNER_TITLE" value="Победа"/>
+    <message name="LOOSER_TITLE" value="Поражение"/>
+    <message name="DRAW_TITLE" value="Ничья"/>
+    <message name="OPPONENT_CHEATER" value="Противник уличен в нечестной игре"/>
+    <message name="OPPONENT_SURRENDER_TITLE" value="Противник сдался"/>
+
+    <message name="GO_EXP_LABEL" value="Получено опыта"/>
+    <message name="GO_BONUS_EXP_LABEL" value="Бонусный опыт"/>
+    <message name="GO_MONEY_LABEL" value="Получено денег"/>
+    <message name="GO_NEW_LEVEL" value="Новый уровень"/>
+    <message name="LEVEL_LABEL" value="Уровень"/>
+    <message name="BONUS" value="Бонус"/>
+
+    <message name="PROTOCOL_CHEATER">
+        <![CDATA[Ошибка в протоколе игры!]]>
+    </message>
+    <message name="FPS_CHEATER">
+        <![CDATA[Отмена боя из-за низкой производительности вашего клиента. Возможно, вы покидали страницу с игрой на какое-то время.]]>
+    </message>
+    <message name="SPEED_HACK_CHEATER">
+        <![CDATA[Бой отменен из-за низкой производительности вашего клиента. Возможно, вы покидали страницу с игрой, или скорость игры была изменена.]]>
+    </message>
+    <message name="SERVER_SAID_I_AM_CHEATER">
+        <![CDATA[Отмена боя из-за отсутствия команд с клиента. Проверьте соединение с интернетом.]]>
+    </message>
+
+    <!-- money -->
+    <message name="COIN_QTIP" value="Фузы"/>
+    <message name="RUBY_QTIP" value="Рубины"/>
+    <message name="PROMO_QTIP" value="Промо"/>
+
+    <message name="AVAILABLE_RUBIES_OFFERS_NAME" value="Специальное предложение!"/>
+    <message name="AVAILABLE_RUBIES_OFFERS_DESCR" value="Получить БЕСПЛАТНО Рубины!"/>
+
+    <message name="AVAILABLE_FUZIES_OFFERS_NAME" value="Специальное предложение!"/>
+    <message name="AVAILABLE_FUZIES_OFFERS_DESCR" value="Получить БЕСПЛАТНО Фузы!"/>
+
+    <message name="NO_OFFERS" value="Нет новых предложений"/>
+    <message name="OFFER_BUTTON_GET" value="Получить!"/>
+
+    <message name="BANK_BEST_BUY" value="Идеально!"/>
+    <message name="BANK_BIG_DANGER" value="Самый опасный бонус!"/>
+
+    <message name="OK_PAYMENT_NAME" value="Количество:"/>
+    <!-- game result -->
+    <message name="WINNER_RATING" value="Получено очков рейтинга"/>
+    <message name="WINNER_MONEY" value="Вы заработали"/>
+    <message name="LOSED_RATING" value="Потеряно очков рейтинга"/>
+    <message name="LOSED_MONEY" value="Вы потеряли свою ставку"/>
+
+    <!-- chat -->
+    <message name="DISABLE_CHAT" value="Отключить сообщения"/>
+    <message name="CHAT_DISABLED" value="Сообщения отключены"/>
+    <message name="ENABLE_CHAT" value="Включить сообщения"/>
+    <message name="CHAT_ENABLED" value="Cообщения включены"/>
+    <message name="CHAT_CALL_TO_PVP" value="хочет вызвать вас на бой!"/>
+
+    <!-- battle -->
+    <message name="EXIT_BATTLE" value="Сдаёшься?"/>
+    <message name="EXIT_BATTLE_MSG" value="Вы действительно хотите сдаться?"/>
+
+    <!-- posts -->
+    <message name="POST_NEWS_TITLE" value="Опубликовать на стену"/>
+    <message name="CREATE_STATUS_BTN" value="В cтатус"/>
+
+    <!-- qtip -->
+    <message name="EXP_QTIP" value="Текущий опыт: {cur}/{max}"/>
+    <message name="HOUSE_QTIP" value="Дом"/>
+    <message name="NEWS_QTIP" value="Новости"/>
+    <message name="RATING_QTIP" value="Рейтинг"/>
+    <message name="BONUS_QTIP" value="Вам подарок!"/>
+    <message name="SEARCH_QTIP" value="Обыщи друга первым когда он достигнет {N} уровня! Получи рубин!"/>
+    <message name="REACTION_QTIP" value="Скорость реакции"/>
+    <message name="REACTION2_QTIP" value="Прокачать скорость реакции друга"/>
+    <message name="WIND_QTIP">
+        <![CDATA[Сила и направление ветра.<br/>Некоторые виды оружий подвержены ветру]]>
+    </message>
+    <message name="CHAT_QTIP" value="Чат"/>
+    <message name="BAG_QTIP" value="Арсенал"/>
+    <message name="FLAG_QTIP" value="Сдаться"/>
+    <message name="SOUND_QTIP" value="Звук вкл./выкл."/>
+    <message name="MUSIC_QTIP" value="Музыка вкл./выкл."/>
+    <message name="ALLSOUND_QTIP" value="Звуки и музыку вкл./выкл."/>
+    <message name="QUALITY_HIGH_QTIP" value="Высокое качество графики"/>
+    <message name="QUALITY_MEDIUM_QTIP" value="Среднее качество графики"/>
+    <message name="QUALITY_LOW_QTIP" value="Низкое качество графики"/>
+    <message name="PHOTO_QTIP" value="Фото (Ctrl + P)"/>;
+    <message name="VIDEO_QTIP" value="Видео (Ctrl + V)"/>;
+    <message name="SCALE_QTIP" value="Приблизить/отдалить (+/-)"/>;
+    <message name="CONTAINS_RANDOM_WEAPON" value="Содержит случайное оружие"/>
+
+    <!-- house -->
+    <message name="EXIT_QTIP" value="Выход"/>
+    <message name="TEAM_TITLE" value="Команда"/>
+    <message name="CAN_HIRE_AT_LEVEL" value="Доступно с {lvl} уровня"/>
+    <message name="ARMORY_QTIP" value="Арсенал"/>
+    <message name="WARDROBE_QTIP" value="Гардероб"/>
+    <message name="HIRE_TITLE" value="Нанять друга"/>
+    <message name="PUMP_REACTION_OK" value="Твой друг получил +1 к реакции"/>
+    <message name="PUMP_REACTION_TODAY_ALREADY" value="Ты можешь прокачивать реакцию другу не чаще, чем 1 раз в сутки"/>
+    <message name="PUMP_REACTION_ERROR" value="Вы не можете прокачивать реакцию самому себе"/>
+    <message name="PUMP_REACTION_DAY_LIMIT" value="Достигнут дневной лимит на прокачку скорости реакции"/>
+    <message name="PUMP_REACTION_DAY_LIMIT_ADD" value="Вы повысили реакцию {count} друзьям из выбранного списка."/>
+    <message name="SEARCH_NO_RESULTS" value="пусто!"/>
+
+    <!-- обнуление профайла -->
+    <message name="WIPE_PROFILE_TITLE" value="Начать игру заново"/>
+    <message name="WIPE_PROFILE_TITLE2" value="Подтверждение"/>
+    <message name="WIPE_PROFILE_QUESTION">
+        <![CDATA[Вы уверены? Данная операция должна быть подтверждена через SMS]]>
+    </message>
+    <message name="WIPE_PROFILE_ADD_QUESTION" value="Для отправки SMS разрешите приложению присылать Вам уведомления"/>
+    <message name="WIPE_PROFILE_MSG">
+        <![CDATA[Начав игру заново, Вы потеряете все деньги, оружие, шапки, уровень и все Ваши достижения. Восстановление Ваших данных будет невозможно!]]>
+    </message>
+    <message name="WIPE_PROFILE_CODE_LABEL" value="Полученный код"/>
+    <message name="WIPE_PROFILE_EXAMPLE_LABEL" value="Пример: 2343"/>
+    <message name="WIPE_PROFILE_SMS_MSG">
+        <![CDATA[В течениие минуты на Ваш телефон, <font color="#E378FE"><a href="{social_settings_link}" target="_blank">указанный в настройках</a></font> придет SMS с кодом. Когда Вы получите код, введите его здесь и нажмите кнопку "Отправить". Все Ваши данные будут удалены.]]>
+    </message>
+    <message name="WIPE_PROFILE_LINK_PAGE_PHONE_NUMBER"
+             value='Привяжите свою страницу к номеру телефона в секции "Изменить номер телефона"'/>
+    <message name="WIPE_PROFILE_CHANGE_PHONE_NUMBER_BTN" value="Задать номер телефона"/>
+    <message name="WIPE_PROFILE_WRONG_MOBILE_NUMBER"
+             value="Не удалось отправить SMS на телефон, указанный в настройках. Попробуйте повторить позже"/>
+    <message name="WIPE_PROFILE_SIMPLE_QUESTION" value="Вы уверены?"/>
+    <message name="WIPE_PROFILE_ACCESS" value="Начать игру сначала можно только после достижения 10-го уровня!"/>
+    <message name="WIPE_PROFILE_DAILY_LIMIT_EXCEEDED"
+             value="Превышено общее количество обнулений профайла в день, попробуйте повторить завтра"/>
+    <message name="WIPE_PROFILE_TODAY_ALREADY_WIPED" value="Начать игру заново можно только раз в день"/>
+    <message name="WIPE_PROFILE_ENTER_SMS_CODE" value='Пришедший Вам код по SMS внесите в поле "Полученный код"'/>
+    <message name="WIPE_PROFILE_SUCCESS" value="Ваши данные успешно удалены, обновите пожалуйста страницу"/>
+    <message name="WIPE_PROFILE_ENTER_NOT_SMS_CODE" value="Некорректный код"/>
+
+    <!-- bag -->
+    <message name="BAG_TITLE" value="Рюкзак"/>
+
+    <!-- rating -->
+    <message name="RATING_TITLE" value="Рейтинг лучших"/>
+    <message name="RATING_POS_LABEL" value="место"/>
+    <message name="RATING_TO_DAY" value="Сегодня"/>
+    <message name="RATING_YESTERDAY" value="Вчера"/>
+    <message name="RATING_ALL_TIME" value="Все время"/>
+
+    <message name="LOWER_RATING_LEAGUE" value="Лига новичков"/>
+    <message name="FIGHTER_RATING_LEAGUE" value="Лига бойцов"/>
+    <message name="VETERAN_RATING_LEAGUE" value="Лига ветеранов"/>
+    <message name="MASTER_RATING_LEAGUE" value="Лига мастеров"/>
+    <message name="ACE_RATING_LEAGUE" value="Лига асов"/>
+    <message name="RUBY_RATING_LEAGUE" value="Рубиновая лига"/>
+
+    <message name="DESCR_LOWER_RATING_LEAGUE"
+             value="В мире Вормикс нет ни тайн, ни уловок. Противники уважают друг друга и не хитрят. Вы что серьезно верите в это? Это ваша лига. Вы - новичок."/>
+    <message name="DESCR_FIGHTER_RATING_LEAGUE"
+             value="ЛИГА БОЙЦОВ."/>
+    <message name="DESCR_VETERAN_RATING_LEAGUE"
+             value="Теперь-то вы знаете, что секрет успеха в Вормикс - большая пушка."/>
+    <message name="DESCR_MASTER_RATING_LEAGUE"
+             value="Сила воли - вот что отличает мастера от новичка. Только невероятная сила воли помогает не злорадствовать, сталкивая противника в воду в первый же ход."/>
+    <message name="DESCR_ACE_RATING_LEAGUE"
+             value="Вы выбираете оружие не для того, чтоб победить. Но для того, чтоб сделать это красиво."/>
+    <message name="DESCR_RUBY_RATING_LEAGUE"
+             value="Только звезды выше вас. И ниже вас звезды. Потому что это Рубиновая лига - здесь все звезды!"/>
+
+    <!-- help -->
+    <message name="HELP_TITLE" value="Управление"/>
+
+    <!-- bonus -->
+    <message name="BONUS_EXP" value="опыт +"/>
+
+    <message name="BONUS_HOLIDAYS_TITLE" value="Праздничный бонус!"/>
+    <message name="BONUS_HOLIDAYS_DEFAULT_MSG">
+        <![CDATA[<b>Поздравляем!<br>Подробности читайте в официальной группе <font color="#0033FF"><a href="{wormix_club_link}" target="_blank">{wormix_club_text}</a></font></b>]]>
+    </message>
+    <message name="DAILY_BONUS_TITLE" value="Ежедневный бонус!"/>
+    <message name="DAILY_BONUS_CONGRATZ" value="Поздравляем! Ваш ежедневный бонус:"/>
+    <message name="DAILY_BONUS_TEXT" value="Заходите каждый день, чтобы цепочка бонусов не прервалась!"/>
+    <message name="DAILY_BONUS_DAY" value="{day} день"/>
+    <message name="DAILY_BONUS_BALLOON" value="У Вас бонус!"/>
+    <message name="DAILY_BONUS_BTN" value="Забрать"/>
+
+    <message name="NEED_RUBY_TITLE" value="Нужны рубины"/>
+    <message name="NEED_RUBY_BUTTON1_TEXT" value="Пригласи друга"/>
+    <message name="NEED_RUBY_BUTTON2_TEXT" value="Обыщи его домик первым!"/>
+    <message name="NEED_RUBY_BUTTON3_TEXT" value="Получи рубин"/>
+    <message name="NEED_RUBY_BUTTON4_TEXT" value="Пригласить друзей"/>
+    <message name="NEED_RUBY_CHECKBOX_TEXT" value="Мне не нужны бесплатные рубины, и я хочу закрыть это окно навсегда"/>
+
+    <message name="NO_FIVE_DAY_TITLE" value="Обыск"/>
+    <message name="NO_FIVE_DAY_DESCR" value="Вы ничего не нашли, потому что Ваш друг давно не заходил в игру!"/>
+
+    <!-- map -->
+    <message name="RANDOM_MAP" value="Случайная карта"/>
+    <message name="SELECT_RANDOM_MAP" value="Выбрать случайную карту"/>
+    <message name="SELECT_MAP_TITLE" value="Выбор карты"/>
+
+    <!-- map names -->
+    <message name="MAP.LIBERTY" value="Статуя свободы"/>
+    <message name="MAP.CREAM" value="Сладости"/>
+    <message name="MAP.SAND" value="Песочница"/>
+    <message name="MAP.SIGNS" value="Знаки"/>
+    <message name="MAP.BAMBOO" value="Бамбуки"/>
+    <message name="MAP.FRUITS" value="Фрукты"/>
+    <message name="MAP.DINO" value="Острова"/>
+    <message name="MAP.BAMBOO_NEW" value="Бамбуки 2"/>
+    <message name="MAP.PIRATE" value="Пиратский остров"/>
+    <message name="MAP.TREES" value="Сказочный лес"/>
+    <message name="MAP.AVATAR" value="Аватар"/>
+    <message name="MAP.CHUDO" value="Чудо-юдо"/>
+    <message name="MAP.MOUSE" value="Мышь"/>
+    <message name="MAP.CHRISTMAS" value="Новый год"/>
+    <message name="MAP.TRAIN" value="Поезд"/>
+    <message name="MAP.VILLA" value="Вилла"/>
+    <message name="MAP.CHRISTMAS" value="Новый год"/>
+    <message name="MAP.CAKE" value="День Рождения"/>
+    <message name="MAP.DOSERS" value="Бульдозеры"/>
+    <message name="MAP.TEA_PARTY" value="Чаепитие"/>
+    <message name="MAP.LAB_PAST" value="Лаборатория"/>
+    <message name="MAP.ASTEROID_BATTLE" value="Астероид"/>
+    <message name="MAP.PUMPKINS" value="Тыквы"/>
+    <message name="MAP.HELL" value="В Аду"/>
+    <message name="MAP.WILDWEST" value="Дикий запад"/>
+    <message name="MAP.MYSTERIOUS_ISLAND" value="Таинственный остров"/>
+    <message name="MAP.GLADE_NEW" value="Полянка"/>
+    <message name="MAP.DINO_BONES" value="Кости"/>
+    <message name="MAP.COPPER_MOUNTAIN" value="Медная гора"/>
+    <message name="MAP.DRACULA" value="Дракула"/>
+    <message name="MAP.HOGWARTS" value="Хогвартс"/>
+    <message name="MAP.ABORIGINE" value="Абориген"/>
+    <message name="MAP.BEACH" value="Пляж"/>
+    <message name="MAP.UNDERWATER" value="Подводный мир"/>
+    <message name="MAP.PARADISE" value="Райcкий островок"/>
+    <message name="MAP.WAR" value="Войнушка"/>
+    <message name="MAP.BASKETBALL" value="Баскетбол"/>
+    <message name="MAP.SAWMILL" value="Лесопилка"/>
+    <message name="MAP.ROCK" value="Рок"/>
+    <message name="MAP.ARSENAL" value="Арсенал"/>
+    <message name="MAP.ITALY" value="Италия"/>
+    <message name="MAP.FASTFOOD" value="Фастфуд"/>
+    <message name="MAP.JUNGLE" value="Джунгли"/>
+    <message name="MAP.RETRO" value="Ретро"/>
+    <message name="MAP.SPONGEBOB" value="Губка Боб"/>
+    <message name="MAP.HELLOWEEN" value="Хэллоуин"/>
+    <message name="MAP.LONDON" value="Лондон"/>
+    <message name="MAP.CASTLE" value="Замки"/>
+    <message name="MAP.FROZEN_DRAGON" value="Ледяной дракон"/>
+    <message name="MAP.GLACIER" value="Ледник"/>
+    <message name="MAP.VIKING" value="Викинги"/>
+    <message name="MAP.CONGELATION" value="Мерзлота"/>
+    <message name="MAP.SIEGE" value="Осада"/>
+    <message name="MAP.NAVAL_BATTLE" value="Морская битва"/>
+    <message name="MAP.SEA_FORT" value="Морской форт"/>
+    <message name="MAP.PIRATE_BAY" value="Пиратская бухта"/>
+    <message name="MAP.LAGOON" value="Лагуна"/>
+    <message name="MAP.KRAKEN" value="Кракен"/>
+    <message name="MAP.THREE_ISLANDS" value="Три острова"/>
+    <message name="MAP.CRADLE" value="Колыбель"/>
+    <message name="MAP.CRASH" value="Крушение"/>
+    <message name="MAP.DUNGEON" value="Подземелье"/>
+    <message name="MAP.ENDLESS_DESERT" value="Бескрайняя пустыня"/>
+    <message name="MAP.FOREST_HUT" value="Лесная хижина"/>
+    <message name="MAP.MANIAC" value="Маньяк"/>
+    <message name="MAP.VALLEY_MILLS" value="Долина мельниц"/>
+    <message name="MAP.ROAD_RACES" value="Дорожные гонки"/>
+    <message name="MAP.HIGHWAY" value="Шоссе"/>
+    <message name="MAP.GAS_STATION" value="Заправка"/>
+    <message name="MAP.ABANDONED_MINES" value="Заброшенные шахты"/>
+    <message name="MAP.CITY_MINERS" value="Город горняков"/>
+    <message name="MAP.ESCAPE" value="Побег"/>
+    <message name="MAP.FISHING_VILLAGE" value="Рыбацкая деревушка"/>
+    <message name="MAP.VILLAGE" value="Деревня"/>
+    <message name="MAP.APOCALYPSE" value="Апокалипсис"/>
+    <message name="MAP.CHURCH" value="Храм"/>
+    <message name="MAP.DARK_KNIGHT" value="Темная крепость"/>
+    <message name="MAP.PRISON" value="Тюрьма"/>
+    <message name="MAP.ZEON" value="Зеон"/>
+    <message name="MAP.ESTATE" value="Поместье"/>
+    <message name="MAP.PSIONIC" value="Псионик"/>
+    <message name="MAP.DRUID" value="Роща друидов"/>
+    <message name="MAP.MARS" value="Марсианское подземелье"/>
+    <message name="MAP.SNOWOODS" value="Снегобор"/>
+
+    <!-- race -->
+    <message name="RACE_TITLE" value="Выбор расы"/>
+    <message name="RACE_BUY_MESSAGE" value="Вы хотите приобрести расу"/>
+    <message name="RACE_UNAVAILABLE" value="Нельзя выбрать эту расу"/>
+    <message name="RACE_BOXER_NAME" value="Боксёр"/>
+    <message name="RACE_BOXER_DESCR" value="Боксёры - свирепые и могучие воины, чьё здоровье закалено в боях. О крепкости их черепов ходят легенды."/>
+    <message name="RACE_DEMON_NAME" value="Демон"/>
+    <message name="RACE_DEMON_DESCR" value="Демоны - жестокие воины. Преданы хозяину и не знают пощады. Их шкура закалена адским пламенем."/>
+    <message name="RACE_RABBIT_NAME" value="Заяц"/>
+    <message name="RACE_RABBIT_DESCR" value="Зайцы быстрые, как молния. А вера в Великую Морковку позволяет им заживлять раны прямо на поле боя."/>
+    <message name="RACE_ZOMBIE_NAME" value="Зомби"/>
+    <message name="RACE_ZOMBIE_DESCR" value="Зомби не чувствуют боли и эмоций, они хладнокровно приведут вас к долгожданной победе."/>
+    <message name="RACE_CAT_NAME" value="Кот"/>
+    <message name="RACE_CAT_DESCR" value="Коты - хитрые мастера уловок, они всегда найдут, чем удивить врага."/>
+    <message name="RACE_DRAGON_NAME" value="Дракон"/>
+    <message name="RACE_DRAGON_DESCR">
+        <![CDATA[Никто не верил в них. Все считали их просто сказкой. Но они вернулись, неся с собой огонь! Настоящие. Летающие... Драконы!]]>
+    </message>
+
+    <!-- ability -->
+    <message name="ABILITIES_LABEL" value="Особенности"/>
+    <message name="NO_ABILITIES" value="отсутствуют"/>
+
+    <message name="ABILITY_ARMOR_NAME" value="Крепкий череп"/>
+    <message name="ABILITY_ARMOR_DESCR">
+        <![CDATA[Персонаж получает постоянную прибавку <b>+{armor} единицы к броне</b>.]]>
+    </message>
+    <message name="ABILITY_HP_NAME" value="Могучее здоровье"/>
+    <message name="ABILITY_HP_DESCR">
+        <![CDATA[Постоянный бонус <b>+{hpPct}% к здоровью</b>.]]>
+    </message>
+
+    <message name="ABILITY_UNDERWATER_NAME" value="Подводное дыхание"/>
+    <message name="ABILITY_UNDERWATER_DESCR" value="Демон не может утонуть, пока ему есть на чем стоять."/>
+
+    <message name="ABILITY_POISON_NAME" value="Смертельный яд"/>
+    <message name="ABILITY_POISON_DESCR">
+        <![CDATA[Яд наносит на <b>{value}% больше урона</b>.]]>
+    </message>
+    <message name="ABILITY_SPEED_NAME" value="Мобильность"/>
+    <message name="ABILITY_SPEED_DESCR">
+        <![CDATA[Зайцы перемещаются быстрее остальных рас и гораздо выше прыгают. <b>Для высокого прыжка нажмите кнопку два раза</b>.]]>
+    </message>
+
+    <message name="ABILITY_REGEN_NAME" value="Регенерация"/>
+    <message name="ABILITY_REGEN_DESCR">
+        <![CDATA[Получив большие повреждения, заяц начинает нервно грызть морковку, восстанавливая здоровье в конце каждого хода своей команды.]]>
+    </message>
+
+    <message name="ABILITY_REVIVAL_NAME" value="Марш зомби"/>
+    <message name="ABILITY_REVIVAL_DESCR">
+        <![CDATA[Враги, которых убил зомби, восстают из могил, чтобы сражаться против бывших товарищей. У поднятых зомби более темный цвет и нет расовых особенностей.]]>
+    </message>
+
+    <message name="ABILITY_DMGREDUCTION_NAME" value="Неудержимость"/>
+    <message name="ABILITY_DMGREDUCTION_DESCR">
+        <![CDATA[Любой урон, получаемый персонажем, уменьшается на {dmgReduction} ед. (временное умение).]]>
+    </message>
+
+    <message name="ABILITY_REVENGE_NAME" value="Месть из могилы"/>
+    <message name="ABILITY_REVENGE_DESCR">
+        <![CDATA[Никто не может безнаказанно уничтожить зомби!]]>
+    </message>
+
+    <message name="ABILITY_CLIMBING_NAME" value="Кошачья ловкость"/>
+    <message name="ABILITY_CLIMBING_DESCR">
+        <![CDATA[Коты умеют карабкаться по стенам и потолку. Дважды нажмите кнопку прыжка, чтобы уцепиться.]]>
+    </message>
+
+    <message name="ABILITY_PHASING_NAME" value="Кошачья удача"/>
+    <message name="ABILITY_PHASING_DESCR">
+        <![CDATA[Когда жизненные силы кота на исходе, он получает шанс избежать любого урона.]]>
+    </message>
+
+    <message name="ABILITY_FLYING_NAME" value="Полет дракона"/>
+    <message name="ABILITY_FLYING_DESCR" value="Дракон умеет парить в воздухе, преодолевая большие расстояния. Для взлета дважды нажмите кнопку прыжка."/>
+
+    <message name="ABILITY_FIERY_PACE_NAME" value="Огненная поступь"/>
+    <message name="ABILITY_FIERY_PACE_DESCR" value="Дракон оставляет за собой след из угольков, которые загораются на следующий ход и могут нанести урон врагу."/>
+
+    <!-- buttons -->
+    <message name="BUTTON_OK" value="Ок"/>
+    <message name="BUTTON_CANCEL" value="Отмена"/>
+    <message name="BUTTON_REJECT" value="Отказаться"/>
+    <message name="BUTTON_YES" value="Ок"/>
+    <message name="BUTTON_NO" value="Нет"/>
+    <message name="BUTTON_CLOSE" value="Закрыть"/>
+    <message name="BUTTON_HIRE" value="Нанять!"/>
+    <message name="BUTTON_BUY" value="Купить"/>
+    <message name="BUTTON_RESET" value="Сбросить"/>
+    <message name="BUTTON_SELECT" value="Выбрать"/>
+    <message name="BUTTON_PUBLISH" value="Опубликовать"/>
+    <message name="BUTTON_SEND" value="Отправить"/>
+    <message name="BUTTON_REQUEST" value="Вызвать!"/>
+    <message name="BUTTON_ARENA" value="На арену"/>
+    <message name="BUTTON_BALLS" value="Распределить баллы"/>
+    <message name="BUTTON_NEW_PROFILE" value="Начать заново"/>
+    <message name="BUTTON_ASK_FRIEND" value="Попросить"/>
+    <message name="BUTTON_ASK_FRIEND2" value="Помощь друга"/>
+
+    <!-- battle load descr -->
+    <message name="BATTLE_INIT" value="Инициализация"/>
+    <message name="BATTLE_INIT_POS" value="Расстановка позиций"/>
+    <message name="BATTLE_INIT_MAP" value="Инициализация карты"/>
+    <message name="BATTLE_LOAD_MAP_CONFIG" value="Загрузка параметров карты"/>
+    <message name="BATTLE_LOAD_MAP" value="Загрузка карты"/>
+    <message name="BATTLE_ENEMY_DATA_LOAD" value="Загрузка противника"/>
+    <message name="BATTLE_PVP_LOGIN" value="Логин на pvp сервер"/>
+    <message name="BATTLE_MISSION_LOAD" value="Загрузка миссии"/>
+    <message name="BATTLE_PVP_CONNECT" value="Подключение к pvp серверу"/>
+
+    <!-- ingame messages -->
+    <message name="GRENADE_TIMER" value="Снаряд взорвется через {counter} сек."/>
+    <message name="CROSSHAIR_TOO_HIGH" value="Слишком высоко!"/>
+    <message name="GIRDER_IMPOSSIBLE" value="Нельзя ставить Балку на земле или близко к персонажу!"/>
+    <message name="ALREADY_BANDAGED" value="Боец уже перевязан!"/>
+    <message name="ALREADY_ANTITOXIN" value="Антитоксин уже использован!"/>
+    <message name="BANDAGE_USELESS" value="Перевязка сейчас бесполезна"/>
+    <message name="HAVE_WATER_PROTECTION" value="Защита от утопления уже есть!"/>
+
+    <message name="INVITE_FRIENDS_TEXT" value="Попробуй Вормикс!"/>
+
+    <!-- notes -->
+    <message name="NOTE_TITLE" value="Заметка"/>
+    <message name="NOTE_TITLE_WINNER" value="Вормикс-отчет. Победа! Противник {name}"/>
+    <message name="NOTE_TITLE_LOOSER" value="Вормикс-отчет. Поражение. Противник {name}"/>
+    <message name="NOTE_TITLE_DRAW_GAME" value="Вормикс-отчет. Ничья. Противник {name}"/>
+    <message name="NOTE_BODY">
+        <![CDATA[<b>Моя команда:</b> {my_team_descr}. <br/> <b>Команда противника:</b> {opponent_team_descr}.]]>
+    </message>
+    <message name="NOTE_LEVEL" value="Уровень"/>
+    <message name="TITLE_ADD_NOTE" value="Сохранение заметки"/>
+    <message name="NOTE_ADD_SUCCESS" value="Заметка успешно сохранена и появится на Вашей странице"/>
+    <message name="NOTE_ADD_ERROR" value="При сохранении заметки произошла ошибка"/>
+    <message name="CREATE_NOTE_BTN" value="В заметку"/>
+    <message name="NOTE_BALLS_ATTENTION" value="Вам доступны баллы для повышения параметров!"/>
+    <message name="NEWS_SUBTITLE" value='Ваш "Вестник Войны"'/>
+
+    <!-- PVP system messages -->
+    <message name="SYSPVP_OPPONENT_OUT" value="Игрок %1 не смог вернуться в игру"/>
+    <message name="SYSPVP_INACTIVITY_DROP" value="Игрок %1 неактивен"/>
+    <message name="SYSPVP_UNCONFIRMED_EOT" value="Игрок %1 не подтвердил передачу хода"/>
+    <message name="SYSPVP_OPPONENT_SURRENDER" value="Игрок %1 сдался"/>
+    <message name="SYSPVP_OPPONENT_CHEATER" value="Игрок %1 выкинут из игры"/>
+    <message name="SYSPVP_OPPONENT_LOST_CONNECTION" value="Игрок %1 потерял соединение"/>
+    <message name="SYSPVP_OPPONENT_RETURNED" value="Игрок %1 вернулся в игру"/>
+    <message name="SYSPVP_PLAYER_REPEATED_COMMAND" value="Повторная команда от игрока %1"/>
+    <message name="SYSPVP_PLAYER_SKIPPED_COMMAND" value="Игрок %1 пропустил команду"/>
+    <message name="SYSPVP_LONG_TURN" value="Ход длится слишком долго!"/>
+    <message name="SYSPVP_UNDEFINED" value="Неизвестное сообщение"/>
+    <!-- PVP ingame messages -->
+    <message name="SYSPVP_NEW_TURN" value="Ход #%1 (%2)"/>
+    <message name="SYSPVP_PLAYER_WIPED" value="Игрок %1 уничтожен!"/>
+    <message name="COMMON_CHAT_BTN" value="Общий"/>
+    <message name="TEAM_CHAT_BTN" value="Команда"/>
+    <message name="CLAN_CHAT_BTN" value="Клан"/>
+
+    <!-- ingame popups -->
+    <message name="MASSIVE_DAMAGE" value="МОНСТР!"/>
+    <message name="DOUBLE_KILL" value="ДВОЙНОЕ УБИЙСТВО!"/>
+    <message name="TRIPPLE_KILL" value="ТРОЙНОЕ УБИЙСТВО!"/>
+    <message name="ULTRA_KILL" value="ПОЛНОЕ УНИЧТОЖЕНИЕ!"/>
+
+    <!-- ACHIEVEMENT MESSAGE -->
+    <message name="ACHIEVEMENT_MESSAGE_1"
+             value="А у меня новое достижение в Вормикс: {achievement_name}! Не веришь? Зайди и сыграй!"/>
+    <message name="ACHIEVEMENT_MESSAGE_2" value="Поздравляем! Новое достижение - {achievement_name} в Вормикс"/>
+    <message name="ACHIEVEMENT_MESSAGE_3"
+             value="Ходят слухи, что {user_name} получил достижение {achievement_name} в Вормикс. Так вот это не слухи! И, кстати, я очень опасен!"/>
+
+    <!-- AWARD MESSAGE -->
+    <message name="LITTLE_COUNT_POINTS" value="Вам не хватает {balance} очков достижений"/>
+    <message name="NEDD_AWARD_MSG" value="Чтобы открыть это снаряжение, вам надо взять награды на предыдущих уровнях"/>
+    <message name="NEDD_AWARD" value="Требуется наград: {difLevel}"/>
+
+    <message name="BTN_SHARE_NAME" value="Поделиться"/>
+    <message name="WIN_GAME_SHARE" value="На стену"/>
+
+    <message name="NO_KEYS_IN_SEARCH_HOUSE" value="нет ключей!"/>
+    <message name="HINT_KEY_COUNT" value="Осталось {count} отмычек"/>
+
+    <!-- статус после боя -->
+    <message name="STATUS_TEXT" value="Жаждешь новых битв? Расскажи друзьям - и они откликнутся!"/>
+    <message name="WINNER_STATUS" value="Я победил {opponent} в Вормикс!!!"/>
+    <message name="STATUS_CALL_REQUEST_0" value="Заходи в Вормикс. Порву любого!"/>
+    <message name="STATUS_CALL_REQUEST_1" value="Кто хочет сразиться в Вормикс? Я готов!"/>
+    <message name="STATUS_CALL_REQUEST_2" value="Моя базука жаждет крови! Встретимся в Вормикс!"/>
+    <message name="STATUS_CALL_REQUEST_3" value="Жду вызов на дуэль в Вормикс!"/>
+
+    <message name="OPENING_SOON" value="Скоро открытие!"/>
+
+    <message name="BOSS_GAMEOVER_TITLE_1" value="Победа!"/>
+    <message name="BOSS_GAMEOVER_TITLE_2" value="Злодей повержен!"/>
+    <message name="BOSS_GAMEOVER_BONUS_DESCRIPTION"
+             value="Это был нелёгкий бой, но ты справился! Вот твоя заслуженная награда:"/>
+    <message name="BOSS_GAMEOVER_REWARD_DESCRIPTION" value="Трофейное оружие и обмундирование:"/>
+    <message name="BOSS_GAMEOVER_TROPHY" value="* Трофейная шапка пропадёт на следующий день"/>
+
+    <message name="BOSS_GAMEOVER_LOSE_TITLE_2" value="Злодей одержал верх!"/>
+    <message name="BOSS_GAMEOVER_LOSE_DESCR_1" value="На этот раз злодей одержал верх! Не отчаивайся, в следующий раз"/>
+    <message name="BOSS_GAMEOVER_LOSE_DESCR_2" value="Ты победишь!"/>
+
+    <message name="BOSS_GAMEOVER_DRAW_TITLE_2" value="Время отступить!"/>
+    <message name="BOSS_GAMEOVER_DRAW_DESCR" value="Это редко случается, но силы равны! Самое время отступить, и набраться сил."/>
+    <message name="DRAW_GAMEOVER_BOSS_MESSAGE" value="Это редко случается, но силы равны!"/>
+
+    <message name="TUTORIAL_COMPLETE_MESSAGE" value="Обучающая миссия: '{name_mission}' пройдена!"/>
+
+    <message name="DESCR_REWARD_BOSS_INFO_FIRST_COMPLETE" value="Награда за первое прохождение:"/>
+    <message name="DESCR_REWARD_BOSS_INFO" value="Награда:"/>
+    <message name="BATTLE_BTN" value="В бой!"/>
+
+    <message name="ONE_DAY_PANEL_NAME" value="Ура! Победа! Теперь пора отдохнуть.."/>
+    <message name="ONE_DAY_PANEL_DESCR"
+             value="Вы можете пройти лишь одно приключение, убив одного босса в день."/>
+    <message name="ONE_DAY_PANEL_RETURN_TOMORROW" value="Возвращайтесь завтра!"/>
+
+    <message name="HELP_LEARNING_MISSION_ITEM_MENU"
+             value="Настоятельно рекомендуем пройти обучение перед настоящими боями."/>
+
+    <message name="LEVEL_NOT_APPROPRIATE_PANEL_NAME" value="Ты храбр! Но одного этого мало.."/>
+    <message name="LEVEL_NOT_APPROPRIATE_PANEL_DESCR"
+             value="Ты слишком низкого уровня, чтобы вступить в такие серьезные сражения!"/>
+
+    <message name="NO_PATH_TEXT" value="Вы не можете сейчас напасть на этого босса, так как не расчистили путь к нему"/>
+
+    <message name="BONUS_ATTACK" value="+{value} к атаке"/>
+    <message name="BONUS_ARMOR" value="+{value} к защите"/>
+    <message name="UNLOCK_BOSS_PANEL_TITLE" value="Подтверждение"/>
+    <message name="UNLOCK_BOSS_PANEL_TEXT" value="Вы уверены, что хотите разблокировать этого босса?"/>
+    <message name="UNLOCK_BOSS_RESULT_TITLE" value="Подтверждение"/>
+    <message name="UNLOCK_BOSS_RESULT_SUCCESS" value="Босс успешно разблокирован!"/>
+    <message name="UNLOCK_BOSS_RESULT_ERROR" value="Произошла ошибка! код ошибки {code}"/>
+    <message name="UNLOCK_BOSS_TEXT" value="Открыть за"/>
+
+    <message name="BACK_BTN" value="назад"/>
+
+    <message name="SUCCESS_SEND" value="Сообщение успешно отправлено"/>
+
+    <message name="MOVE_TEAMMATE_HINT" value="Поменять очередность ходов"/>
+
+    <message name="KAMIKAZE_ALREADY_ACTIVATED" value="Вы уже активировали взрывчатку!"/>
+
+    <!-- return friends -->
+    <message name="RETURN_FRIEND_BTN_QTIP" value="Вернуть друга"/>
+    <message name="RETURN_FRIENDS_MENU_TITLE" value="Верни бойцов!"/>
+    <message name="RETURN_FRIENDS_MENU_MSG" value="Некого возвращать, все твои друзья играют! Почёт тебе и уважение!"/>
+    <message name="RETURN_FRIENDS_MENU_BTN" value="Вернуть в строй!"/>
+    <message name="RETURN_FRIENDS_MENU_DESCR_1" value="Отправь своим друзьям приглашение вернуться в Вормикс!"/>
+    <message name="RETURN_FRIENDS_MENU_DESCR_2"
+             value="За каждого друга, который примет твое приглашение и вернётся в игру, ты получишь награду:"/>
+    <message name="RETURN_FRIENDS_MENU_LABEL_1" value="Вы вернёте:"/>
+    <message name="RETURN_FRIENDS_MENU_LABEL_2" value="Награды:"/>
+    <message name="RETURN_FRIENDS_MENU_DISABLE_TEXT_BTN" value="отправлено"/>
+    <message name="RETURN_FRIEND_REWARD_MENU_DESCR_1" value="Вернул друга в игру? Получай заслуженную награду!"/>
+    <message name="RETURN_FRIEND_REWARD_MENU_DESCR_2" value="С возвращением!"/>
+
+    <message name="RETURN_FRIEND_REQUEST_MENU_TITLE" value="С возвращением!"/>
+    <message name="RETURN_FRIEND_REQUEST_MENU_DESCR"
+             value="Отблагодари друга, который вернул тебя в игру!"/>
+    <message name="RETURN_FRIEND_REQUEST_CELL_DESCR" value="приглашает вас вернуться в игру!"/>
+    <message name="RETURN_FRIEND_REQUEST_CELL_BTN" value="Отправить!"/>
+    <message name="REAGENTS_QTIP" value="Ресурсы"/>
+    <message name="RETURN_FRIEND_REQUEST_MENU_MSG" value="Вы действительно хотите отправить награду этому игроку?"/>
+
+    <message name="RETURN_FRIEND_POST_MSG" value="Я вернул друга в игру и получил награду!"/>
+    <message name="COMEBACK_POST_MSG" value="Я вернулся в Вормикс и получил награду!"/>
+
+    <message name="NOT_TAKEN_AWARD_FOR_ACHIEV" value="Вы еще не взяли ни одной награды за достижения!"/>
+    <message name="RESET_AWARD_ACHIEV_BTN_QTIP" value="Сбросить награды"/>
+    <message name="TITLE_RESET_AWARD_ACHIEV" value="Вы уверены, что хотите сбросить все награды за рубины?"/>
+
+    <message name="UPDATE_YOUR_PLAYER" value="Пожалуйста, обновите flash плеер до последней версии."/>
+
+    <message name="BY_DEFAULT" value="по умолчанию"/>
+    <message name="BATTLE_SETTINGS_MENU_TITLE" value="Меню настроек"/>
+    <message name="QUALITY_CONTROL_PANEL_TITLE" value="Качество графики"/>
+    <message name="SETTING_EFFECT_TITLE" value="Облака и дополнительные эффекты"/>
+
+    <message name="ERROR_AT_UPDATE_BALANCE" value="Произошла ошибка при пополнении баланса"/>
+
+    <message name="PVP_WAGER_FRIEND_BTN" value="Выбрать напарника!"/>
+    <message name="CALL_FRIEND_ON_PVP_MENU_TITLE" value="Позвать друга"/>
+
+    <message name="FULL_SCREEN_ON_BTN_HINT" value="включить полноэкранный режим"/>
+    <message name="FULL_SCREEN_OFF_BTN_HINT" value="выйти из полноэкранного режима"/>
+
+    <message name="OFFHAND_TAB" value="Артефакты"/>
+    <message name="HEAL_BONUS" value="Бонус к лечению"/>
+
+    <!-- team colors -->
+    <message name="SYSPVP_YOU_PLAY_FOR" value="Вы играете за %1 команду."/>
+    <message name="SYSPVP_ALLY_PLAYS_FOR" value="Ваш союзник играет за %1 команду."/>
+    <message name="COLOR_GREEN_ACCUS" value="зеленую"/>
+    <message name="COLOR_RED_ACCUS" value="красную"/>
+    <message name="COLOR_YELLOW_ACCUS" value="желтую"/>
+    <message name="COLOR_BLUE_ACCUS" value="синюю"/>
+    <message name="COLOR_UNKNOWN_ACCUS" value="неизвестную"/>
+
+    <message name="FRIEND_EXCEED_BATTLES" value="У друга закончились бои"/>
+    <message name="FRIEND_MISSION_LOCKED" value="Другу недоступен этот бой"/>
+    <message name="NO_FRIENDS_FOR_COOP_MISSION" value="Нет друзей онлайн для совместного прохождения!"/>
+
+    <message name="BOSS_RESOURCES_LOAD" value="Загрузка босса"/>
+
+    <message name="SCENARIO_REQUIREMENT" value="пройти босса: {scenario}"/>
+    <message name="SHOP_SCENARIO_REQUIREMENT" value="Необходимо пройти босса:"/>
+
+    <message name="ATTACK_SHOCK" value="Урон от тока"/>
+    <message name="REDUCTION_SHOCK" value="Защита от тока"/>
+    <message name="PHOTO_STUDIO_ARTEFACT_BUTTON_QTIP" value="Сменить артефакт"/>
+
+    <message name="SEARCH_FRIEND_MENU_TITLE" value="Поиск друга"/>
+    <message name="SEARCH_FRIEND_LABEL" value="Введите имя или id игрока:"/>
+    <message name="SEARCH_FRIEND_BTN" value="Искать"/>
+    <message name="FRIENDS_NOT_FOUND" value="Не найдено ни одного друга"/>
+
+    <message name="SUPER_BOSSES_MODE_BTN" value="Супербоссы"/>
+
+    <message name="CRAFT_COST" value="Стоимость: "/>
+    <message name="OR_LABEL" value="или"/>
+    <message name="CRAFT_COMPLETE" value="Предмет успешно создан!"/>
+    <message name="CRAFT_COMPLETE_POPUP_BTN" value="Отлично!"/>
+    <message name="CRAFTED_ITEM_ADDED" value="Предмет добавлен в гардероб"/>
+
+    <message name="TITLE_HEROIC_BOSSES_PANEL" value="Каждый день - новые комбинации соперников!"/>
+    <message name="UNAVAILABLE_PANEL_TITLE" value="Неизвестный субъект! Босс не пройден!"/>
+    <message name="UNAVAILABLE_PANEL_DESCRIPTION_1" value="Бой против этой парочки вам пока недоступен."/>
+    <message name="UNAVAILABLE_PANEL_DESCRIPTION_2" value="Требуется пройти боссов:"/>
+    <message name="AVAILABLE_PANEL_DESCRIPTION"
+             value="На каждом из уровней сложности вас ждёт поединок с командой из двух боссов. Чем выше сложность, тем выше награда."/>
+
+    <message name="TODAY_AWARD_TITLE" value="Знак отличия сильнейших!"/>
+    <message name="TODAY_AWARD_DESCRIPTION"
+             value="Бейся за места в топе ежедневного рейтинга и получи уникальную шапку на 24 часа!"/>
+    <message name="CLAN_SEASON_AWARD"
+             value="Сражайтесь вместе с вашим кланом, чтобы стать первыми в сезонном рейтинге. Кланы, вошедшие в топ 100, получают награду и клановое знамя!"/>
+
+    <message name="SHOW_CLAN_INFO_BTN" value="Показать клан"/>
+    <message name="INCREASE_AIR_DAMAGE" value="Урон возд. атак"/>
+    <message name="AIR_REDUCTION" value="Air damage reduction"/>
+
+    <message name="EASY_MISSION" value="Разведка"/>
+    <message name="MEDIUM_MISSION" value="Ликвидация"/>
+    <message name="HARD_MISSION" value="Сражение"/>
+
+    <message name="ENEMIES_COUNT_LABEL" value="Количество врагов"/>
+
+    <message name="ENEMIES_COUNT_EASY" value="1-2"/>
+    <message name="ENEMIES_COUNT_MEDIUM" value="2-3"/>
+    <message name="ENEMIES_COUNT_HARD" value="3-4"/>
+
+    <message name="TUTORIAL_START_BTN" value="Пройти!"/>
+    <message name="SEASON_BONUS"
+             value="Поздравляем! По итогам сезона ваш клан занял {place} место и получает право на собственное знамя! Также в награду за труды вы получаете:"/>
+    <message name="SEASON_BONUS_TITLE" value="Закрытие сезона!"/>
+    <message name="SEASON_CLAN_PLACE" value="призовое"/>
+
+    <message name="DEFAULT_GAME_NEWS" value="Сообщение от игры:"/>
+
+    <message name="HEROIC_BOSSES_DIFFICULTY_EASY" value="Нормально"/>
+    <message name="HEROIC_BOSSES_DIFFICULTY_MEDIUM" value="Горячо"/>
+    <message name="HEROIC_BOSSES_DIFFICULTY_HARD" value="Самое пекло"/>
+    <message name="HEROIC_BOSSES_DIFFICULTY_INSANE" value="Армагеддон"/>
+
+    <message name="PREV_SEASON_LABEL" value="Прошлый сезон:"/>
+    <message name="PREV_SEASON_PLACE" value="{value} место"/>
+    <message name="CLAN_LEADER_CANT_WIPE_SELF" value="Вы не можете начать игру заново, пока являетесь лидером клана."/>
+
+    <message name="MAP.MUSHROOMS" value="Грибы"/>
+
+    <message name="RATING_BTN_COMMON" value="Общий"/>
+    <message name="RATING_BTN_1х1х15" value="1х1 на 15"/>
+    <message name="RATING_BTN_1х1х300" value="1х1 на 300"/>
+    <message name="RATING_BTN_1х1х1" value="1х1х1"/>
+    <message name="RATING_BTN_2х2" value="2х2"/>
+    <message name="RATING_BTN_2х2_friend" value="2х2 с другом"/>
+
+    <message name="MAP.SATURN" value="Сатурн"/>
+
+    <message name="CHOOSE_FRIEND_FOR_BOSS_TITLE" value="Выбор напарника"/>
+    <message name="FRIENDS_TITLE" value="Друзья"/>
+    <message name="RANDOM_PARTNER" value="Случайный напарник"/>
+    <message name="CHOOSE_FRIEND_BTN" value="Выбрать друга"/>
+    <message name="SEARCH_BTN" value="Найти"/>
+
+    <message name="SEARCHING_RANDOM_PARTNER" value="Подождите, пока сервер подберет вам напарника"/>
+    <message name="SEARCHING_RANDOM_PARTNER_TITLE" value="Ожидание напарника..."/>
+
+    <message name="MAP.ASSASIN" value="Аватар"/>
+
+    <message name="CANT_WEAR_HAT" value="Ваша шапка проклята, ее нельзя сменить!"/>
+    <message name="MAP.HALLOWEEN2" value="Хеллоуин 2"/>
+
+    <!-- 1.15 -->
+
+    <message name="SYSPVP_BATTLE_ID" value="Бой #%1"/>
+    <message name="WEAPON_COOLDOWN" value="Ходов до активации: {value}"/>
+
+    <message name="EQUIP_EXPIRED" value="Истек срок действия: {equipList}"/>
+    <message name="HAT_DISAPPEAR" value="Предмет исчезнет через:"/>
+    <message name="DAY_TEXT" value="{value} дн"/>
+    <message name="HOURS_TEXT" value="{value} чс"/>
+    <message name="MINUTE_TEXT" value="{value} мин"/>
+
+
+    <message name="RACE_ROBOT_NAME" value="Робот"/>
+    <message name="RACE_ROBOT_DESCR"
+             value="К Лиге Злодеев присоединились полчища механических Ботов. Их стальные мозги не знают пощады. Враг будет бежать без оглядки."/>
+    <message name="ABILITY_SHOCK_NAME" value="Статический разряд"/>
+    <message name="ABILITY_SHOCK_DESCR"
+             value="Отбрасывает и наносит 30 ед. урона врагам, которые заканчивают ход возле робота или наносят ему урон в ближнем бою."/>
+    <message name="ABILITY_MARK_NAME" value="Боевой анализ"/>
+    <message name="ABILITY_MARK_DESCR"
+             value="Робот определяет слабые места последней вражеской цели, которой он нанес урон. На следующий ход броня этого врага уменьшается на 20%."/>
+    <message name="ABILITY_DROID_NAME" value="Защитный дроид"/>
+    <message name="ABILITY_DROID_DESCR"
+             value="Персональный защитный дроид, который создается в начале хода робота и работает до его следующего хода. Через 3 секунды после обнаружения врага, дроид создает электрический разряд, который срывает врагу ход. Дроид может быть уничтожен любым оружием."/>
+
+    <message name="WATER_START_INCREASING" value="Земля начинает уходить под воду!"/>
+    <message name="MAP.NEW_YEAR_2014" value="Снегобор"/>
+    <message name="DODGED_DAMAGE" value="уворот"/>
+
+    <!-- 1.16 -->
+    <message name="CHRISTMASS_KEY" value="Ключ от ящика с боеприпасами"/>
+    <message name="NO_CHRISTMAS_GIFTS"
+             value="Сейчас у вас нет ключей! Добывайте ключи, проходя миссии и побеждая боссов!"/>
+    <message name="CHRISTMAS_BONUS_TITLE" value="Ящик с боеприпасами"/>
+    <message name="CHRISTMAS_BONUS_MESSAGE" value="Порывшись в ящике, вы нашли кое-что полезное:"/>
+
+    <message name="NUCLEAR_LAUNCH_DETECTED" value="Запущена ядерная ракета!"/>
+    <message name="WATER_INCREASING" value="Земля уходит под воду!"/>
+
+    <message name="ADD_WEAPON_TO_BATTLE_BACKPACK_CONFIRM"
+             value="Вы действительно хотите добавить это оружие в боевой рюкзак?"/>
+    <message name="REMOVE_WEAPON_FROM_BATTLE_BACKPACK_CONFIRM"
+             value="Вы действительно хотите удалить это оружие из боевого рюкзака?"/>
+    <message name="REMOVE_PERMITTED_WEAPON_FROM_BATTLE_BACKPACK_CONFIRM"
+             value="Вы действительно хотите удалить это оружие из боевого рюкзака? Это оружие не занимает в нем место!"/>
+    <message name="ERROR_ON_ADDING_WEAPON_TO_BATTLE_BACKPACK" value="Невозможно добавить оружие, все ячейки заняты!"/>
+
+    <message name="REPEAT_BTN" value="Повторить!"/>
+    <message name="MENU_BTN" value="В меню!"/>
+
+    <message name="HOT_SEAT_GAME_OVER_TITLE" value="Бой завершен!"/>
+    <message name="HOT_SEAT_GAME_OVER_MESSAGE"
+             value="Это была хорошая заварушка! Чувствуете, что стали опытнее, верно?"/>
+
+    <message name="TUTORIAL_MISSION_COMPLETE" value="Обучение пройдено!"/>
+    <message name="TUTORIAL_MISSION_FAIL" value="Обучение провалено!"/>
+    <message name="TUTORIAL_MISSION_FAIL_MSG" value="Тяжело в учении, легко в бою! Чуть усердия и всё получится!"/>
+    <message name="TUTORIAL_COMPLETE" value="Обучение завершено!"/>
+    <message name="TUTORIAL_COMPLETE_MSG" value="Поздравляем! Вы прошли обучение! Теперь пора в настоящий бой!"/>
+    <message name="EXP_AWARD" value="Получено опыта:"/>
+    <message name="MONEY_AWARD" value="Получено денег:"/>
+    <message name="NEXT_TUTORIAL_BTN" value="Следующее задание!"/>
+
+    <message name="WIN_TITLE" value="Победа!"/>
+    <message name="DRAW_TITLE" value="Ничья!"/>
+    <message name="FAIL_TITLE" value="Поражение!"/>
+
+    <message name="REAGENTS_TITLE" value="Найдены реагенты:"/>
+    <message name="NEXT_BATTLE_BTN" value="Следующий бой!"/>
+
+    <message name="DRAW_MESSAGE" value="Это редко случается, но силы равны! Время отступить и набраться сил."/>
+
+    <message name="GAME_OVER_POST_BTN" value="На стену!"/>
+
+    <message name="GAME_OVER_BOSS_WIN_TITLE" value="Злодей повержен!"/>
+    <message name="GAME_OVER_BOSS_FAIL_TITLE" value="Злодей одержал верх!"/>
+    <message name="GAME_OVER_BOSS_DRAW_TITLE" value="Ваши силы равны!"/>
+    <message name="GAME_OVER_BOSS_DRAW_MSG"
+             value="Ни вы, ни злодей не смогли взять верх! Попробуйте еще, удача точно вам улыбнется!"/>
+    <message name="GAME_OVER_BOSS_FAIL_MSG"
+             value="На этот раз злодей взял верх! Не отчаивайтесь, в следующий раз вы победите!"/>
+
+    <message name="RATING_RECEIVED" value="Получено рейтинга:"/>
+    <message name="RATING_LOST" value="Потеряно рейтинга:"/>
+    <message name="MONEY_RECEIVED" value="Получено денег:"/>
+    <message name="MONEY_LOST" value="Вы потеряли свою ставку:"/>
+
+    <message name="BATTLE_BACKPACK_TITLE" value="Рюкзак в бою"/>
+    <message name="STORAGE_TITLE" value="Склад"/>
+
+    <message name="MAP.ARCHBOT" value="Персия"/>
+    <message name="MAP.JARL" value="Вилла 2"/>
+
+    <message name="CANCEL_RECORDED_VIDEO_ATTENTION" value="У вас есть одно записанное видео. В случае продолжения оно
+        будет удалено. Продолжить?"/>
+
+    <!-- 1.17 -->
+
+    <message name="BACKPACK_SCHEME_DEFAULT_BTN" value="Стандартная раскладка"/>
+    <message name="BACKPACK_SCHEME_DEFAULT_CONFIRM" value="Установлена стандартная раскладка оружия для рюкзака"/>
+    <message name="CLEAR_BACKPACK_BTN" value="Переместить все на склад"/>
+    <message name="BEST_EQUIP_ALREADY_EXIST" value="У вас предмет максимального качества!"/>
+    <message name="PVP_IGNORE_MODE_ON" value="Вызовы на бой сейчас отклоняются"/>
+    <message name="PVP_IGNORE_MODE_OFF" value="Вызовы на бой сейчас принимаются"/>
+
+    <message name="OFFICIAL_GROUP_BTN_QTIP" value="Официальная группа"/>
+    <message name="REFFERAL_BONUS_TITLE" value="Бонус!"/>
+    <message name="REFFERAL_BONUS_DEFAULT_MSG" value="Вы зашли в игру по бонусной ссылке и за это получаете:"/>
+
+    <message name="MEMBER.HIMSELF" value="Вы"/>
+    <message name="MEMBER.MERCENARY" value="Наемник"/>
+    <message name="MEMBER.FRIEND" value="Друг"/>
+    <message name="MEMBER.CLANMATE" value="Соклановец"/>
+    <message name="MEMBER.EXCLANMATE" value="Бывший соклановец"/>
+    <message name="MEMBER.LEAVE_CLAN" value="Покинул клан"/>
+
+    <message name="ADD_IN_GROUP_CONFIRMATION" value="Действительно добавить в команду?"/>
+
+    <message name="MEMBER_FRIEND_BTN" value="Нанять друга"/>
+    <message name="MEMBER_MERCENARY_BTN" value="Взять наемника"/>
+    <message name="MEMBER_SOCLAN_BTN" value="Из клана"/>
+
+    <message name="MEMBER_SOCLAN_ALREADY_EXIST"
+             value="Вы уже наняли бойца из клана. В команде может быть только один соклановец."/>
+
+    <message name="FRIEND_TEAM_MEMBER_TITLE">
+        <![CDATA[Вы получаете клон вашего друга с такой же расой и распределением атаки и защиты. Уровень и характеристики клона растут вместе с вашими, но не выше уровня друга.]]></message>
+    <message name="MERCENARY_TEAM_MEMBER_TITLE">
+        <![CDATA[Вы получаете наемника с базовой экипировкой. Уровень наемника с ростом вашего уровня не меняется.]]></message>
+    <message name="CLAN_MATE_MEMBER_TITLE">
+        <![CDATA[Соклановец в полной экипировке. Если или он, или вы выйдете из клана, боец станет недоступным. Найм возможен, если его уровень меньше либо равен вашему.]]></message>
+
+    <message name="ALREADY_IN_TEAM_QTIP" value="Уже в команде"/>
+
+    <message name="GET_OFF_BTN" value="Снять все"/>
+    <message name="GET_OFF_BTN_HINT"
+             value="Снять предметы с бойца. Ботам-наемникам восстанавливает исходное снаряжение."/>
+    <message name="NO_PROFILES_FOR_ADD_TO_TEAM" value="Некого добавить в команду."/>
+
+    <message name="MAP.MINES2" value="Шахты"/>
+    <message name="MAP.LIANAS" value="Лианы"/>
+
+    <message name="HIRING_TUTORIAL_TITLE" value="Новый найм в команду!"/>
+    <message name="HIRING_TUTORIAL_DESC"
+             value="Мы изменили систему найма, чтобы улучшить баланс и гибкость и уменьшить время ожидания боя. Теперь вы можете нанять три типа компаньона: "/>
+    <message name="HIRING_TUTORIAL_MSG1"
+             value="Клон друга - это ваш друг, как и раньше, мы назвали их клонами, ведь у друга свой персонаж. Клон друга растёт в уровнях, но не выше вашего и его можно переодевать."/>
+    <message name="HIRING_TUTORIAL_MSG2"
+             value="Бот - это наёмник, который не может расти в уровнях, но зато он уже обладает отличными характеристиками и неплохой экипировкой."/>
+    <message name="HIRING_TUTORIAL_MSG3"
+             value="Соклановец - самый лучший компаньон для найма - он также растёт в уровнях вместе с вами, но не выше вашего.  Если соклановец покинет клан, он будет неактивен в команде, и его нужно выгнать."/>
+    <message name="HIRING_TUTORIAL_BTN" value="В комнату команды!"/>
+
+    <message name="ARMORY_HELP_BTN_QTIP" value="Справка"/>
+    <message name="ARMORY_HELP_TITLE" value="Арсенал"/>
+    <message name="ARMORY_HELP_MSG1">
+        <![CDATA["Рюкзак в Бою" - это оружие, которое будет с вами в бою. "Склад" - это то оружие, которые у вас есть, но ещё не снаряжено в битву.  Перетащив оружие из Склада в Рюкзак - вы тем самым снарядите его в бой.]]></message>
+    <message name="ARMORY_HELP_MSG2"
+             value="Вы можете назначить горячие клавиши на любое оружие: для этого достаточно навести курсор на оружие и нажать кнопку. Допустимые клавиши: Z, X, C, V, B, N и кнопки NUM1-NUM6."/>
+
+    <message name="REPLACE_IN_GROUP_CONFIRMATION" value="Действительно заменить игрока из команды на выбранного?"/>
+    <message name="RATING_QTIP_EX" value="Рейтинг: повышается в поединках."/>
+
+    <message name="SALES_LABEL" value="от цены предыдущего найма"/>
+
+    <message name="CLAN_SEASON_DATES" value="{numberSeason} сезон: {month} {year}"/>
+    <message name="CLAN_MATE_ADD_ERROR" value="Возможно, ваш соклановец заблокирован в игре."/>
+
+    <message name="MOBILE_PAYMENTS" value="Мобильные платежи"/>
+
+    <!-- 1.18 -->
+
+    <message name="MAP.BARBARIANS" value="Варвары"/>
+    <message name="BOOSTERS_TAB" value="Усилители"/>
+    <message name="MORE_POWERFUL_BOOSTER_EXIST" value="У вас уже есть более мощный усилитель: {boosterName}"/>
+    <message name="BUY_EXISTING_BOOSTER" value="Этот усилитель у вас уже есть"/>
+
+    <message name="BOOSTER_HINT_REMAINING_TIME_LABEL" value="Осталось:"/>
+    <message name="HAVE_WATER_PROTECTION" value="Боец уже защищен от утопления!"/>
+    <message name="BUY_EXISTING_HAT" value="Этот предмет у вас уже есть."/>
+
+    <message name="BOOSTER_DURATION_LABEL_1" value="Длительность: {value} день."/>
+    <message name="BOOSTER_DURATION_LABEL_2" value="Длительность: {value} дня."/>
+    <message name="BOOSTER_DURATION_LABEL_3" value="Длительность: {value} дней."/>
+
+    <!--1.19-->
+    <message name="MAP.CASTLES2" value="Замки 2"/>
+
+    <message name="ITEM_EXPIRED_NOW" value="Истек срок действия."/>
+
+    <message name="DOCTOR_BAG_USELESS" value="Сумка сейчас бесполезна"/>
+    <message name="DOCTOR_BAG_USELESS_NO_ALLIES" value="Поблизости нет раненых союзников"/>
+    <message name="DOCTOR_BAG_USELESS_MAX_HP" value="У союзника уже максимальное здоровье"/>
+
+    <message name="UNDERWATER_BREATH_POTION_USELESS" value="Боец уже способен дышать под водой"/>
+
+
+    <message name="NOT_ENOUGH_RATING_TITLE" value="Встаньте в ряды лучших игроков!"/>
+    <message name="NOT_ENOUGH_RATING_DESCR" value="Вам надо набрать 20 очков рейтинга, чтобы попасть в лигу новичков."/>
+
+    <message name="ARMOR_REDUCTION" value="{value} брони"/>
+    <message name="ATTACK_REDUCTION" value="{value} атаки"/>
+
+    <message name="TEAMMATE_DISABLED" value="Выключен"/>
+
+    <!--1.20-->
+    <message name="PVP_MESSAGE" value="Онлайн бои на ставки. Побеждаете - возвращаете ставку и получаете выигрыш."/>
+    <message name="PVP_DUEL_CARD" value="Дуэль"/>
+    <message name="PVP_SURVIVAL_CARD" value="Выживание"/>
+    <message name="PVP_DEATH_MATCH_CARD" value="Эпичная дуэль"/>
+    <message name="PVP_TWO_VS_TWO_CARD" value="Случайный 2х2"/>
+    <message name="PVP_TWO_VS_TWO_WITH_FRIEND_CARD" value="2х2 с другом"/>
+
+    <message name="MEMBER.LEVEL_TOO_HIGH" value="Выше уровень"/>
+    <message name="MEMBER.UNAVAILABLE" value="Недоступен"/>
+
+    <message name="MAP.OLDLONDON" value="Старый Лондон"/>
+
+    <message name="FILLED_INCORRECTLY" value="Заполнено неверно"/>
+    <message name="SAVE_BTN" value="Сохранить"/>
+    <message name="CHANGE_BTN" value="Изменить"/>
+
+    <!--1.21-->
+    <message name="TEAMMATE_SWAP_TITLE" value="Кого хотите заменить:"/>
+    <message name="SELECT_RANDOM_WEAPON" value="Случайное оружие"/>
+    <message name="MAP_SELECTED" value="Карта: "/>
+
+    <message name="BOSS_COOP_TITLE" value="Напарник:"/>
+    <message name="BOSS_BATTLE_OFFER_TITLE" value="приглашает на бой с боссом:"/>
+    <message name="SUPER_BOSS_BATTLE_OFFER_TITLE" value="приглашает на бой с супербоссом:"/>  
+    
+    <message name="RANDOM_WEAPON_HINT" value="В этом режиме бой начинается только с базовым арсеналом.{value}Каждый ход вам будет выпадать новое оружие, выбранное случайным образом."/>
+
+    <message name="OFFER_SALE_NOW" value="Только сейчас!"/>
+    <message name="OFFER_SALE_WEAPON" value="Мы предлагаем вам оружие с огромной скидкой!"/>
+    <message name="OFFER_SALE_BUY" value="Купить всего за"/>
+    <message name="OFFER_SALE_COMPLETE" value="Оружие доставлено!"/>
+    <message name="OFFER_SALE_USE" value="Попробуй новое оружие в бою!"/>
+    <message name="OFFER_SALE_CANCEL_MESSAGE" value="Вы уверены, что хотите отказаться от этого предложения? Сегодня вы его больше не увидите!"/>
+    <message name="OFFER_SALE_CANCEL_REJECT" value="Я передумал!"/>
+
+    <!-- 1.22 -->
+    <message name="DAY_PLURALS" value="день,дня,дней"/>
+    <message name="RUBY_PLURALS" value="рубин,рубина,рубинов"/>
+    <message name="FUZ_PLURALS" value="фуз,фуза,фузов"/>
+    <message name="MEDAL_PLURALS" value="медаль,медали,медалей"/>
+
+    <message name="BANK_CELL_TEXT" value="{count} за {price}"/>
+
+    <!-- 1.23 -->
+
+    <message name="RACE_RHINO_NAME" value="Носорог"/>
+    <message name="RACE_RHINO_DESCR" value="Кличка Джамп-Шут. Большой. Тяжелый. Сама земля прогибается под ним от его прыжка-выстрела. Что уж и говорить о врагах - он их просто топчет."/>
+    <message name="ABILITY_DESTROYER_NAME" value="Сокрушительный прыжок"/>
+    <message name="ABILITY_DESTROYER_DESCR">
+        <![CDATA[Мощный удар, наносящий урон и разрушающий землю при приземлении, активируется кнопкой прыжка. Эффективность зависит от атаки и уменьшается после каждого применения, всего за ход можно сделать 4 прыжка.]]>
+    </message>
+    <message name="ABILITY_RESIST_NAME" value="Толстая шкура"/>
+    <message name="ABILITY_RESIST_DESCR">
+        <![CDATA[Природная защита в суровых условиях, дающая защиту от электричества и яда (<b>{shockReduction}%</b>), и огня (<b>урон уменьшен на {fireReduction}</b>). Также уменьшает отброс от взрывов (эффективность зависит от брони).]]>
+    </message>
+
+    <message name="RACE_BOAR_NAME" value="Кабан"/>
+    <message name="RACE_BOAR_DESCR" value="КАБАН!"/>
+    <message name="ABILITY_FARTER_NAME" value="Сокрушительный пердеж"/>
+    <message name="ABILITY_FARTER_DESCR">
+        <![CDATA[В конце хода у кабана развивается метеоризм.]]>
+    </message>
+    <message name="ABILITY_BERSERK_NAME" value="Боевое исступление"/>
+    <message name="ABILITY_BERSERK_DESCR">
+        <![CDATA[За каждые потерянные 100 едениц здоровья кабан получает бонус к защите и атаке.]]>
+    </message>
+
+    <message name="CALL_REINFORCEMENTS_USELESS" value="Невозможно высадиться"/>
+    <message name="REINFORCEMENT_UNIT_NAME" value="Десантник"/>
+
+    <message name="MAP.NEWJUNGLE" value="Новые джунгли"/>
+    <message name="MAP.GRAVEYARD" value="Кладбище"/>
+    <message name="MAP.PRERIE" value="Прерия"/>
+
+    <message name="ATTRIBUTES_BONUS" value="атрибуты {symbol}{value}"/>
+
+    <message name="ENEMY" value="Противник"/>
+
+     <!-- 1.24 -->
+
+    <message name="MAP.TOTEM" value="Тотем"/>
+    <message name="MAP.RIFT" value="Спуск"/>
+    <message name="MAP.JUNGLETOP" value="Ущелье"/>
+
+    <message name="APRIL_BONUS_MESSAGE" value="Небывалый подарок от администрации в этот чудесный весенний день!"/>
+
+    <message name="RACE_CRAB_NAME" value="Краб"/>
+    <message name="RACE_CRAB_DESCR" value="Представитель класса ракообразных. Неуверенно держит оружие своими клешнями."/>
+
+    <message name="RACE_DONUT_NAME" value="Пончик"/>
+    <message name="RACE_DONUT_DESCR" value="Благодаря отверстию в туловище по ним бывает очень трудно попасть."/>
+
+    <message name="RACE_SNAIL_NAME" value="Улитка"/>
+    <message name="RACE_SNAIL_DESCR" value="Никуда не торопится."/>
+
+    <!-- 1.25 -->
+
+    <message name="WORM_ATTENTION_MESSAGE" value="Раса червей была удалена из игры. Вы получаете возможность бесплатно сменить расу на любую доступную вам по уровню."/>
+    <message name="PUSHING_MINE_USELESS" value="Необходимо находиться рядом с врагом"/>
+    <message name="BATTLE_QTIP" value="Боевые миссии"/>
+
+    <message name="MAP.FARM" value="Ферма"/>
+    <message name="MAP.BLADES" value="Лезвия"/>
+    <message name="MAP.TWINPEAKS" value="Два пика"/>
+
+    <message name="PVP_SERVER_INCORRECT_BATTLE_NUMBER" value="Не удалось создать бой: неправильный номер боя!"/>
+    <message name="PVP_SERVER_BATTLE_CREATION_TIMEOUT" value="Превышено время создания боя!"/>
+
+</dictionary>

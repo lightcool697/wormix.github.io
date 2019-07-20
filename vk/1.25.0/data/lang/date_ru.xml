@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+    <message name="date_format" value="dd.mm.yyyy"/>
+    <message name="time_format" value="hh.MM"/>
+    <message name="date_full_format" value="dddd, d mmmm yyyy"/>
+
+    <message name="jan_short" value="Янв"/>
+    <message name="feb_short" value="Фев"/>
+    <message name="mar_short" value="Март"/>
+    <message name="apr_short" value="Апр"/>
+    <message name="may_short" value="Май"/>
+    <message name="jun_short" value="Июнь"/>
+    <message name="jul_short" value="Июль"/>
+    <message name="aug_short" value="Авг"/>
+    <message name="sep_short" value="Сен"/>
+    <message name="oct_short" value="Окт"/>
+    <message name="nov_short" value="Ноя"/>
+    <message name="dec_short" value="Дек"/>
+
+    <message name="jan_init" value="Январь"/>
+    <message name="feb_init" value="Февраль"/>
+    <message name="mar_init" value="Март"/>
+    <message name="apr_init" value="Апрель"/>
+    <message name="may_init" value="Май"/>
+    <message name="jun_init" value="Июнь"/>
+    <message name="jul_init" value="Июль"/>
+    <message name="aug_init" value="Август"/>
+    <message name="sep_init" value="Сентябрь"/>
+    <message name="oct_init" value="Октябрь"/>
+    <message name="nov_init" value="Ноябрь"/>
+    <message name="dec_init" value="Декабрь"/>
+
+    <message name="jan_full" value="Января"/>
+    <message name="feb_full" value="Февраля"/>
+    <message name="mar_full" value="Марта"/>
+    <message name="apr_full" value="Апреля"/>
+    <message name="may_full" value="Мая"/>
+    <message name="jun_full" value="Июня"/>
+    <message name="jul_full" value="Июля"/>
+    <message name="aug_full" value="Августа"/>
+    <message name="sep_full" value="Сентября"/>
+    <message name="oct_full" value="Октября"/>
+    <message name="nov_full" value="Ноября"/>
+    <message name="dec_full" value="Декабря"/>
+
+    <message name="sun_short" value="Вс"/>
+    <message name="mon_short" value="Пн"/>
+    <message name="tue_short" value="Вт"/>
+    <message name="wed_short" value="Ср"/>
+    <message name="thu_short" value="Чт"/>
+    <message name="fri_short" value="Пт"/>
+    <message name="sat_short" value="Сб"/>
+
+    <message name="sun_full" value="Воскресенье"/>
+    <message name="mon_full" value="Понедельник"/>
+    <message name="tue_full" value="Вторник"/>
+    <message name="wed_full" value="Среда"/>
+    <message name="thu_full" value="Четверг"/>
+    <message name="fri_full" value="Пятница"/>
+    <message name="sat_full" value="Суббота"/>
+
+</dictionary>

@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Expires" content="-1"/>
+	<meta http-equiv="Cache-control" content="no-cache"/>
+	<meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="PRAGMA" content="NO-CACHE">
+
+    <title>Wormixtest</title>
+
+	<script type="text/javascript" src="bowser.js"></script>
+	<script type="text/javascript" src="swfobject.js"></script>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="xd_connection.js?2"></script>
+
+    
+    <style type="text/css" media="screen">
+        #flashContent {
+            width: 100%;
+            height: 100%;
+            min-width: 900;
+            min-height: 600;
+            left: 0px;
+            top: 0px;       
+            text-align:"center";
+        }
+
+        .flash_hidden embed, .flash_hidden object {
+           left: -5000px;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #FFFFFF;
+            text-align: "center";
+        }
+
+        .flash-update-bg {
+            margin: 0;
+            background: url(FlashPopRus.jpg?) no-repeat;
+            height: 600px;
+            background-size: contain;
+        }
+        #flas_run{
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            position: relative;
+            top: 454px;
+        }
+    </style>
+
+	<script type="text/javascript">
+        <!-- "For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection." -->
+        var swfVersionStr = "11.3.0";
+        <!-- To use express install, set to playerProductInstall.swf, otherwise the empty string. -->
+        var xiSwfUrlStr = "playerProductInstall.swf";       
+		
+        var params = {};
+        var query = location.search.substring(1);
+        var vars = query.split("&");
+
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            params[pair[0]] = pair[1];
+        }
+
+        params.quality = "high";
+        params.bgcolor = "#FFFFFF";
+        params.allowscriptaccess = "sameDomain";
+        params.allowfullscreen = "true";		
+        params.scale = "noscale"; 
+
+		var attributes = {};		
+        attributes.id = "Wormix";
+        attributes.name = "Wormix";
+        attributes.align = "middle";
+		attributes.allowfullscreen = "true";
+        attributes.allowFullScreenInteractive = "true";
+        attributes.wmode = "direct";
+
+        swfobject.createCSS("#load", "display:block;visibility:visible;");
+        swfobject.embedSWF(
+                "preloader.swf", "flashContent",
+                "100%", "100%",
+                swfVersionStr, xiSwfUrlStr, params, attributes);
+        swfobject.createCSS("#flashContent", "display:block;text-align:middle;");
+        swfobject.createCSS("#load", "display:none;visibility:hidden;");
+
+        function callApi(method_name, param){
+            console.log(".callApi: " + method_name + " " + param);
+            VK.api(method_name, param, vkApiCallback);
+        }
+
+        function vkApiCallback(data) {
+            console.log(".vkApiCallback: " + data);
+            getSwf().onApiCallback(data);
+        }
+
+        function registerCallbacks(){
+            console.log(".registerCallbacks...");
+
+            VK.addCallback('onOrderSuccess', onOrderSuccess);
+            VK.addCallback('onOrderCancel', onOrderCancel);
+            VK.addCallback('onOrderFail', onOrderFail);
+
+            VK.addCallback('onSubscriptionSuccess', onSubscriptionSuccess);
+            VK.addCallback('onSubscriptionCancel', onSubscriptionCancel);
+            VK.addCallback('onSubscriptionFail', onSubscriptionFail);
+
+            VK.addCallback("onWindowBlur", onWindowBlur);
+            VK.addCallback("onWindowFocus", onWindowFocus);
+
+            // вход по autk key? - Давай до свидания (only 1.47)
+            getSwf().onRegisterSuccess();
+        }
+
+        function onOrderSuccess(order_id){
+            console.log(".onOrderSuccess " + order_id);
+            getSwf().onOrderSuccess(order_id);
+        }
+        function onOrderCancel(){
+            console.log(".onOrderCancel");
+            getSwf().onOrderCancel();
+        }
+        function onOrderFail(errorCode){
+            console.log(".onOrderFail " + errorCode);
+            getSwf().onOrderFail();
+        }
+
+        function onSubscriptionSuccess(subscription_id){
+            console.log(".onSubscriptionSuccess " + subscription_id);
+            getSwf().onSubscriptionSuccess(subscription_id);
+        }
+        function onSubscriptionCancel(){
+            console.log(".onSubscriptionCancel");
+            getSwf().onSubscriptionCancel();
+        }
+        function onSubscriptionFail(errorCode){
+            console.log(".onSubscriptionFail " + errorCode);
+            getSwf().onSubscriptionFail(errorCode);
+        }
+
+        function onWindowBlur() {
+            $("#flashContent").css({height: "0px", overflow: "hidden", visible:"false"});    
+            VK.callMethod("resizeWindow", 1, 1);
+        }
+
+        function onWindowFocus() {
+            $("#flashContent").css({height: "600px", overflow: "visible", visible:"true"});            
+            VK.callMethod("resizeWindow", 900, 600);
+        }
+
+        function getSwf() {
+            if (navigator.appName.indexOf("Microsoft") != -1) {
+                return window["flashContent"];
+            } else {
+                return document["flashContent"];
+            }
+        }
+
+        function checkTop() {
+            document.getElementById('flash-notify').style.display = 'none';
+            document.getElementById('flashContent').style.display = 'block';
+            getSwf().onCheckTop(window == top || window.name.indexOf("app") != -1);
+        }
+
+        function consoleOutput(data, type) {
+            switch (type) {
+                case "dir": console.dir(".consoleOutput: " + data); return;
+                case "error": console.error(".consoleOutput: " + data); return;
+                case "info": console.info(".consoleOutput: " + data); return;
+                case "warn": console.warn(".consoleOutput: " + data); return;
+            }
+            console.log(".consoleOutput: " + data);
+        }
+    </script>
+</head>
+
+<body>
+<div id="flashContent" align="center" style="display: none">
+    <script type="text/javascript">
+        var browserData = bowser(navigator.userAgent);
+        if (browserData.name) {
+
+        }
+        console.log("BrowserDetect.browser name " + BrowserDetect.browser);
+        console.log("BrowserDetect.browser version " + BrowserDetect.version);
+        console.log("BrowserDetect.browser os " + BrowserDetect.OS);
+
+        console.log("checkFlashPlayerAvailable: " + checkFlashPlayerAvailable(navigator.userAgent));
+        console.log("browserData.name: " + browserData.name);
+        console.log("navigator.userAgent: " + navigator.userAgent);
+        console.log("typeof window.chrome: " + (typeof window.chrome));
+        console.log("window.chrome: " + window.chrome);
+    </script>
+</div>
+
+<div id="flash-notify">
+    <div id="flash-wrapper">
+
+        <script type="text/javascript">
+            function showChromeFlashAlert() {
+                if (!window.chrome) {
+                    return true;
+                }
+//                document.getElementById('flash-content-text-page1').style.display = 'none';
+//                document.getElementById('flash-content-text-page2').style.display = 'block';
+            }
+        </script>
+
+        <div id="flash-content">
+            <div class="flash-update-bg">
+                <div class="flash-content-text-page1">
+                    <a id="flas_run" onclick="showChromeFlashAlert();" target="_blank" href="http://get.adobe.com/flashplayer/">
+                       <img src="butRus.png">
+                    </a>
+                </div>
+                <!--<div class="flash-content-text-page2" style="display:none;">-->
+                    <!--<div class="text_before_flash_icon">-->
+                        <!--<span style="color:#FFAE00;">ОСТАЛСЯ ПОСЛЕДНИЙ ШАГ!</span>-->
+                    <!--</div>-->
+                    <!--<div class="flash_icon_holder">-->
+                        <!--Жми <span style="color:#FFAE00;">"Разрешить"</span><br>в появившемся окне в левом верхнем углу-->
+                    <!--</div>-->
+                    <!--<img class="arrow_to_alert" src="arrow_to_alert.png" />-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

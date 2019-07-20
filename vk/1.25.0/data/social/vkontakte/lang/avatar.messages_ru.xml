@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <!-- подписи для аватарок созданных в фотостудии -->
+    <message name="AVATAR_DESCR0">
+        <![CDATA[<font color="#FFFFFF">{name}</font><br><font color="#FF7519">{raceName}, {level} уровень</font><br><font color="#E4CB92">Рейтинг: {ratingCount}</font><br><font color="#E4CB92">{league}</font>]]>
+    </message>
+    <message name="AVATAR_DESCR1">
+        <![CDATA[<font color="#FFFFFF">{name}</font><br><font color="#FF7519">{raceName}, {level} уровень</font><br><font color="#E4CB92">Фузы: {fuzyCount}, Рубины: {rubyCount}</font><br><font color="#E4CB92">Рейтинг: {ratingCount}</font><font color="#E4CB92">, {league}</font>]]>
+    </message>
+    <message name="AVATAR_DESCR2">
+        <![CDATA[{name}<br><font color="#E4CB92">Мое оружие<br>не знает промаха</font><br><font color="#FFD221">Готовы проверить?</font>]]>
+    </message>
+    <message name="AVATAR_DESCR3">
+        <![CDATA[{name}<br><font color="#E4CB92">Знаю как приготовить жаренного напалмом кролика. </font><font color="#FFD221">Обращайтесь :)</font>]]>
+    </message>
+    <message name="AVATAR_DESCR4">
+        <![CDATA[{name}<br><font color="#E4CB92">Решили сразиться со мной? </font><font color="#FF7519">Готовьте бинты и зеленку!</font>]]>
+    </message>
+    <message name="AVATAR_DESCR5">
+        <![CDATA[Я, {name},<font color="#E4CB92"><br>официально заявляю:</font><br><font color="#FFD221">Пощады не будет!</font>]]>
+    </message>
+    <message name="AVATAR_DESCR6">
+        <![CDATA[<font color="#FFFFFF">Отважный и опытный воин</font><br><font color="#E4CB92">ищет друга для серьезных</font><br><font color="#FFD221">длительных сражений :)</font>]]>
+    </message>
+    <message name="AVATAR_DESCR7">
+        <![CDATA[Я, {name},<br><font color="#E4CB92">Лучший воин недели!</font><br><font color="#FFD221">Несогласных жду на поле боя</font>]]>
+    </message>
+    <message name="AVATAR_DESCR8">
+        <![CDATA[<font color="#FFD221">Я не боюсь</font><br><font color="#E4CB92">ни солнца, ни дождя,<br> иду я в бой за звание</font><br><font color="#FF7519">Лучшего Бойца!</font>]]>
+    </message>
+</dictionary>
